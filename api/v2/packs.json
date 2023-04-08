@@ -51,25 +51,10 @@
                     "name":"The Jackbox Party Pack ES",
                     "small_description":"Este paquete posee cuatro juegos traducidos al español. You Don't Know Jack 2015 aún no está traducido.",
                     "description":"",
-                    "version":"653.2-ES",
+                    "version":"20.10-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "components":[
-                {
-                            "id":"fibbagexl_patch",
-                            "linked_game":"fibbagexl",
-                            "name":"Fibbage XL",
-                            "description":"",
-                            "authors":"* Akira896 (traducción, imágenes y videos adicionales)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
-                            "small_description":"¡Juego traducido al español!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },
-                {
+                        {
                             "id":"drawful_patch",
                             "linked_game":"drawful",
                             "name":"Drawful",
@@ -84,7 +69,7 @@
                                 "audios":false
                             }
                         },
-                {
+                        {
                             "id":"wordspud_patch",
                             "linked_game":"wordspud",
                             "name":"Papa Palabra",
@@ -99,12 +84,26 @@
                                 "audios":false
                             }
                         },
-                {
+                        {
                             "id":"lieswatter_patch",
                             "linked_game":"lieswatter",
                             "name":"Mata Mentiras",
                             "description":"",
                             "authors":"* Fukken Hanzel (traducción principal)\n* Akira896 (SWF y logo)\nNicolaselzorro2 (traducción asistente)\n* TheDarkSid3r (imágenes adicionales)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },                        {
+                            "id":"fibbagexl_patch",
+                            "linked_game":"fibbagexl",
+                            "name":"Fibbage XL",
+                            "description":"",
+                            "authors":"* Akira896 (traducción, imágenes y videos adicionales)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -151,37 +150,6 @@
                 ]
             },
             {
-                "id":"fibbagexl",
-                "name":"Fibbage XL",
-                "background":"game_backgrounds/FibbageXL.webp",
-                "path":"games/FibbageXL",
-                "game_info":{
-                    "players":{
-                        "min":2,
-                        "max":8
-                    },
-                    "length":"15 - 20 minutos",
-                    "type":"VERSUS",
-                    "translation":"ENGLISH",
-                    "tagline":"¡Que gane el mejor mentiroso!",
-                    "small_description":"¡Que gane el mejor mentiroso!",
-                    "description":"Engaña amigos con mentiras, evita las de ellos, y encuentra la (usualmente fea) verdad. “El alcalde de Rabbit Hash, Kentucky, es un ____”. ¡Ya!",
-                    "images":[
-						"game_images/FibbageXL/fibbagexl_1.webp",
-                        "game_images/FibbageXL/fibbagexl_2.webp",
-                        "game_images/FibbageXL/fibbagexl_3.webp"
-                    ],
-                    "tags":[
-                    	"writing",
-                    	"knowledge"
-                    ]
-
-                },
-                "patchs":[
-                    
-                ]
-            },
-            {
                 "id":"drawful",
                 "name":"Drawful",
                 "background":"game_backgrounds/Drawful.webp",
@@ -193,7 +161,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Qué $#&! dibujaste?",
                     "small_description":"¿Qué $#&! dibujaste?",
                     "description":"El juego de dibujo que toma los demás juegos de dibujo y les pone pequeños bigotes. ¿No sabes dibujar? ¡No hay problema! ¡Es más divertido así!",
@@ -220,9 +188,9 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"INFINITOOOOOOOOOOO",
+                    "length":"10 - 15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡PASA LA PATATA!",
                     "small_description":"¡PASA LA PATATA!",
                     "description":"¡Mantén las palabras toda la noche! Solo termina la palabra que viene hacia ti, como “Correo___.” ¿Correo Argentino dices? Lo hiciste.",
@@ -249,9 +217,9 @@
                         "min":1,
                         "max":100
                     },
-                    "length":"INFINITOOOOOOOOOOO",
+                    "length":"10 - 15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Es cierto o falso?",
                     "small_description":"¿Es cierto o falso?",
                     "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?",
@@ -260,6 +228,37 @@
                         "game_images/LieSwatter/lieswatter_2.webp"
                     ],
                     "tags":[
+                    	"knowledge"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"fibbagexl",
+                "name":"Fibbage XL",
+                "background":"game_backgrounds/FibbageXL.webp",
+                "path":"games/FibbageXL",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Que gane el mejor mentiroso!",
+                    "small_description":"¡Que gane el mejor mentiroso!",
+                    "description":"Engaña amigos con mentiras, evita las de ellos, y encuentra la (usualmente fea) verdad. “El alcalde de Rabbit Hash, Kentucky, es un ____”. ¡Ya!",
+                    "images":[
+						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl_2.webp",
+                        "game_images/FibbageXL/fibbagexl_3.webp"
+                    ],
+                    "tags":[
+                    	"writing",
                     	"knowledge"
                     ]
 
@@ -281,70 +280,99 @@
             "mac":"The Jackbox Party Pack 2.app/Contents/MacOS/The Jackbox Party Pack 2",
             "linux":"Launcher.sh"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp2_es",
+                    "name":"The Jackbox Party Pack 2 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Earwax: Sonidos raros posee un doblaje latino.",
+                    "description":"",
+                    "version":"74.3-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
+                    "components":[
+                {
+                            "id":"fibbage2_patch",
+                            "linked_game":"fibbage2",
+                            "name":"Fibbage 2",
+                            "description":"",
+                            "authors":"* Akira896 (traducción e imágenes)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"earwax_patch",
+                            "linked_game":"earwax",
+                            "name":"Earwax: Sonidos Raros",
+                            "description":"",
+                            "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\n* Doblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"bidiots_patch",
+                            "linked_game":"bidiots",
+                            "name":"Subastardos",
+                            "description":"",
+                            "authors":"* Radioactive Man\n* Akira896 (SWFs y revisión)\n* Artuhaxis y Fixed Fun (imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"quiplashxl_patch",
+                            "linked_game":"quiplashxl",
+                            "name":"Quiplash XL",
+                            "description":"",
+                            "authors":"Radioactive Man (usa sus aportes a la traducción de Quiplash 1)\n* Artuhaxis (traducción)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"bombcorp_patch",
+                            "linked_game":"bombcorp",
+                            "name":"Bomba S.A.",
+                            "description":"",
+                            "authors":"* Markmtz90 (traducción principal)\n* Akira896 (revisión)\n* Artuhaxis y TheDarkSid3r (ayuda adicional)\n* Fixed Fun (título)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
-            {
-                "id":"bombcorp",
-                "name":"Bomba S.A.",
-                "game_info":{
-                    "players":{
-                        "min":1,
-                        "max":4
-                    },
-                    "length":"10 - 30 minutos",
-                    "type":"COOP",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Explotación laboral",
-                    "small_description":"Explotación laboral",
-                    "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
-                    "images":[
-                        "game_images/BombCorp/bombcorp_1.webp",
-                        "game_images/BombCorp/bombcorp_2.webp",
-                        "game_images/BombCorp/bombcorp_3.webp",
-                        "game_images/BombCorp/bombcorp_4.webp"
-                    ],
-                    "tags":[
-                        "talking"
-                    ]
-
-                },
-                "background":"game_backgrounds/BombCorp.webp",
-                "path":"games/BombInterns",
-                "patchs":[
-                    
-                ]
-                
-            },
-            {
-                "id":"quiplashxl",
-                "name":"Quiplash XL",
-                "background":"game_backgrounds/QuiplashXL.webp",
-                "path":"games/QuiplashXL",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"15 - 20 minutos",
-                    "type":"VERSUS",
-                    "translation":"ENGLISH",
-                    "tagline":"Sé el más divertido",
-                    "small_description":"Sé el más divertido",
-                    "description":"¡La pelea de ingenios e ingeniosidad llena de risas en su forma más GRANDE! ¡Inventa “el mejor nombre para darle a un bebé feo” y gana!",
-                    "images":[
-						"game_images/QuiplashXL/quiplashxl_1.webp",
-                        "game_images/QuiplashXL/quiplashxl_2.webp",
-                        "game_images/QuiplashXL/quiplashxl_3.webp",
-                        "game_images/QuiplashXL/quiplashxl_4.webp"
-                    ],
-                    "tags":[
-                    	"writing"
-                    ]
-
-                },
-                "patchs":[
-                    
-                ]
-            },
             {
                 "id":"fibbage2",
                 "name":"Fibbage 2",
@@ -357,7 +385,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Sé el mejor mentiroso",
                     "small_description":"Sé el mejor mentiroso",
                     "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
@@ -389,7 +417,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"La competencia de sonidos",
                     "small_description":"La competencia de sonidos",
                     "description":"¿Mugido de vaca? ¿Explosión gigante? ¿O un pequeño pedo? ¿Cuál eliges? ¡El juego de efectos de sonido que te dejará hasta los oídos de risa!",
@@ -420,7 +448,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Hora de subastar",
                     "small_description":"Hora de subastar",
                     "description":"¡Sobrepuja a tus oponentes por arte absurdo – dibujado por ellos – y gana este extraño juego de subastas competitivo! ¡No seas un subastardo!",
@@ -439,6 +467,68 @@
                 "patchs":[
                     
                 ]
+            },
+            {
+                "id":"quiplashxl",
+                "name":"Quiplash XL",
+                "background":"game_backgrounds/QuiplashXL.webp",
+                "path":"games/QuiplashXL",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La pelea de ingenios e ingeniosidad llena de risas en su forma más GRANDE! ¡Inventa “el mejor nombre para darle a un bebé feo” y gana!",
+                    "images":[
+						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl_2.webp",
+                        "game_images/QuiplashXL/quiplashxl_3.webp",
+                        "game_images/QuiplashXL/quiplashxl_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            },            {
+                "id":"bombcorp",
+                "name":"Bomba S.A.",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":4
+                    },
+                    "length":"10 - 30 minutos",
+                    "type":"COOP",
+                    "translation":"FRENCH_JBFR",
+                    "tagline":"Explotación laboral",
+                    "small_description":"Explotación laboral",
+                    "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
+                    "images":[
+                        "game_images/BombCorp/bombcorp_1.webp",
+                        "game_images/BombCorp/bombcorp_2.webp",
+                        "game_images/BombCorp/bombcorp_3.webp",
+                        "game_images/BombCorp/bombcorp_4.webp"
+                    ],
+                    "tags":[
+                        "talking"
+                    ]
+
+                },
+                "background":"game_backgrounds/BombCorp.webp",
+                "path":"games/BombInterns",
+                "patchs":[
+                    
+                ]
+                
             }
         ],
         "icon":"jpp2.ico",
@@ -466,7 +556,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Encuentra al impostor",
                     "small_description":"Encuentra al impostor",
                     "description":"Todos dan una respuesta, pero no todos conocen la pregunta. Uno de tus amigos tiene algo que ocultar. ¡Encuentra al impostor antes que sea demasiado tarde!",
@@ -498,7 +588,7 @@
                     },
                     "length":"15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Sé el más divertido",
                     "small_description":"Sé el más divertido",
                     "description":"El juego de fiestas para decir cualquier cosa regresa. ¡Piensa \"un mal reemplazo para el hilo dental\" y gana! ¿Cansado de nuestros extraños enunciados? ¡Prueba el nuevo modo Juega a tu Manera!",
@@ -529,7 +619,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Sobrevivirás este quiz?",
                     "small_description":"¿Sobrevivirás este quiz?",
                     "description":"Sé el último en sobrevivir un absurdo juego de preguntas de un asesino serial. ¡Pero es divertido!",
@@ -560,7 +650,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Crea tus mejores camisetas!",
                     "small_description":"¡Crea tus mejores camisetas!",
                     "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
@@ -592,7 +682,7 @@
                     },
                     "length":"10 - 15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Encuentra el porcentaje correcto!",
                     "small_description":"¡Encuentra el porcentaje correcto!",
                     "description":"¿Qué porcentaje de personas han enterrado algo en el bosque? ¿Andado en la parte trasera de un auto de policía? ¿Gustado de alguien con quien trabajaban? ¡Estima correctamente y gana!",
@@ -736,7 +826,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Soyez le meilleur menteur",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -768,7 +858,7 @@
                     },
                     "length":"Environ 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Combinez vos dessins",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -817,7 +907,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Le quiz revient une nouvelle fois",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -852,7 +942,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"C'est l'heure du rap",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -887,7 +977,7 @@
                     },
                     "length":"10 minutes ou plus",
                     "type":"COOP",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Envolez vous pour vous battre",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -1043,7 +1133,7 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Survivrez-vous à ce quiz ?",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -1078,7 +1168,7 @@
                     },
                     "length":"15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Qui est qui ?",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -1387,7 +1477,7 @@
                     },
                     "length":"Environ 15 minutos",
                     "type":"COOP",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Faites vos tâches !",
                     "small_description":"Hey, les démons ! C'est à vous de travailler ensemble pour faire ce que les humains font le moins bien : des tâches ménagères. Travaillez en équipe et soyez vif pour réussir le challenge de la semaine !",
                     "description":"# Au travail démons !\n\nVous avez été accepté pour le programme de relation entre démons et humains. Vos tâches seront simples : faire des tâches ménagères. Vous allez devoir travailler en équipe pour en faire le plus possible et ainsi gagner le challenge de la semaine.\n\nMais faites attention, certains démons vont essayer de jouer dans leur coin pour empocher un max de points et ne plus rien vous laisser. Soyez rapide et efficace pour les arreter !",
@@ -1438,7 +1528,7 @@
                     },
                     "length":"Environ 15 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Soyez le plus drôle",
                     "small_description":"C'est l'heure d'être drôle ! Epatez tous vos amis en répondant de la manière la plus marrante aux phrases farfelus de Quiplash 3.",
                     "description":"# C'est l'heure de faire rire\n\n Vous allez recevoir une phrase. Essayez d'y répondre de la manière la plus drôle possible. Votre phrase sera face à celle d'un joueur et les autres votent pour leur préférée. Un jeu simple et efficace qui pourra vous faire rire pendant beaucoup de temps.",
@@ -1472,7 +1562,7 @@
                     },
                     "length":"15 - 30 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Faites deviner votre mot",
                     "small_description":"Vous avez un mot. Il est simple à faire deviner mais vous êtes limité. Vous allez devoir vous aider des mots des autres joueurs pour leur faire deviner le votre",
                     "description":"# C'est l'heure des devinettes\n\nVous allez devoir choisir un mot. Votre but : Le faire deviner aux autres joueurs. Mais vous avez accès à un vocabulaire limité pour pouvoir le faire deviner. Vous allez donc devoir vous aiderr de ce que disent les autres joueurs pour faire deviner votre propre mot",
@@ -1524,7 +1614,7 @@
                     },
                     "length":"15 - 30 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Animez tout ça !",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
@@ -1559,7 +1649,7 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Tourner tout ça !",
                     "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
                     "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
