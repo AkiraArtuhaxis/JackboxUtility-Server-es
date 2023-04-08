@@ -50,6 +50,7 @@
                     "id":"jpp1_es",
                     "name":"The Jackbox Party Pack ES",
                     "small_description":"Este paquete posee cuatro juegos traducidos al español. You Don't Know Jack 2015 aún no está traducido.",
+                    "description":"",
                     "version":"653.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "components":[
