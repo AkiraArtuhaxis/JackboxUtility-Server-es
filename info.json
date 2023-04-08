@@ -1,14 +1,14 @@
 {
-    "id":"jackbox-fr",
-    "name":"Jackbox France",
-    "description":"Le serveur d'installation de patch pour la communauté française !",
-    "image":"https://games.jbfr.fr/assets/news_images/logo.png",
+    "id":"jackbox-es",
+    "name":"Jackbox en español",
+    "description":"¡El servidor de la comunidad de Jackbox en español!",
+    "image":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/assets/news_images/logo.png",
 
     "urls":[
         {
             "versions":["1.0.0"],
-            "api":"https://games.jbfr.fr/api/v2",
-            "assets":"https://games.jbfr.fr/assets"
+            "api":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/api/v2/",
+            "assets":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/assets"
         }
     ]
 }

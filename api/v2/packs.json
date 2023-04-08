@@ -2,49 +2,141 @@
     "tags":[
        {
             "id":"talking",
-            "name":"Discussion",
+            "name":"Discusión",
             "icon":"action_center",
-            "description":"Jeux nécessitant de discuter entre joueurs pour avancer dans la partie."
+            "description":"Juegos que requieren discusión entre jugadores para avanzar en el juego."
        },
        {
        	    "id":"drawing",
-            "name":"Dessin",
+            "name":"Dibujo",
             "icon":"edit",
-            "description":"Vous allez devoir dessiner dans ces jeux."
+            "description":"Tendrás que dibujar en estos juegos."
        },
        {
        	    "id":"writing",
-            "name":"Ecrit",
+            "name":"Escritura",
             "icon":"text_align_top",
-            "description":"Vous allez devoir écrire dans ces jeux."
+            "description":"Tendrás que escribir en estos juegos."
        },
        {
        	    "id":"deduction",
-            "name":"Déduction",
+            "name":"Deducción",
             "icon":"comment_urgent",
-            "description":"Ces jeux sont des jeux de déduction."
+            "description":"Estos son juegos de deducción social."
        },
        {
        	    "id":"knowledge",
-            "name":"Culture générale",
+            "name":"Trvia",
             "icon":"knowledge_management_app",
-            "description":"Ces jeux sont des jeux de culture générale."
+            "description":"Estos juegos son de trivia."
        }
     ],
     "packs":[
     {
         "id":"jpp1",
-        "name":"Jackbox Party Pack 1",
-        "description":"Le premier party pack de Jackbox",
+        "name":"The Jackbox Party Pack",
+        "description":"El primer paquete de fiestas de Jackbox",
         "executables":{
-            "windows":"The Jackbox Party Pack 1.exe",
-            "mac":"The Jackbox Party Pack 1.app/Contents/MacOS/The Jackbox Party Pack 1",
+            "windows":"The Jackbox Party Pack.exe",
+            "mac":"The Jackbox Party Pack.app/Contents/MacOS/The Jackbox Party Pack",
             "linux":"Launcher.sh"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp1_es",
+                    "name":"The Jackbox Party Pack ES",
+                    "small_description":"¡Traduce el juego al español!",
+                    "description":"Este paquete actualmente posee cuatro juegos completamente en español. You Don't Know Jack 2015 aún no está traducido.",
+                    "version":"653.2-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
+                    "components":[
+                        {
+                            "id":"ydkj2015_patch",
+                            "linked_game":"ydkj2015",
+                            "name":"You Don't Know Jack 2015",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"fibbagexl_patch",
+                            "linked_game":"fibbagexl",
+                            "name":"Fibbage XL",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"drawful_patch",
+                            "linked_game":"drawful",
+                            "name":"Drawful",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"wordspud_patch",
+                            "linked_game":"wordspud",
+                            "name":"Papa Palabra",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"lieswatter_patch",
+                            "linked_game":"lieswatter",
+                            "name":"Mata Mentiras",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
             {
                 "id":"ydkj2015",
-                "name":"You Don't Know Jack : 2015",
+                "name":"You Don't Know Jack 2015",
                 "background":"game_backgrounds/YDKJ2015.webp",
                 "path":"games/YDKJ2015",
                 "game_info":{
@@ -52,12 +144,12 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Participez au plus grand quiz",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Participa en el concurso más grande",
+                    "small_description":"Participa en el concurso más grande",
+                    "description":"¡El juego de trivia inteligente que lo inició todo! ¡Cientos de preguntas de trivia retorcidas nuevas y el anfitrión Cookie Masterson!",
                     "images":[
 						"game_images/YDKJ2015/ydkj2015_1.webp",
                         "game_images/YDKJ2015/ydkj2015_2.webp",
@@ -83,12 +175,12 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Que le meilleur menteur gagne !",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¡Que gane el mejor mentiroso!",
+                    "small_description":"¡Que gane el mejor mentiroso!",
+                    "description":"Engaña amigos con mentiras, evita las de ellos, y encuentra la (usualmente fea) verdad. “El alcalde de Rabbit Hash, Kentucky, es un ____”. ¡Ya!",
                     "images":[
 						"game_images/FibbageXL/fibbagexl_1.webp",
                         "game_images/FibbageXL/fibbagexl_2.webp",
@@ -114,12 +206,12 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Vous avez dessiné quoi là ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¿Qué $#&! dibujaste?",
+                    "small_description":"¿Qué $#&! dibujaste?",
+                    "description":"El juego de dibujo que toma los demás juegos de dibujo y les pone pequeños bigotes. ¿No sabes dibujar? ¡No hay problema! ¡Es más divertido así!",
                     "images":[
 						"game_images/Drawful/drawful_1.webp",
                         "game_images/Drawful/drawful_2.webp"
@@ -135,7 +227,7 @@
             },
             {
                 "id":"wordspud",
-                "name":"Word Spud",
+                "name":"Papa Palabra",
                 "background":"game_backgrounds/WordSpud.webp",
                 "path":"games/WordSpud",
                 "game_info":{
@@ -143,12 +235,12 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"INFINIIIIIIIIIII",
+                    "length":"INFINITOOOOOOOOOOO",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"PASSEZ LA PATATE !",
-                    "small_description":"Passez cette patate",
-                    "description":"# Vous êtes arrivé là ?\n\nBien joué, vous êtes maintenant un joueur hardcore de jackbox, car vous avez réussi à trouver le **meilleur** jeu de Jackbox. Êtes-vous prêt ? Alors lancez le jeu, vous n'allez pas en croire vos yeux.",
+                    "tagline":"¡PASA LA PATATA!",
+                    "small_description":"¡PASA LA PATATA!",
+                    "description":"¡Mantén las palabras toda la noche! Solo termina la palabra que viene hacia ti, como “Correo___.” ¿Correo Argentino dices? Lo hiciste.",
                     "images":[
 						"game_images/WordSpud/wordspud_1.webp",
                         "game_images/WordSpud/wordspud_2.webp"
@@ -164,7 +256,7 @@
             },
             {
                 "id":"lieswatter",
-                "name":"Lie Swatter",
+                "name":"Mata Mentiras",
                 "background":"game_backgrounds/LieSwatter.webp",
                 "path":"games/LieSwatter",
                 "game_info":{
@@ -172,12 +264,12 @@
                         "min":1,
                         "max":100
                     },
-                    "length":"INFINIIIIIIIIIIIIIII",
+                    "length":"INFINITOOOOOOOOOOO",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"C'est vrai ou c'est faux ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¿Es cierto o falso?",
+                    "small_description":"¿Es cierto o falso?",
+                    "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?",
                     "images":[
 						"game_images/LieSwatter/lieswatter_1.webp",
                         "game_images/LieSwatter/lieswatter_2.webp"
@@ -197,8 +289,8 @@
     },
     {
         "id":"jpp2",
-        "name":"Jackbox Party Pack 2",
-        "description":"Le deuxième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 2",
+        "description":"El segundo paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 2.exe",
             "mac":"The Jackbox Party Pack 2.app/Contents/MacOS/The Jackbox Party Pack 2",
@@ -207,18 +299,18 @@
         "games":[
             {
                 "id":"bombcorp",
-                "name":"Bomb Corp",
+                "name":"Bomba S.A.",
                 "game_info":{
                     "players":{
                         "min":1,
                         "max":4
                     },
-                    "length":"10 - 30 minutes",
+                    "length":"10 - 30 minutos",
                     "type":"COOP",
                     "translation":"FRENCH_JBFR",
-                    "tagline":"Désamorcez des bombes à 4",
-                    "small_description":"Bienvenue à Bomb Corp ! En tant que stagiaire, vous allez devoir désamorcer les bombes qui se trouvent dans l'entreprise. Arriverez-vous à atteindre le dernier jour ?",
-                    "description":"# Votre nouveau job : Stagiaire désamorceur\n\nDans Bomb Corp, vous allez devoir désamorcer des bombes à quatre joueurs. La difficulté ? Chacun a une indication qu'il devra expliquer à l'équipe pour couper les bons fils.\n\nVous trouvez que désamorcer des bombes est trop simple ? Alors essayez de trier des fichiers dans l'ordre, faire un café avec du matériel explosif ou encore déchiffrer un code pour ouvrir les bureaux.\n\nLe jeu a 2 modes de jeux : \n- Histoire : Un mode histoire où vous allez devoir survivre à 15 jours chez Bomb Corp\n- Mode infini : Pour les joueurs qui veulent juste jouer jusqu'au bout de la nuit\n\nPlus vous allez loin, et plus ça va être compliqué de désamorcer les bombes (et supporter vos collègues)",
+                    "tagline":"Explotación laboral",
+                    "small_description":"Explotación laboral",
+                    "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
                     "images":[
                         "game_images/BombCorp/bombcorp_1.webp",
                         "game_images/BombCorp/bombcorp_2.webp",
@@ -233,22 +325,7 @@
                 "background":"game_backgrounds/BombCorp.webp",
                 "path":"games/BombInterns",
                 "patchs":[
-                    {
-                        "id":"bombcorp_fr",
-                        "name":"[PREVIEW] Bomb Corp",
-                        "small_description":"[PREVIEW] Traduisez votre jeu en français",
-                        "description":"Le patch complet arrive bientôt. Vous pouvez toujours télécharger la preview mais gardez à l'esprit que la traduction n'est pas terminée. Avec cette preview, vous pouvez aller jusqu'au jour 8 sans soucis de traduction (sauf pour la bombe de tutoriel).",
-                        "authors":"Alexis",
-                        "version":"0.1.2",
-                        "patch_path":"patchs/bombcorp_0.1.2.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
                 
             },
@@ -262,12 +339,12 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Soyez le plus drôle",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La pelea de ingenios e ingeniosidad llena de risas en su forma más GRANDE! ¡Inventa “el mejor nombre para darle a un bebé feo” y gana!",
                     "images":[
 						"game_images/QuiplashXL/quiplashxl_1.webp",
                         "game_images/QuiplashXL/quiplashxl_2.webp",
@@ -285,7 +362,7 @@
             },
             {
                 "id":"fibbage2",
-                "name":"Fibbage2",
+                "name":"Fibbage 2",
                 "background":"game_backgrounds/Fibbage2.webp",
                 "path":"games/Fibbage2",
                 "game_info":{
@@ -293,12 +370,12 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Soyez le meilleur menteur",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Sé el mejor mentiroso",
+                    "small_description":"Sé el mejor mentiroso",
+                    "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
                     "images":[
 						"game_images/Fibbage2/fibbage2_1.webp",
                         "game_images/Fibbage2/fibbage2_2.webp",
@@ -317,7 +394,7 @@
             },
             {
                 "id":"earwax",
-                "name":"Earwax",
+                "name":"Earwax: Sonidos Raros",
                 "background":"game_backgrounds/Earwax.webp",
                 "path":"games/Earwax",
                 "game_info":{
@@ -325,12 +402,12 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Répondez avec beaucoup de bruit",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"La competencia de sonidos",
+                    "small_description":"La competencia de sonidos",
+                    "description":"¿Mugido de vaca? ¿Explosión gigante? ¿O un pequeño pedo? ¿Cuál eliges? ¡El juego de efectos de sonido que te dejará hasta los oídos de risa!",
                     "images":[
 						"game_images/Earwax/earwax_1.webp",
                         "game_images/Earwax/earwax_2.webp",
@@ -348,7 +425,7 @@
             },
             {
                 "id":"bidiots",
-                "name":"Bidiots",
+                "name":"Subastardos",
                 "background":"game_backgrounds/Bidiots.webp",
                 "path":"games/Bidiots",
                 "game_info":{
@@ -356,12 +433,12 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"C'est l'heure des enchères",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Hora de subastar",
+                    "small_description":"Hora de subastar",
+                    "description":"¡Sobrepuja a tus oponentes por arte absurdo – dibujado por ellos – y gana este extraño juego de subastas competitivo! ¡No seas un subastardo!",
                     "images":[
 						"game_images/Bidiots/bidiots_1.webp",
                         "game_images/Bidiots/bidiots_2.webp",
@@ -375,22 +452,7 @@
 
                 },
                 "patchs":[
-                    {
-                        "id":"bidiots_fr",
-                        "name":"[PREVIEW] Bidiots",
-                        "small_description":"[PREVIEW] Traduisez votre jeu en français",
-                        "description":"Le patch complet arrive bientôt. Vous pouvez toujours télécharger la preview mais gardez à l'esprit que la traduction n'est pas terminée. Avec cette preview, vous pouvez traduire les éléments textuels du jeu.",
-                        "authors":"the_sign_painter#7458 et MisterShaokahn#0765",
-                        "version":"0.1.0",
-                        "patch_path":"patchs/bidiots_0.1.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             }
         ],
@@ -399,8 +461,8 @@
     },
     {
         "id":"jpp3",
-        "name":"Jackbox Party Pack 3",
-        "description":"Le troisième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 3",
+        "description":"El tercer paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 3.exe",
             "mac":"The Jackbox Party Pack 3.app/Contents/MacOS/The Jackbox Party Pack 3",
@@ -409,7 +471,7 @@
         "games":[
             {
                 "id":"fakinit",
-                "name":"Fakin' It",
+                "name":"Engáñame",
                 "background":"game_backgrounds/FakinIt.webp",
                 "path":"games/FakinIt",
                 "game_info":{
@@ -417,12 +479,12 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Trouvez le faker",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Encuentra al impostor",
+                    "small_description":"Encuentra al impostor",
+                    "description":"Todos dan una respuesta, pero no todos conocen la pregunta. Uno de tus amigos tiene algo que ocultar. ¡Encuentra al impostor antes que sea demasiado tarde!",
                     "images":[
 						"game_images/FakinIt/fakinit_1.webp",
                         "game_images/FakinIt/fakinit_2.webp",
@@ -449,12 +511,12 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 minutes",
+                    "length":"15 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Soyez le plus drôle",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"El juego de fiestas para decir cualquier cosa regresa. ¡Piensa \"un mal reemplazo para el hilo dental\" y gana! ¿Cansado de nuestros extraños enunciados? ¡Prueba el nuevo modo Juega a tu Manera!",
                     "images":[
 						"game_images/Quiplash2/quiplash2_1.webp",
                         "game_images/Quiplash2/quiplash2_2.webp",
@@ -480,12 +542,12 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Survivrez-vous à ce quiz ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¿Sobrevivirás este quiz?",
+                    "small_description":"¿Sobrevivirás este quiz?",
+                    "description":"Sé el último en sobrevivir un absurdo juego de preguntas de un asesino serial. ¡Pero es divertido!",
                     "images":[
 						"game_images/TriviaMurderParty/triviamurderparty_1.webp",
                         "game_images/TriviaMurderParty/triviamurderparty_2.webp",
@@ -503,7 +565,7 @@
             },
             {
                 "id":"teeko",
-                "name":"TEE K.O.",
+                "name":"Tee K.O.",
                 "background":"game_backgrounds/TeeKO.webp",
                 "path":"games/TeeKO",
                 "game_info":{
@@ -511,12 +573,12 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Créez vos meilleurs tee-shirts !",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¡Crea tus mejores camisetas!",
+                    "small_description":"¡Crea tus mejores camisetas!",
+                    "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
                     "images":[
 						"game_images/TeeKO/teeko_1.webp",
                         "game_images/TeeKO/teeko_2.webp",
@@ -535,7 +597,7 @@
             },
             {
                 "id":"guesspionage",
-                "name":"Guesspionage",
+                "name":"Espiadivinos",
                 "background":"game_backgrounds/Guesspionage.webp",
                 "path":"games/Guesspionage",
                 "game_info":{
@@ -543,12 +605,12 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"10 - 15 minutes",
+                    "length":"10 - 15 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Trouvez le pourcentage parfait !",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¡Encuentra el porcentaje correcto!",
+                    "small_description":"¡Encuentra el porcentaje correcto!",
+                    "description":"¿Qué porcentaje de personas han enterrado algo en el bosque? ¿Andado en la parte trasera de un auto de policía? ¿Gustado de alguien con quien trabajaban? ¡Estima correctamente y gana!",
                     "images":[
 						"game_images/Guesspionage/guesspionage_1.webp",
                         "game_images/Guesspionage/guesspionage_2.webp",
@@ -570,8 +632,8 @@
     },
     {
         "id":"jpp4",
-        "name":"Jackbox Party Pack 4",
-        "description":"Le quatrième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 4",
+        "description":"El cuarto paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 4.exe",
             "mac":"The Jackbox Party Pack 4.app/Contents/MacOS/The Jackbox Party Pack 4",
@@ -580,9 +642,9 @@
         "games":[
             {
                 "id":"survivetheinternet",
-                "name":"Survive The Internet",
-                "small_description":"Allez-vous survivre à Internet",
-                "description":"Allez-vous survivre à Internet",
+                "name":"Sobrevive al Internet",
+                "small_description":"¿Sobrevivirás al internet?",
+                "description":"¿Sobrevivirás al internet?",
                 "background":"game_backgrounds/SurviveTheInternet.webp",
                 "path":"games/SurviveTheInternet",
                 "game_info":{
@@ -590,14 +652,14 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 20 minutes",
+                    "length":"Alrededor de 20 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
-                    "tagline":"Survivrez-vous à Internet",
-                    "small_description":"Internet. Le monde des chats, des trolls et des memes. Mais le plus important dans ce monde c'est les personnes sortant vos mots en dehors de son contexte. Saurez-vous masteriser cet art et gagner des points ?",
-                    "description":"# Le doux monde d'internet\n\nDans ce jeu vous allez devoir répondre à une question simple qui sera ensuite envoyé à un autre joueur. Son but ? Sortir votre phrase hors de son contexte pour que ce soit le plus improbable / drôle possible. Peut-être votre phrase sera présentée en tant que commentaire d'une vidéo, d'une recommandation d'une personne connue ou encore un commentaire d'un produit ménager ? ",
+                    "tagline":"¿Sobrevivirás al internet?",
+                    "small_description":"¿Sobrevivirás al internet?",
+                    "description":"¡Inicia sesión y prepárate! Es la supervivencia del más divertido mientras tomas fuera de contexto a tus amigos alrededor de la red.",
                     "images":[
-			"game_images/SurviveTheInternet/survivetheinternet_1.webp",
+			            "game_images/SurviveTheInternet/survivetheinternet_1.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_2.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_3.webp",
                         "game_images/SurviveTheInternet/survivetheinternet_4.webp"
@@ -608,28 +670,12 @@
 
                 },
                 "patchs":[
-                    {
-                        "id":"survivetheinternet_fr",
-                        "name":"Survive The Internet FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch transforme votre jeu en français !",
-                        "authors":"CubicOtter",
-                        "version":"",
-                        "path":"games/SurviveTheInternet",
-                        "patch_path":"patchs/survivetheinternet_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
                 "id":"monsterseekingmonster",
-                "name":"Monster Seeking Monster",
+                "name":"Monstruo Busca Monstruo",
                 "small_description":"Mêmes les monstres ont le droit à l'amour",
                 "description":"Mêmes les monstres ont le droit à l'amour",
                 "background":"game_backgrounds/MonsterSeekingMonster.webp",
@@ -639,7 +685,7 @@
                         "min":3,
                         "max":7
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Même les monstres ont le droit à l'amour",
@@ -657,23 +703,7 @@
 
                 },
                 "patchs":[
-                    {
-                        "id":"monsterseekingmonster_fr",
-                        "name":"Monster Seeking Monster FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "authors":"Fizzrocks et Alexis",
-                        "version":"1.0.0_credits",
-                        "path":"games/MonsterMingle",
-                        "patch_path":"patchs/monsterseekingmonster_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
@@ -688,7 +718,7 @@
                         "min":3,
                         "max":16
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Participez au tournoi interstellaire",
@@ -706,22 +736,7 @@
 
                 },
                 "patchs":[
-                    {
-                        "id":"bracketeering",
-                        "name":"Bracketeering",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "authors":"the_sign_painter",
-                        "version":"1.0.1_credits",
-                        "patch_path":"patchs/bracketeering_1.0.1.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
@@ -734,7 +749,7 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Soyez le meilleur menteur",
@@ -766,7 +781,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 20 minutes",
+                    "length":"Environ 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Combinez vos dessins",
@@ -815,7 +830,7 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Le quiz revient une nouvelle fois",
@@ -850,7 +865,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"C'est l'heure du rap",
@@ -920,7 +935,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 minutes",
+                    "length":"15 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Créez vos meilleurs dilemmes",
@@ -972,7 +987,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 minutes",
+                    "length":"20 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Crééz vos propres inventions !",
@@ -1041,7 +1056,7 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Survivrez-vous à ce quiz ?",
@@ -1076,7 +1091,7 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 minutes",
+                    "length":"15 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Qui est qui ?",
@@ -1111,7 +1126,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Venez faire rire vos amis",
@@ -1161,7 +1176,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"10 minutes",
+                    "length":"10 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Inventez des mots",
@@ -1283,7 +1298,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 20 minutes",
+                    "length":"Environ 20 minutos",
                     "translation":"FRENCH_JBFR",
                     "type":"VERSUS",
                     "tagline":"Faites combattre vos dessins",
@@ -1334,7 +1349,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 40 minutes",
+                    "length":"20 - 40 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Présentez votre pire sujet",
@@ -1385,7 +1400,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 15 minutes",
+                    "length":"Environ 15 minutos",
                     "type":"COOP",
                     "translation":"ENGLISH",
                     "tagline":"Faites vos tâches !",
@@ -1436,7 +1451,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 15 minutes",
+                    "length":"Environ 15 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Soyez le plus drôle",
@@ -1470,7 +1485,7 @@
                         "min":2,
                         "max":6
                     },
-                    "length":"15 - 30 minutes",
+                    "length":"15 - 30 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Faites deviner votre mot",
@@ -1522,7 +1537,7 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"15 - 30 minutes",
+                    "length":"15 - 30 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Animez tout ça !",
@@ -1557,7 +1572,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Tourner tout ça !",
@@ -1592,7 +1607,7 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Devenez le meilleur employé",
@@ -1644,7 +1659,7 @@
                         "min":2,
                         "max":10
                     },
-                    "length":"Environ 15 minutes",
+                    "length":"Environ 15 minutos",
                     "type":"TEAM",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Echappez-vous de la grotte",
@@ -1695,7 +1710,7 @@
                         "min":4,
                         "max":8
                     },
-                    "length":"20 - 40 minutes",
+                    "length":"20 - 40 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH_JBFR",
                     "tagline":"Trouvez les tueurs",
@@ -1741,8 +1756,8 @@
     },
     {
         "id":"jpp9",
-        "name":"Jackbox Party Pack 9",
-        "description":"Le neuvième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 9",
+        "description":"El primer paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 9.exe",
             "mac":"The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
@@ -1752,6 +1767,98 @@
             "path":"loaders/tjpp9/default.zip",
             "version":"1.0.0"
         },
+    "configuration":{
+		"file":"config.jet",
+		"version_property":"buildVersion"
+	},
+        "patchs":[
+            {
+                "id":"jpp9_es",
+                "name":"The Jackbox Party Pack 9",
+                "small_description":"¡Cambia los dominios a Jackbox.lol!",
+                "description":"Este juego ya se encuentra oficialmente traducido al español latino, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas!",
+                "version":"653.2-ES",
+		"patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
+                "components":[
+                    {
+                        "id":"fibbage4_test_patch",
+                        "linked_game":"fibbage4",
+                        "name":"Fibbage 4",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    },
+		    {
+                        "id":"roomerang_test_patch",
+                        "linked_game":"roomerang",
+                        "name":"Roomerang",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    },
+		    {
+                        "id":"junktopia_test_patch",
+                        "linked_game":"junktopia",
+                        "name":"Junktopia",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    },
+		    {
+                        "id":"nonsensory_test_patch",
+                        "linked_game":"nonsensory",
+                        "name":"Nonsensory",
+                        "description":"Nonsensory",
+                        "authors":"",
+                        "small_description":"Nonsensory",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    },
+		    {
+                        "id":"quixort_test_patch",
+                        "linked_game":"quixort",
+                        "name":"Quixort",
+                        "description":"",
+                        "authors":"Test",
+                        "small_description":"",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    }
+                ]
+                
+            }
+        ],
         "games":[
             {
                 "id":"fibbage4",
@@ -1763,9 +1870,9 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 minutes",
+                    "length":"20 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
+                    "translation":"SPANISH",
                     "tagline":"Bluffez vos amis",
                     "small_description":"Bienvenue dans Fibbage 4, le jeu où vous allez devoir mentir et faire tomber des personnes dans le panneau pour gagner des points.",
                     "description":"# Fibbage quatre...\n\n Dans fibbage 4, vous allez devoir compléter des anecdotes. Chaque joueur va devoir imaginer une réponse à l'anecdote. En seconde partie, les réponses de chaque joueur sont montrées ainsi que la **vraie** réponse ! Le but est de trouver la vérité sans tomber sur les réponses adverses.\n\nEn plus des anecdotes classiques, vous trouverez aussi des anecdotes sous format vidéo et le Fibbage final ou vous devrez remplir 2 anecdotes en même temps.\n\nQui sera le meilleur menteur ?",
@@ -1797,7 +1904,7 @@
                         "min":3,
                         "max":9
                     },
-                    "length":"25 - 35 minutes",
+                    "length":"25 - 35 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Saurez-vous gagner Roomerang",
@@ -1832,7 +1939,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Vendez vos objets",
@@ -1867,7 +1974,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Partagez vos pensées",
@@ -1902,7 +2009,7 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"15 - 20 minutes",
+                    "length":"15 - 20 minutos",
                     "type":"TEAM",
                     "translation":"FRENCH",
                     "tagline":"Triez les blocs",
@@ -1928,9 +2035,11 @@
                 ]
             }
         ],
+        
         "icon":"jpp9.ico",
         "background":"backgrounds/jpp9.jpg"
     },
+    
     {
         "id":"jpstarter",
         "name":"Jackbox Party Starter",
@@ -1955,7 +2064,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 15 minutes",
+                    "length":"Environ 15 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Soyez le plus drôle",
@@ -1989,7 +2098,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 30 minutes",
+                    "length":"Environ 30 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Combattez vos tee-shirts",
@@ -2024,7 +2133,7 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 25 minutes",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"FRENCH",
                     "tagline":"Survivrez-vous à ce quiz ?",
