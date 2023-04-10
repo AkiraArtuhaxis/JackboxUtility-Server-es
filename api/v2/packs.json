@@ -290,7 +290,7 @@
                     "name":"The Jackbox Party Pack 2 ES",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. Earwax: Sonidos raros posee un doblaje latino.",
                     "description":"",
-                    "version":"74.3-ES",
+                    "version":"74.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
                     "components":[
                 {
@@ -549,7 +549,7 @@
         },
             "patchs":[
                 {
-                    "id":"jpp2_es",
+                    "id":"jpp3_es",
                     "name":"The Jackbox Party Pack 3 ES",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español.",
                     "description":"",
@@ -806,12 +806,134 @@
             "mac":"The Jackbox Party Pack 4.app/Contents/MacOS/The Jackbox Party Pack 4",
             "linux":"Launcher.sh"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp4_es",
+                    "name":"The Jackbox Party Pack 4 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Sobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico poseen un doblaje latino.",
+                    "description":"",
+                    "version":"134.16-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
+                    "components":[
+                {
+                            "id":"fibbage3_patch",
+                            "linked_game":"fibbage3",
+                            "name":"Fibbage 3",
+                            "description":"",
+                            "authors":"Fibbage 3\n* Artuhaxis y Fukken Hanzel (traducción principal)\n* damian29, diegoflg3, Akira896, Markmtz90 y Alonsinwhat (traducción asistente)\n* P4ND4_1100010 (ayuda adicional)\n* Akira896 (SWFs)\nMentiras sobre ti\n* Artuhaxis y Akira896 (traducción)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"survivetheinternet_patch",
+                            "linked_game":"survivetheinternet",
+                            "name":"Sobrevive al Internet",
+                            "description":"",
+                            "authors":"Traducción\n* Akira896\n* Artuhaxis (imágenes adicionales); Fixed Fun (logo)\nDoblaje\n* Akira896 (anfitrión)\n* Artuhaxis (traducción del guion)\n* maritomomomemardo (voz de tutorial)\n* Artuhaxis (Gene)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"monsterseekingmonster_patch",
+                            "linked_game":"monsterseekingmonster",
+                            "name":"Monstruo Busca Monstruo",
+                            "description":"",
+                            "authors":"Traducción\nArtuhaxis y Akira896\n* Fixed Fun (logo)\nDoblaje\nRocío Benítez Blasco (anfitriona)\n* Eleiber (traducción del guion)\n* Artuhaxis (recorte y ecualización de audios)\n* Akira896 (suprevisión del doblaje, cantante, voz de marioneta y ecualización de audios)\n* Nahuel Guidi (cantante)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"bracketeering_patch",
+                            "linked_game":"bracketeering",
+                            "name":"Bracketeering: Apuesta al Mejor",
+                            "description":"",
+                            "authors":"* Akira896 (traducción principal y archivos SWF)\n* Raúl Mora y Artuhaxis (traducción)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"civicdoodle_patch",
+                            "linked_game":"civicdoodle",
+                            "name":"Garabato Cívico",
+                            "description":"",
+                            "authors":"Traducción\n* Akira896 (traducción)\n* Artuhaxis (imágenes adicionales)\n* Fixed Fun (logo)\nDoblaje\n* Ana Fernández y BinaryPie (anfitriones)\n* Eleiber (traducción del guion)\n* Akira896 (supervisión y voces adicionales)\n* maritomomomemardo, Artuhaxis, ner0, Vanesa Peralta, Guillermina Marín, Rocío Benítez Blasco y Camila Iriart (voces adicionales)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
+            {
+                "id":"fibbage3",
+                "name":"Fibbage 3",
+                "background":"game_backgrounds/Fibbage3.webp",
+                "path":"games/Fibbage3",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Sé el mejor mentiroso",
+                    "small_description":"Sé el mejor mentiroso",
+                    "description":"Miente con todo tipo de preguntas nuevas y el aún más nuevo modo Fibbage: Mentiras sobre ti. ¡Adivina datos extraños sobre los otros jugadores!",
+                    "images":[
+			            "game_images/Fibbage3/fibbage3_1.webp",
+                        "game_images/Fibbage3/fibbage3_2.webp",
+                        "game_images/Fibbage3/fibbage3_3.webp",
+                        "game_images/Fibbage3/fibbage3_4.webp"
+                    ],
+                    "tags":[
+                    	"writing",
+                        "knowledge"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            },
             {
                 "id":"survivetheinternet",
                 "name":"Sobrevive al Internet",
-                "small_description":"¿Sobrevivirás al internet?",
-                "description":"¿Sobrevivirás al internet?",
                 "background":"game_backgrounds/SurviveTheInternet.webp",
                 "path":"games/SurviveTheInternet",
                 "game_info":{
@@ -821,7 +943,7 @@
                     },
                     "length":"Alrededor de 20 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Sobrevivirás al internet?",
                     "small_description":"¿Sobrevivirás al internet?",
                     "description":"¡Inicia sesión y prepárate! Es la supervivencia del más divertido mientras tomas fuera de contexto a tus amigos alrededor de la red.",
@@ -843,8 +965,6 @@
             {
                 "id":"monsterseekingmonster",
                 "name":"Monstruo Busca Monstruo",
-                "small_description":"Mêmes les monstres ont le droit à l'amour",
-                "description":"Mêmes les monstres ont le droit à l'amour",
                 "background":"game_backgrounds/MonsterSeekingMonster.webp",
                 "path":"games/MonsterMingle",
                 "game_info":{
@@ -854,12 +974,12 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Même les monstres ont le droit à l'amour",
-                    "small_description":"Vous êtes désespérément à la recherche de l'amour. Je sais c'est compliqué en tant que monstre. Monster seeking monster peut vous aider à remédier à ça en vous laissant participer à une séance de rendez-vous amoureux avec tous les monstres aux alentours !",
-                    "description":"# But du jeu\n\nPour remporter Monster Seeking Monster, il faut **discuter par écrit avec les autres joueurs afin d'organiser un rendez-vous** avec l'un d'entre eux.\n\n# Déroulement d'une partie\n\nLe jeu se joue en 6 nuits, chacune étant composée de deux phases :\n- La phase de discussion écrite\n- La phase de rencontre\n\n*Bon à savoir : La moitié des nuits (soit 3) sont des **nuits de pleine lune**. Pour certains monstres, elle s'avèrent **capitales***.\n\n# Déroulement d'une manche\n\nChaque nuit commence par la phase de drague. Tous les joueurs disposeront d'un temps limité pour pour s'envoyer **jusqu'à 4 messages** afin d'organiser leurs rendez-vous. Une fois le temps imparti écoulé, ils devront choisir le joueur avec lequel sortir.\n\nLa phase des résultats débute alors. Un à un, les joueurs ainsi que l'élu de leur coeur seront affichés. Deux résultats sont alors possibles :\n- Deux joueurs se choisissent mutuellement : c'est un match. **Un coeur est remporté par chacun**.\n- L'un des joueurs n'a pas choisi celui qui l'a choisi : c'est un gros râteau. **Le joueur ayant été rejeté ne gagne aucun coeur**.\n\n *A partir de la nuit 3, le rôle du joueur classé en première position est révélé. Il en sera ainsi pour toutes les nuits restantes.*\n\nLa nuit se termine et la suivante débute. Le procédé se répète jusqu'à la nuit 6 où sont annoncés les résultats et les rôles des derniers joueurs.",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Incluso los monstruos pueden amar",
+                    "small_description":"Incluso los monstruos pueden amar",
+                    "description":"Un juego de citas donde envías mensajes graciosos e intentas ocultar tus poderes monstruo ocultos. ¡Igual a las citas de verdad!",
                     "images":[
-			"game_images/MonsterSeekingMonster/monsterseekingmonster_1.webp",
+			            "game_images/MonsterSeekingMonster/monsterseekingmonster_1.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_2.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_3.webp",
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_4.webp"
@@ -875,9 +995,7 @@
             },
             {
                 "id":"bracketeering",
-                "name":"Bracketeering",
-                "small_description":"Participez au tournoi interstellaire",
-                "description":"Participez au tournoi interstellaire",
+                "name":"Bracketeering: Apuesta al Mejor",
                 "background":"game_backgrounds/Bracketeering.webp",
                 "path":"games/Bracketeering",
                 "game_info":{
@@ -887,12 +1005,12 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Participez au tournoi interstellaire",
-                    "small_description":"Vous êtes invité à un tournoi ravagé ou vous allez devoir répondre aux questions les plus importantes de la vie ! Arriverez-vous à terminer premier de ce tournoi intergalactique ?",
-                    "description":"# C'est l'heure du tournoi !\n\nVous allez recevoir une question, et allez devoir y répondre. Votre réponse sera ensuite face aux autres et c'est seulement ensuite que nous saurons qui sera le grand vainqueur.\n\nVous êtes pas très bon ? Alors faites des prédictions et recevez de l'argent en fonction de votre performance !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Participa en el Torneo Interestelar",
+                    "small_description":"Participa en el Torneo Interestelar",
+                    "description":"¡El perverso torneo de debate! \"¿Cuál es el mejor vegetal para que Benedict Cumberbatch le haga la voz en una película?\" Apuesta inteligentemente en qué ganará cada argumento estúpido.",
                     "images":[
-			"game_images/Bracketeering/bracketeering_1.webp",
+			            "game_images/Bracketeering/bracketeering_1.webp",
                         "game_images/Bracketeering/bracketeering_2.webp",
                         "game_images/Bracketeering/bracketeering_3.webp",
                         "game_images/Bracketeering/bracketeering_4.webp"
@@ -907,40 +1025,8 @@
                 ]
             },
             {
-                "id":"fibbage3",
-                "name":"Fibbage 3",
-                "background":"game_backgrounds/Fibbage3.webp",
-                "path":"games/Fibbage3",
-                "game_info":{
-                    "players":{
-                        "min":2,
-                        "max":8
-                    },
-                    "length":"15 - 20 minutos",
-                    "type":"VERSUS",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Soyez le meilleur menteur",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "images":[
-			"game_images/Fibbage3/fibbage3_1.webp",
-                        "game_images/Fibbage3/fibbage3_2.webp",
-                        "game_images/Fibbage3/fibbage3_3.webp",
-                        "game_images/Fibbage3/fibbage3_4.webp"
-                    ],
-                    "tags":[
-                    	"writing",
-                        "knowledge"
-                    ]
-
-                },
-                "patchs":[
-                    
-                ]
-            },
-            {
                 "id":"civicdoodle",
-                "name":"Civic Doodle",
+                "name":"Garabato Cívico",
                 "background":"game_backgrounds/CivicDoodle.webp",
                 "path":"games/CivicDoodle",
                 "game_info":{
@@ -948,14 +1034,14 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 20 minutos",
+                    "length":"Alrededor de 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Combinez vos dessins",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Combina tus diseños",
+                    "small_description":"Combina tus diseños",
+                    "description":"Han sido contratados para crear murales por todo Valle Dibujo. Compitan para ver quien puede hacer las más notables mejoras en su intento de \"embellecer\" la ciudad.",
                     "images":[
-			"game_images/CivicDoodle/civicdoodle_1.webp",
+			            "game_images/CivicDoodle/civicdoodle_1.webp",
                         "game_images/CivicDoodle/civicdoodle_2.webp",
                         "game_images/CivicDoodle/civicdoodle_3.webp",
                         "game_images/CivicDoodle/civicdoodle_4.webp"
