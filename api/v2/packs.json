@@ -551,7 +551,7 @@
                 {
                     "id":"jpp3_es",
                     "name":"The Jackbox Party Pack 3 ES",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español. ¡Engáñame! posee un doblaje latino.",
                     "description":"",
                     "version":"13.13-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
@@ -885,7 +885,7 @@
                             "name":"Garabato Cívico",
                             "description":"",
                             "authors":"Traducción\n* Akira896 (traducción)\n* Artuhaxis (imágenes adicionales)\n* Fixed Fun (logo)\nDoblaje\n* Ana Fernández y BinaryPie (anfitriones)\n* Eleiber (traducción del guion)\n* Akira896 (supervisión y voces adicionales)\n* maritomomomemardo, Artuhaxis, ner0, Vanesa Peralta, Guillermina Marín, Rocío Benítez Blasco y Camila Iriart (voces adicionales)",
-                            "small_description":"¡Juego traducido al español!",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
