@@ -26,7 +26,7 @@
        },
        {
        	    "id":"knowledge",
-            "name":"Trvia",
+            "name":"Trivia",
             "icon":"knowledge_management_app",
             "description":"Estos juegos son de trivia."
        }
@@ -314,7 +314,7 @@
                             "name":"Earwax: Sonidos Raros",
                             "description":"",
                             "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\n* Doblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
-                            "small_description":"¡Juego traducido al español!",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
@@ -543,39 +543,99 @@
             "mac":"The Jackbox Party Pack 3.app/Contents/MacOS/The Jackbox Party Pack 3",
             "linux":"Launcher.sh"
         },
-        "games":[
-            {
-                "id":"fakinit",
-                "name":"Engáñame",
-                "background":"game_backgrounds/FakinIt.webp",
-                "path":"games/FakinIt",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":6
-                    },
-                    "length":"15 - 20 minutos",
-                    "type":"VERSUS",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Encuentra al impostor",
-                    "small_description":"Encuentra al impostor",
-                    "description":"Todos dan una respuesta, pero no todos conocen la pregunta. Uno de tus amigos tiene algo que ocultar. ¡Encuentra al impostor antes que sea demasiado tarde!",
-                    "images":[
-						"game_images/FakinIt/fakinit_1.webp",
-                        "game_images/FakinIt/fakinit_2.webp",
-                        "game_images/FakinIt/fakinit_3.webp",
-                        "game_images/FakinIt/fakinit_4.webp"
-                    ],
-                    "tags":[
-                    	"deduction",
-                    	"talking"
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp2_es",
+                    "name":"The Jackbox Party Pack 3 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "description":"",
+                    "version":"13.13-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
+                    "components":[
+                {
+                            "id":"quiplash2_patch",
+                            "linked_game":"quiplash2",
+                            "name":"Quiplash 2",
+                            "description":"",
+                            "authors":"* Akira896",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"triviamurderparty_patch",
+                            "linked_game":"triviamurderparty",
+                            "name":"Trivia Murder Party",
+                            "description":"",
+                            "authors":"* Pachekin y Fukken Hanzel (traducción)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales)\n* Eleiber (Jackbox.lol)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"guesspionage_patch",
+                            "linked_game":"guesspionage",
+                            "name":"Espiadivinos",
+                            "description":"",
+                            "authors":"* Akira896",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"fakinit_patch",
+                            "linked_game":"fakinit",
+                            "name":"Engáñame",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (traducción)\n* Akira896 (SWFs)\n* Markmtz90 (imágenes)\n* Fixed Fun (logo)\nDoblaje\n* Fausto Serra (anfitrión)\n* Akira896 (supervisión del doblaje, adaptación a latino y recorte y ecualización de audios)\n* Artuhaxis (adaptación a latino y recorte y ecualización de audios)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"teeko_patch",
+                            "linked_game":"teeko",
+                            "name":"Tee K.O.",
+                            "description":"",
+                            "authors":"* Akira896\n* Artuhaxis",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
                     ]
-
-                },
-                "patchs":[
                     
-                ]
-            },
+                }
+            ],
+        "games":[
             {
                 "id":"quiplash2",
                 "name":"Quiplash 2",
@@ -639,6 +699,69 @@
                 ]
             },
             {
+                "id":"guesspionage",
+                "name":"Espiadivinos",
+                "background":"game_backgrounds/Guesspionage.webp",
+                "path":"games/Guesspionage",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"10 - 15 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Encuentra el porcentaje correcto!",
+                    "small_description":"¡Encuentra el porcentaje correcto!",
+                    "description":"¿Qué porcentaje de personas han enterrado algo en el bosque? ¿Andado en la parte trasera de un auto de policía? ¿Gustado de alguien con quien trabajaban? ¡Estima correctamente y gana!",
+                    "images":[
+						"game_images/Guesspionage/guesspionage_1.webp",
+                        "game_images/Guesspionage/guesspionage_2.webp",
+                        "game_images/Guesspionage/guesspionage_3.webp",
+                        "game_images/Guesspionage/guesspionage_4.webp"
+                    ],
+                    "tags":[
+                    	"deduction"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"fakinit",
+                "name":"Engáñame",
+                "background":"game_backgrounds/FakinIt.webp",
+                "path":"games/FakinIt",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Encuentra al impostor",
+                    "small_description":"Encuentra al impostor",
+                    "description":"Todos dan una respuesta, pero no todos conocen la pregunta. Uno de tus amigos tiene algo que ocultar. ¡Encuentra al impostor antes que sea demasiado tarde!",
+                    "images":[
+						"game_images/FakinIt/fakinit_1.webp",
+                        "game_images/FakinIt/fakinit_2.webp",
+                        "game_images/FakinIt/fakinit_3.webp",
+                        "game_images/FakinIt/fakinit_4.webp"
+                    ],
+                    "tags":[
+                    	"deduction",
+                    	"talking"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
                 "id":"teeko",
                 "name":"Tee K.O.",
                 "background":"game_backgrounds/TeeKO.webp",
@@ -663,37 +786,6 @@
                     "tags":[
                     	"drawing",
                     	"writing"
-                    ]
-
-                },
-                "patchs":[
-                    
-                ]
-            },
-            {
-                "id":"guesspionage",
-                "name":"Espiadivinos",
-                "background":"game_backgrounds/Guesspionage.webp",
-                "path":"games/Guesspionage",
-                "game_info":{
-                    "players":{
-                        "min":2,
-                        "max":8
-                    },
-                    "length":"10 - 15 minutos",
-                    "type":"VERSUS",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"¡Encuentra el porcentaje correcto!",
-                    "small_description":"¡Encuentra el porcentaje correcto!",
-                    "description":"¿Qué porcentaje de personas han enterrado algo en el bosque? ¿Andado en la parte trasera de un auto de policía? ¿Gustado de alguien con quien trabajaban? ¡Estima correctamente y gana!",
-                    "images":[
-						"game_images/Guesspionage/guesspionage_1.webp",
-                        "game_images/Guesspionage/guesspionage_2.webp",
-                        "game_images/Guesspionage/guesspionage_3.webp",
-                        "game_images/Guesspionage/guesspionage_4.webp"
-                    ],
-                    "tags":[
-                    	"deduction"
                     ]
 
                 },
