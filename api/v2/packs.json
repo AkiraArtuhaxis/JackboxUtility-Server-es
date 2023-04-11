@@ -2208,8 +2208,8 @@
             {
                 "id":"jpp9_es",
                 "name":"The Jackbox Party Pack 9",
-                "small_description":"¡Cambia los dominios a Jackbox.lol!",
-                "description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                "description":"",
                 "version":"653.2-ES",
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
                 "components":[
@@ -2494,8 +2494,8 @@
                 {
                     "id":"jpp9_es",
                     "name":"The Jackbox Party Pack 9",
-                    "small_description":"¡Cambia los dominios a Jackbox.lol!",
-                    "description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                    "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                    "description":"",
                     "version":"216.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
                     "components":[
