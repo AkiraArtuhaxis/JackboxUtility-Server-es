@@ -680,8 +680,8 @@
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"¿Sobrevivirás este quiz?",
-                    "small_description":"¿Sobrevivirás este quiz?",
+                    "tagline":"¿Sobrevivirás a esta trivia?",
+                    "small_description":"¿Sobrevivirás a esta trivia?",
                     "description":"Sé el último en sobrevivir un absurdo juego de preguntas de un asesino serial. ¡Pero es divertido!",
                     "images":[
 						"game_images/TriviaMurderParty/triviamurderparty_1.webp",
@@ -817,7 +817,7 @@
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. Sobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico poseen un doblaje latino.",
                     "description":"",
                     "version":"134.16-ES",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -1061,8 +1061,8 @@
     },
     {
         "id":"jpp5",
-        "name":"Jackbox Party Pack 5",
-        "description":"Le cinquième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 5",
+        "description":"El quinto paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 5.exe",
             "mac":"The Jackbox Party Pack 5.app/Contents/MacOS/The Jackbox Party Pack 5",
@@ -1072,10 +1072,102 @@
             "path":"loaders/tjpp5/default.zip",
             "version":"1.0.0"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp5_es",
+                    "name":"The Jackbox Party Pack 5 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Zeeple Dome y Patentes Dementes poseen un doblaje latino.",
+                    "description":"",
+                    "version":"213.21-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
+                    "components":[
+                {
+                            "id":"ydkj_fullstream_patch",
+                            "linked_game":"ydkj_fullstream",
+                            "name":"You Don't Know Jack: Full Stream",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción principal)\n* Akira896, Marti005 y stefano30 (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (videos e imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"splittheroom_patch",
+                            "linked_game":"splittheroom",
+                            "name":"Divide la Sala",
+                            "description":"",
+                            "authors":"* Artuhaxis y Akira896 (traducción principal)\n* Eleiber, Raúl Mora, Nairoliv y Molonazo (traducción asistente)\n* Fixed Fun, Artuhaxis y Akira896 (imágenes)\n* Akira896 (SWFs y videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"mad_verse_city_patch",
+                            "linked_game":"mad_verse_city",
+                            "name":"Mad Verse City: Ciudad del Rap",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción de rondas)\n* Akira896 (traducción de otros archivos y SWF)\n* Markmtz90 (imágenes)\n* P4ND4_1100010 (voces de los robots en español)\n* Fixed Fun (logo traducido)\n* Fukken Hanzel (traducción y revisión general restante)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"zeeple_dome_patch",
+                            "linked_game":"zeeple_dome",
+                            "name":"Zeeple Dome",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis y Akira896\nDoblaje\n* Walter Tassi (anfitrión)\n* Nahuel Guidi (introducción)\n* Akira896 (traducción, supervisión, ecualización)\n* Artuhaxis (supervisión)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"patentlystupid_patch",
+                            "linked_game":"patentlystupid",
+                            "name":"Patentes Dementes",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (enunciados)\n* Akira896 (SWF)\n* Fixed Fun (logo e imágenes adicionales)\nDoblaje\n* Fausto Serra (Tobías)\n* Ana Fernández (Lina)\n* Fixed Fun (guion)\n* Artuhaxis (guion y ecualización)\n* Akira896 (grabación y extra adicional)\n* Santiago Giordani, Rocío Benítez Blasco, Tomás Serio (baristas)\n* Artuhaxis (Gene)\n* maritomomomemardo, Ernesto Fernández, ner0, Camila Iriart, Trinidad González (extras adicionales)\n* Nahuel Guidi (cantante de créditos)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
         	{
                 "id":"ydkj_fullstream",
-                "name":"YDKJ : full stream",
+                "name":"You Don't Know Jack: Full Stream",
                 "background":"game_backgrounds/YDKJFullStream.webp",
                 "path":"games/YDKJ2018",
                 "game_info":{
@@ -1086,9 +1178,9 @@
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Le quiz revient une nouvelle fois",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"La trivia irreverente ha vuelto",
+                    "small_description":"La trivia irreverente ha vuelto",
+                    "description":"¡YOU DON’T KNOW JACK: Full Stream trae el clásico irreverente de trivia al popular y ficticio servicio de streaming Binjpipe! ¡Sus términos de servicio explícitamente garantizan que te va a encantar!",
                     "images":[
 						"game_images/YDKJFullStream/ydkjfullstream_1.webp",
                         "game_images/YDKJFullStream/ydkjfullstream_2.webp",
@@ -1109,8 +1201,43 @@
                 ]
             },
             {
+                "id":"splittheroom",
+                "name":"Divide la Sala",
+                "background":"game_backgrounds/SplitTheRoom.webp",
+                "path":"games/SplitTheRoom",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Crea tus mejores dilemas",
+                    "small_description":"Crea tus mejores dilemas",
+                    "description":"¡Un juego donde todo es posible! Crea situaciones hipotéticas extrañas y divisivas.",
+                    "images":[
+			            "game_images/SplitTheRoom/splittheroom_1.webp",
+                        "game_images/SplitTheRoom/splittheroom_2.webp",
+                        "game_images/SplitTheRoom/splittheroom_3.webp",
+                        "game_images/SplitTheRoom/splittheroom_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp5/splittheroom.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
                 "id":"mad_verse_city",
-                "name":"Mad Verse City",
+                "name":"Mad Verse City: Ciudad del Rap",
                 "background":"game_backgrounds/MadVerseCity.webp",
                 "path":"games/RapBattle",
                 "game_info":{
@@ -1121,9 +1248,9 @@
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"C'est l'heure du rap",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"Es hora de rapear",
+                    "small_description":"Es hora de rapear",
+                    "description":"¡El juego de batallas rap de robots! Tirate unas buenas rimas contra tus amigos para ver quien es el mejor MC y cuál el gato más pillo.",
                     "images":[
 						"game_images/MadVerseCity/madversecity_1.webp",
                         "game_images/MadVerseCity/madversecity_2.webp",
@@ -1153,12 +1280,12 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"10 minutes ou plus",
+                    "length":"10 minutos o más",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Envolez vous pour vous battre",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"El combate espacial",
+                    "small_description":"El combate espacial",
+                    "description":"¡El programa de juegos más letal de la galaxia! ¡¡¡Dispárate para ganar premios fabulosos!!!",
                     "images":[
 						"game_images/ZeepleDome/zeepledome_1.webp",
                         "game_images/ZeepleDome/zeepledome_2.webp",
@@ -1179,60 +1306,8 @@
                 ]
             },
             {
-                "id":"splittheroom",
-                "name":"Split The Room",
-                "background":"game_backgrounds/SplitTheRoom.webp",
-                "path":"games/SplitTheRoom",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"15 minutos",
-                    "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Créez vos meilleurs dilemmes",
-                    "small_description":"Vous allez devoir créer les meilleurs dillemmes possible. Le but du jeu ? Splitez vos amis le plus possible sur une question simple (et délirante)",
-                    "description":"# Bienvenue dans un monde où les dimensions s'entremêlent\n\nMayonnaise vous attend. Vous allez devoir créer des dilemmes pour séparer le plus de personnes. Plus le split est grand, plus vous gagnez des points ! Soyez stratégiques, connaissez vos adversaires et créez les plus grands dilemmes que le monde n'aient jamais connus.",
-                    "images":[
-			"game_images/SplitTheRoom/splittheroom_1.webp",
-                        "game_images/SplitTheRoom/splittheroom_2.webp",
-                        "game_images/SplitTheRoom/splittheroom_3.webp",
-                        "game_images/SplitTheRoom/splittheroom_4.webp"
-                    ],
-                    "tags":[
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpp5/splittheroom.zip",
-                    "version":"1.0.0"
-                },
-                "patchs":[
-                    {
-                        "id":"splittheroom_fr",
-                        "name":"[PREVIEW] Split The Room",
-                        "small_description":"[PREVIEW] Traduction du jeu en Français",
-                        "description":"Le patch complet arrive bientôt. Vous pouvez toujours télécharger la preview mais gardez à l'esprit que la traduction n'est pas terminée. Avec cette preview, le jeu est traduit en français, mais il peut y avoir des fautes. N'hésitez pas à prévenir MisterShaokahn#0765 si il y a des problèmes de traduction",
-                        "version":"0.1.1_credits",
-                        "authors":"MisterShaokahn#0765",
-                        "patch_path":"patchs/splittheroom_0.1.1.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
-                ]
-            },
-            {
                 "id":"patentlystupid",
-                "name":"Patently Stupid",
-                "small_description":"Vendez vos inventions",
-                "description":"Vendez vos inventions",
+                "name":"Patentes Dementes",
                 "background":"game_backgrounds/PatentlyStupid.webp",
                 "path":"games/PatentlyStupid",
                 "game_info":{
@@ -1242,12 +1317,12 @@
                     },
                     "length":"20 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Crééz vos propres inventions !",
-                    "small_description":"Le monde va mal et les problèmes pleuvent. Arriverez-vous à créer l'invention qui résoudra tout. Et surtout, arriverez-vous à la vendre au plus de personnes dans la salle ?",
-                    "description":"# C'est l'heure du meeting\n\nVous êtes invité au plus grand meeting d'ingénieur que le monde ait connu. Le monde a des problèmes et vous allez devoir les résoudre avec une invention que vous allez dessiner, nommer et présenter. Si vous êtes bon, vous gagnerez de l'argent.\n\nVous n'avez pas géré lors du premier tour ? Alors rattrapez vous avec le second en créant un objet répondant aux mêmes problèmes que vos compères !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Crea tus propios inventos!",
+                    "small_description":"¡Crea tus propios inventos!",
+                    "description":"¡El ingenioso juego de dibujo donde resuelves problemas bizarros! ¡Propone tus ideas para juntar el dinero!",
                     "images":[
-			"game_images/PatentlyStupid/patentlystupid_1.webp",
+			            "game_images/PatentlyStupid/patentlystupid_1.webp",
                         "game_images/PatentlyStupid/patentlystupid_2.webp",
                         "game_images/PatentlyStupid/patentlystupid_3.webp",
                         "game_images/PatentlyStupid/patentlystupid_4.webp"
@@ -1263,22 +1338,7 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"patentlystupid_fr",
-                        "name":"Patently Stupid FR",
-                        "small_description":"Traduction du jeu en Français",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "version":"1.0.0_credits",
-                        "authors":"Alexis",
-                        "patch_path":"patchs/patentlystupid_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             }
         ],
@@ -1287,8 +1347,8 @@
     },
     {
         "id":"jpp6",
-        "name":"Jackbox Party Pack 6",
-        "description":"Le sixième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 6",
+        "description":"El sexto paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 6.exe",
             "mac":"The Jackbox Party Pack 6.app/Contents/MacOS/The Jackbox Party Pack 6",
@@ -1298,6 +1358,98 @@
             "path":"loaders/tjpp6/default.zip",
             "version":"1.0.0"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp6_es",
+                    "name":"The Jackbox Party Pack 6 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "description":"",
+                    "version":"456.14-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
+                    "components":[
+                {
+                            "id":"trivia_murder_party_2_patch",
+                            "linked_game":"trivia_murder_party_2",
+                            "name":"Trivia Murder Party 2",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (traducción e imágenes)\n* Raúl Mora (traducción)\n* Akira896 (archivos SWF, imágenes y asistencia en subtítulos)\n* Fukken Hanzel y Alomancia (imágenes)\n* Pachekin (asistencia en subtítulos)\n* Fixed Fun (videos)\nDoblaje\n* Akira896 (voz del dictado)\n* Jorge Pineda (voz de Schmitty)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"role_models_patch",
+                            "linked_game":"role_models",
+                            "name":"Modelo a Seguir",
+                            "description":"",
+                            "authors":"* Artuhaxis, Raúl Mora, Tejas y Akira896 (traducción principal)\n* DanielMGC, MrCityWaffles, NatsukiZoe y diegoflg3 (traducción asistente)\n* Akira896 (SWFs y video del tutorial)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"jokeboat_patch",
+                            "linked_game":"jokeboat",
+                            "name":"Crucero Cómico",
+                            "description":"",
+                            "authors":"* Akira896 (traducción)\n* Artuhaxis (imágenes)\n* Fixed Fun (imágenes adicionales y videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"dictionarium_patch",
+                            "linked_game":"dictionarium",
+                            "name":"Diccionarium",
+                            "description":"",
+                            "authors":"LucastuFett y Fenixhim272 (traducción)\n* Akira896 (traducción y archivos SWF)\n* Roxas (imágenes)\n* Fixed Fun (animaciones de los cronómetros)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"pushthebutton_patch",
+                            "linked_game":"pushthebutton",
+                            "name":"Pulsa el Botón",
+                            "description":"",
+                            "authors":"Markmtz90 (traducción e imágenes)\n* Artuhaxis (asistencia)\n* Akira896 (asistencia y archivos SWF)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
         	{
                 "id":"trivia_murder_party_2",
@@ -1312,9 +1464,9 @@
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Survivrez-vous à ce quiz ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¿Sobrevivirás a esta trivia?",
+                    "small_description":"¿Sobrevivirás a esta trivia?",
+                    "description":"Un asesino serial está armando un juego absurdo de trivia desde su Hotel Asesino de la familia con la que vivía. ¿Podrás sobrevivir?",
                     "images":[
 						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
@@ -1336,7 +1488,7 @@
             },
             {
                 "id":"role_models",
-                "name":"Role Models",
+                "name":"Modelo a Seguir",
                 "background":"game_backgrounds/RoleModels.webp",
                 "path":"games/RoleModels",
                 "game_info":{
@@ -1347,9 +1499,9 @@
                     "length":"15 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Qui est qui ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¿Quién eres?",
+                    "small_description":"¿Quién eres?",
+                    "description":"Todos somos alguien, asi que, ¿quién eres? ¿El planificador? ¿El especial? ¿El picante? Entra al laboratorio y descúbrelo.",
                     "images":[
 						"game_images/RoleModels/rolemodels_1.webp",
                         "game_images/RoleModels/rolemodels_2.webp",
@@ -1371,7 +1523,7 @@
             },
             {
                 "id":"jokeboat",
-                "name":"Joke Boat",
+                "name":"Crucero Cómico",
                 "background":"game_backgrounds/JokeBoat.webp",
                 "path":"games/JokeBoat",
                 "game_info":{
@@ -1381,12 +1533,12 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Venez faire rire vos amis",
-                    "small_description":"Vous êtes les comédiens ? Génial, vous allez pouvoi faire rire tous nos convives dans Joke Boat",
-                    "description":"# Bienvenue à bord !\n\nVous êtes accepté en tant que comédien dans le Joke Boat, un bateau connu pour... ses blagues ? En tout cas, votrre but est de recevoir le plus d'argent des passagers en vous démarquant de votre adversaire. Comment faire ? En créant vos meilleures blagues bien sûr !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Haz reír a tus amigos",
+                    "small_description":"Haz reír a tus amigos",
+                    "description":"¡Ahoy! Eres un comediante amateur en un crucero de cuarta. ¿Tienes lo que se necesita para ganar el show de talento?",
                     "images":[
-			"game_images/JokeBoat/jokeboat_1.webp",
+			            "game_images/JokeBoat/jokeboat_1.webp",
                         "game_images/JokeBoat/jokeboat_2.webp",
                         "game_images/JokeBoat/jokeboat_3.webp",
                         "game_images/JokeBoat/jokeboat_4.webp"
@@ -1401,27 +1553,12 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"jokeboat_fr",
-                        "name":"Joke Boat FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "authors":"CubicOtter",
-                        "version":"1.0.0_credits",
-                        "patch_path":"patchs/jokeboat_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
                 "id":"dictionarium",
-                "name":"Dictionarium",
+                "name":"Diccionarium",
                 "background":"game_backgrounds/Dictionarium.webp",
                 "path":"games/Ridictionary",
                 "game_info":{
@@ -1431,12 +1568,12 @@
                     },
                     "length":"10 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Inventez des mots",
-                    "small_description":"Le dictionnaire est vaste mais pourquoi pas en rajouter ? A vous de créer de nouveaux mots, donner leur définition et choisir votre préféré !",
-                    "description":"# Imaginez des mots\n\nBienvenue au dictionarium, un endroit magique où vous allez devoir créer de nouveaux mots en plus de leur définition. Un concept assez simple mais qui est très ontéressant si vous avez une âme littéraire",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Inventa palabras",
+                    "small_description":"Inventa palabras",
+                    "description":"El ser humano ha estado inventando palabras y frases por siglos. Ahora es tu turno para contribuir una entrada en las páginas del Diccionarium.",
                     "images":[
-			"game_images/Dictionarium/dictionarium_1.webp",
+			            "game_images/Dictionarium/dictionarium_1.webp",
                         "game_images/Dictionarium/dictionarium_2.webp",
                         "game_images/Dictionarium/dictionarium_3.webp",
                         "game_images/Dictionarium/dictionarium_4.webp"
@@ -1451,27 +1588,12 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"dictionarium_fr",
-                        "name":"Dictionarium FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "authors":"CubicOtter",
-                        "version":"1.0.0_credits",
-                        "patch_path":"patchs/dictionarium_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
                 "id":"pushthebutton",
-                "name":"Push The Button",
+                "name":"Pulsa el Botón",
                 "background":"game_backgrounds/PushTheButton.webp",
                 "path":"games/PushTheButton",
                 "game_info":{
@@ -1479,14 +1601,14 @@
                         "min":4,
                         "max":10
                     },
-                    "length":"Dépendant du nombre de joueurs",
+                    "length":"15 - 25 minutos",
                     "type":"TEAM",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Trouvez les aliens",
-                    "small_description":"Des aliens sont arrivés dans votre vaisseau et se cachent dans votre équipage. Trouvez les à temps avant que l'IA du vaisseau soit effacée pour survivre.",
-                    "description":"# Une intrusion a été détectée\n\nDODE, l'IA de votre vaisseau spatial, vous avertis que des perturbations anormales ont eu lieu à l'intérieur de celui-ci. Après analyse, vous découvrez que certains de vos coéquipiers sont des aliens. Mais vous ne savez pas qui !\n\nPour les découvir vous allez devoir faire des tests d'humanité à chaque joueurs dans la partie. Que ce soit avec des opinions, des dessins ou encore des mots, il y a des tonnes de manière de trouver les aliens. Mais faites vite ! Le temps tourne et si vous ne trouvez pas tous les aliens avant la fin, c'est perdu !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Encuentra a los aliens",
+                    "small_description":"Encuentra a los aliens",
+                    "description":"¡Peligro! Alienígenas cambia-forma se han infiltrado en tu nave. ¿Pueden tú y tu tripulación encontrarlos antes que se acabe el tiempo?",
                     "images":[
-			"game_images/PushTheButton/pushthebutton_1.webp",
+			            "game_images/PushTheButton/pushthebutton_1.webp",
                         "game_images/PushTheButton/pushthebutton_2.webp",
                         "game_images/PushTheButton/pushthebutton_3.webp",
                         "game_images/PushTheButton/pushthebutton_4.webp"
@@ -1504,23 +1626,7 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"pushthebutton_fr",
-                        "name":"Push The Button FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Ce patch traduit votre jeu en français !",
-                        "authors":"Alexis et Fizzrocks",
-                        "version":"1.0.0_credits",
-                        "path":"games/PushTheButton",
-                        "patch_path":"patchs/pushthebutton_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             }
         ],
@@ -1529,8 +1635,8 @@
     },
     {
         "id":"jpp7",
-        "name":"Jackbox Party Pack 7",
-        "description":"Le septième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 7",
+        "description":"El séptimo paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 7.exe",
             "mac":"The Jackbox Party Pack 7.app/Contents/MacOS/The Jackbox Party Pack 7",
@@ -1540,160 +1646,84 @@
             "path":"loaders/tjpp7/default.zip",
             "version":"1.0.0"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp7_es",
+                    "name":"The Jackbox Party Pack 7 ES",
+                    "small_description":"Este paquete posee cuatro juegos traducidos al español. Blather 'Round aún no está traducido. Talking Points cuenta con doblaje latino.",
+                    "description":"",
+                    "version":"561.14-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
+                    "components":[
+                {
+                            "id":"quiplash3_patch",
+                            "linked_game":"quiplash3",
+                            "name":"Quiplash 3",
+                            "description":"",
+                            "authors":"Brody, Suukiro y Fukken Hanzel (traducción principal)\n* Akira896, Tejas, Artuhaxis y Fenixhim272 (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"thedevilsandthedetails_patch",
+                            "linked_game":"thedevilsandthedetails",
+                            "name":"La Familia es un Infierno",
+                            "description":"",
+                            "authors":"* Alonsinwhat, Benelux y Artuhaxis (traducción principal)\n* Akira896, MarioPereyra, NatsukiZoe y Inuzen (traducción asistente)\n* Akira896 (testeo)\n* Fukken Hanzel y Fixed Fun (imágenes)\n* Akira896 y PauX (SWFs)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"champdup_patch",
+                            "linked_game":"talkingpoints",
+                            "name":"Champ'd Up: Batalla de Campeones",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción e imágenes)\n* Akira896 (traducción y archivos SWF)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"talkingpoints_patch",
+                            "linked_game":"talkingpoints",
+                            "name":"Talking Points",
+                            "description":"",
+                            "authors":"Traducción\n* Zants69, Akira896 y Eleiber (traducción)\n* Artuhaxis, Fixed Fun, Fukken Hanzel y YosY (imágenes)\nDoblaje\n *Ana Fernández (anfitriona)\n* Akira896 (supervisión y traducción del guion)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
-            {
-                "id":"champdup",
-                "name":"Champ'd Up",
-                "background":"game_backgrounds/Champdup.webp",
-                "path":"games/WorldChampions",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"Environ 20 minutos",
-                    "translation":"FRENCH_JBFR",
-                    "type":"VERSUS",
-                    "tagline":"Faites combattre vos dessins",
-                    "small_description":"Le combat approche. Il est l'heure de créer vos meilleurs combattants pour qu'ils puissent se battre sur le ring. Arriverez-vous à sortir vainqueur ?",
-                    "description":"# A vos crayons, prêt... combattez !\n\nIl est l'heure de dessiner ! Vous allez recevoir un thème sur votre appareil. Il vous faudra créer un personnage qui répond au mieux au critère en le dessinant et en le nommant !\n\nLors du second tour, vous allez recevoir le dessin d'un autre joueur et allez devoir dessiner son rival, celui qui pourrait le battre à son propre thème.\n\nSerez-vous le vainqueur de ce tournoi, ou resterez-vous sur la touche ? Bienvenue sur **Champ'd Up** !",
-                    "images":[
-			"game_images/ChampdUp/champdup_1.webp",
-                        "game_images/ChampdUp/champdup_2.webp",
-                        "game_images/ChampdUp/champdup_3.webp",
-                        "game_images/ChampdUp/champdup_4.webp"
-                    ],
-                    "tags":[
-                        "drawing",
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpp7/champdup.zip",
-                    "version":"1.0.0"
-                },
-                "patchs":[
-                    {
-                        "id":"champdup_fr",
-                        "name":"Champ'd Up FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Dessinez et envoyez vos combattants au combat",
-                        "authors":"CubicOtter",
-                        "version":"1.0.0_credits",
-                        "patch_path":"patchs/champdup_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
-                ]
-            },
-            {
-                "id":"talkingpoints",
-                "name":"Talking Points",
-                "background":"game_backgrounds/TalkingPoints.webp",
-                "path":"games/JackboxTalks",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"20 - 40 minutos",
-                    "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Présentez votre pire sujet",
-                    "small_description":"L'impro ça vous connait ? Vous allez devoir passer à l'oral sur un thème que vous ne connaissez pas et avec des diapositives choisies par d'autres joueurs. Parlez bien pour gagner !",
-                    "description":"# Retour à l'école !\n\nVous allez devoir passer à l'oral sur un thème choisit par un autre joueur. Dites n'importe quoi et essayez d'être le plus raccord avec les diapositives choisies par votre suppléant : un autre joueur.\n\nEn plus de noter les autres pendant la présentation, vous pouvez aussi donner un award à votre présentation préférée pour lui faire gagner pleins de points !",
-                    "images":[
-			"game_images/TalkingPoints/talkingpoints_1.webp",
-                        "game_images/TalkingPoints/talkingpoints_2.webp",
-                        "game_images/TalkingPoints/talkingpoints_3.webp",
-                        "game_images/TalkingPoints/talkingpoints_4.webp"
-                    ],
-                    "tags":[
-                        "talking",
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpp7/talkingpoints.zip",
-                    "version":"1.0.1"
-                },
-                "patchs":[
-                    {
-                        "id":"talkingpoints_fr",
-                        "name":"Talking Points FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Parlez et présentez votre pire sujet",
-                        "authors":"Alexis",
-                        "version":"1.0.0_credits",
-                        "patch_path":"patchs/talkingpoints_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
-                ]
-            },
-            {
-                "id":"thedevilsandthedetails",
-                "name":"The Devils And The Details",
-                "background":"game_backgrounds/TheDevilsAndTheDetails.webp",
-                "path":"games/Everyday",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"Environ 15 minutos",
-                    "type":"COOP",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Faites vos tâches !",
-                    "small_description":"Hey, les démons ! C'est à vous de travailler ensemble pour faire ce que les humains font le moins bien : des tâches ménagères. Travaillez en équipe et soyez vif pour réussir le challenge de la semaine !",
-                    "description":"# Au travail démons !\n\nVous avez été accepté pour le programme de relation entre démons et humains. Vos tâches seront simples : faire des tâches ménagères. Vous allez devoir travailler en équipe pour en faire le plus possible et ainsi gagner le challenge de la semaine.\n\nMais faites attention, certains démons vont essayer de jouer dans leur coin pour empocher un max de points et ne plus rien vous laisser. Soyez rapide et efficace pour les arreter !",
-                    "images":[
-			"game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
-                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
-                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
-                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
-                    ],
-                    "tags":[
-                        "talking",
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpp7/thedevilsandthedetails.zip",
-                    "version":"1.0.0"
-                },
-                "patchs":[
-                    {
-                        "id":"thedevilsandthedetails_fr",
-                        "name":"The Devils and the Details FR",
-                        "small_description":"[Preview] Traduisez votre jeu en Français !",
-                        "description":"Traduisez votre jeu en français avec du texte et des voix !\n\nCe patch est une preview, il peut y avoir certains textes qui sont encore en Anglais mais nous travaillons dessus !",
-                        "authors":"Alexis, MisterShao et PachatFR",
-                        "version":"0.1.0_credits",
-                        "patch_path":"patchs/thedevilsandthedetails_0.1.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":true
-                        }
-                    }
-                ]
-            },
             {
                 "id":"quiplash3",
                 "name":"Quiplash 3",
@@ -1704,14 +1734,14 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 15 minutos",
+                    "length":"Alrededor de 15 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Soyez le plus drôle",
-                    "small_description":"C'est l'heure d'être drôle ! Epatez tous vos amis en répondant de la manière la plus marrante aux phrases farfelus de Quiplash 3.",
-                    "description":"# C'est l'heure de faire rire\n\n Vous allez recevoir une phrase. Essayez d'y répondre de la manière la plus drôle possible. Votre phrase sera face à celle d'un joueur et les autres votent pour leur préférée. Un jeu simple et efficace qui pourra vous faire rire pendant beaucoup de temps.",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La tricuela para el juego de fiesta de decir cualquier cosa! Responde los enunciados y haz reir a tus amigos... con suerte.",
                     "images":[
-			"game_images/Quiplash3/quiplash3_1.webp",
+			            "game_images/Quiplash3/quiplash3_1.webp",
                         "game_images/Quiplash3/quiplash3_2.webp",
                         "game_images/Quiplash3/quiplash3_3.webp",
                         "game_images/Quiplash3/quiplash3_4.webp"
@@ -1729,8 +1759,113 @@
                 ]
             },
             {
+                "id":"thedevilsandthedetails",
+                "name":"La Familia es un Infierno",
+                "background":"game_backgrounds/TheDevilsAndTheDetails.webp",
+                "path":"games/Everyday",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"Alrededor de 15 minutos",
+                    "type":"COOP",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Haz tus tareas!",
+                    "small_description":"¡Haz tus tareas!",
+                    "description":"Son una familia de demonios que se mudó a un suburbio promedio. ¿Podrán sobrevivir la tortura diaria de la vida humana?",
+                    "images":[
+			            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
+                        "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/thedevilsandthedetails.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"champdup",
+                "name":"Champ'd Up: Batalla de Campeones",
+                "background":"game_backgrounds/Champdup.webp",
+                "path":"games/WorldChampions",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"Alrededor de 20 minutos",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "type":"VERSUS",
+                    "tagline":"El combate de diseños",
+                    "small_description":"El combate de diseños",
+                    "description":"Entra al Coliseo Garabato, donde personajes luchan por títulos raros. ¿Podrás derribar al gran favorito?",
+                    "images":[
+			            "game_images/ChampdUp/champdup_1.webp",
+                        "game_images/ChampdUp/champdup_2.webp",
+                        "game_images/ChampdUp/champdup_3.webp",
+                        "game_images/ChampdUp/champdup_4.webp"
+                    ],
+                    "tags":[
+                        "drawing",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/champdup.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"talkingpoints",
+                "name":"Talking Points",
+                "background":"game_backgrounds/TalkingPoints.webp",
+                "path":"games/JackboxTalks",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 40 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Charlas locas",
+                    "small_description":"Charlas locas",
+                    "description":"Da una charla sobre imágenes que nunca has visto antes. No importa si tiene sentido, ¡es más divertido si no lo tiene!",
+                    "images":[
+			            "game_images/TalkingPoints/talkingpoints_1.webp",
+                        "game_images/TalkingPoints/talkingpoints_2.webp",
+                        "game_images/TalkingPoints/talkingpoints_3.webp",
+                        "game_images/TalkingPoints/talkingpoints_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp7/talkingpoints.zip",
+                    "version":"1.0.1"
+                },
+                "patchs":[
+                ]
+            },
+            {
                 "id":"blatherround",
-                "name":"Blather Round",
+                "name":"Blather 'Round",
                 "background":"game_backgrounds/BlatherRound.webp",
                 "path":"games/BlankyBlank",
                 "game_info":{
@@ -1740,12 +1875,12 @@
                     },
                     "length":"15 - 30 minutos",
                     "type":"VERSUS",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Faites deviner votre mot",
-                    "small_description":"Vous avez un mot. Il est simple à faire deviner mais vous êtes limité. Vous allez devoir vous aider des mots des autres joueurs pour leur faire deviner le votre",
-                    "description":"# C'est l'heure des devinettes\n\nVous allez devoir choisir un mot. Votre but : Le faire deviner aux autres joueurs. Mais vous avez accès à un vocabulaire limité pour pouvoir le faire deviner. Vous allez donc devoir vous aiderr de ce que disent les autres joueurs pour faire deviner votre propre mot",
+                    "translation":"ENGLISH",
+                    "tagline":"Adivinanzas alocadas",
+                    "small_description":"Adivinanzas alocadas",
+                    "description":"¡Un juego de adivinanzas sobre la cultura popular donde nada suena correcto! Es una buena experiencia llena de diversión.",
                     "images":[
-			"game_images/BlatherRound/blatherround_1.webp",
+			            "game_images/BlatherRound/blatherround_1.webp",
                         "game_images/BlatherRound/blatherround_2.webp",
                         "game_images/BlatherRound/blatherround_3.webp",
                         "game_images/BlatherRound/blatherround_4.webp"
@@ -1768,8 +1903,8 @@
     },
     {
         "id":"jpp8",
-        "name":"Jackbox Party Pack 8",
-        "description":"Le huitième party pack de Jackbox",
+        "name":"The Jackbox Party Pack 8",
+        "description":"El octavo paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 8.exe",
             "mac":"The Jackbox Party Pack 8.app/Contents/MacOS/The Jackbox Party Pack 8",
@@ -1779,10 +1914,102 @@
             "path":"loaders/tjpp8/default.zip",
             "version":"1.0.0"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp8_es",
+                    "name":"The Jackbox Party Pack 8 ES",
+                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "description":"",
+                    "version":"437.19-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
+                    "components":[
+                        {
+                            "id":"drawful_animate_patch",
+                            "linked_game":"drawful_animate",
+                            "name":"Drawful: Animado",
+                            "description":"",
+                            "authors":"Fixed Fun, Akira896, Artuhaxis y Pepe Pepo (traducción)\n* Akira896 (imágenes y SWFs)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"the_wheel_of_enormous_proportions_patch",
+                            "linked_game":"the_wheel_of_enormous_proportions",
+                            "name":"La Ruleta de Enormes Proporciones",
+                            "description":"",
+                            "authors":"* Ker (traducción principal)\n* Marti005, Artuhaxis y Akira896 (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (logo)\n* Neep y TheDarkSid3r (ayuda adicional)\n* Fixed Fun y Akira896 (canción de los créditos en español)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"jobjob_patch",
+                            "linked_game":"jobjob",
+                            "name":"Bajo Trabajo",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"thepollmine_patch",
+                            "linked_game":"thepollmine",
+                            "name":"The Poll Mine: Examinando opiniones",
+                            "description":"",
+                            "authors":"* Fukken Hanzel y Artuhaxis (traducción principal)\n* Akira896 y Pepe Pepo (traducción asistente)\n* Akira896 (imágenes y SWFs)\n* El Tristanlaker2582 (imagen adicional)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"weaponsdrawn_patch",
+                            "linked_game":"weaponsdrawn",
+                            "name":"Trazo del Crimen",
+                            "description":"",
+                            "authors":"* Fukken Hanzel (traducción)\n* Akira896 (SWFs)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
             {
                 "id":"drawful_animate",
-                "name":"DrawfulAnimate",
+                "name":"Drawful: Animado",
                 "background":"game_backgrounds/DrawfulAnimate.webp",
                 "path":"games/DrawfulAnimate",
                 "game_info":{
@@ -1793,9 +2020,9 @@
                     "length":"15 - 30 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Animez tout ça !",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¡Anímalo todo!",
+                    "small_description":"¡Anímalo todo!",
+                    "description":"El tercer juego de la serie Drawful permite a los jugadores crear dos imágenes correspondientes que dan lugar a un dinámico juego de adivinanzas pictóricas.",
                     "images":[
 						"game_images/DrawfulAnimate/drawfulanimate_1.webp",
                         "game_images/DrawfulAnimate/drawfulanimate_2.webp",
@@ -1817,7 +2044,7 @@
             },
             {
                 "id":"the_wheel_of_enormous_proportions",
-                "name":"The Wheel Of Enormous Proportions",
+                "name":"La Ruleta de Enormes Proporciones",
                 "background":"game_backgrounds/TheWheelOfEnormousProportions.webp",
                 "path":"games/TheWheel",
                 "game_info":{
@@ -1828,9 +2055,9 @@
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Tourner tout ça !",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "tagline":"¡Hazla girar!",
+                    "small_description":"¡Hazla girar!",
+                    "description":"Los conocimientos generales y el azar se combinan para crear un juego de trivia en el que todos tienen una oportunidad de conocer la respuesta definitiva.",
                     "images":[
 						"game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_1.webp",
                         "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_2.webp",
@@ -1852,7 +2079,7 @@
             },
             {
                 "id":"jobjob",
-                "name":"Job Job",
+                "name":"Bajo Trabajo",
                 "background":"game_backgrounds/JobJob.webp",
                 "path":"games/JobGame",
                 "game_info":{
@@ -1862,12 +2089,12 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Devenez le meilleur employé",
-                    "small_description":"C'est l'heure de l'interview. Parviendrez-vous à impressionner Mr Bubble, le patron, et décrocher le job ?",
-                    "description":"# L'interview approche...\n\n ... et vous êtes confrontés aux autres joueurs pour décrocher le job. Pour vous échauffer, vous allez devoir répondre à une question simple avec le plus de mots possible. Les mots dans votre réponse seront envoyés aux autres joueurs qui devront les utiliser pour répondre à leur seconde question ! C'est ensuite que les joueurs votent pour leur réponse préférée !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¿Serás el mejor empleado?",
+                    "small_description":"¿Serás el mejor empleado?",
+                    "description":"Un juego de comedia en el que tus chistes deben construirse a partir de palabras de otros jugadores en una mezcla de una entrevista de trabajo.",
                     "images":[
-			"game_images/JobJob/jobjob_1.webp",
+			            "game_images/JobJob/jobjob_1.webp",
                         "game_images/JobJob/jobjob_2.webp",
                         "game_images/JobJob/jobjob_3.webp",
                         "game_images/JobJob/jobjob_4.webp"
@@ -1882,29 +2109,12 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"jobjob_fr",
-                        "name":"Job Job FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Utilisez les mots des autres pour gagner des points",
-                        "authors":"Alexis",
-                        "version":"1.0.0_credits",
-                        "patch_path":"patchs/jobjob_1.0.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
                 "id":"thepollmine",
-                "name":"The Poll Mine",
-                "small_description":"Sortez de la caverne",
-                "description":"Répondez aux questions pour sortir de la caverne",
+                "name":"The Poll Mine: Examinando opiniones",
                 "background":"game_backgrounds/ThePollMine.webp",
                 "path":"games/SurveyBomb",
                 "game_info":{
@@ -1912,14 +2122,14 @@
                         "min":2,
                         "max":10
                     },
-                    "length":"Environ 15 minutos",
+                    "length":"Alrededor de 15 minutos",
                     "type":"TEAM",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Echappez-vous de la grotte",
-                    "small_description":"Les sondages sont puissants vous savez ? C'est le seul moyen pour vous de sortir de cette grotte. Alors jouez en équipe et trouvez les réponses de ces sondages dans l'ordre !",
-                    "description":"Bienvenue jeunes voyageurs, vous avez tenté de piller cette grotte mais vous vous êtes fait enfermés. La seule manière de sortir vivant avec votre équipe est de répondre à des sondages. Vous allez ensuite devoir retrouver le classement de ces sondages dans un ordre précis. L'équipe avec le plus de torches (ou celle qui ne se fait pas éliminée) gagne !",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Escapa de la cueva",
+                    "small_description":"Escapa de la cueva",
+                    "description":"¡Un juego de encuestas que es todo sobre TI! ¡Divídanse en equipos y vean quién puede escapar de la guarida de la bruja!",
                     "images":[
-			"game_images/PollMine/pollmine_1.webp",
+			            "game_images/PollMine/pollmine_1.webp",
                         "game_images/PollMine/pollmine_2.webp",
                         "game_images/PollMine/pollmine_3.webp",
                         "game_images/PollMine/pollmine_4.webp"
@@ -1935,27 +2145,12 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"thepollmine",
-                        "name":"[PREVIEW] The Poll Mine",
-                        "small_description":"[PREVIEW] Traduisez votre jeu en Français !",
-                        "description":"Le patch complet arrive bientôt. Vous pouvez toujours télécharger la preview mais gardez à l'esprit que la traduction n'est pas terminée. Avec cette preview, vous avez accès à 70 questions en français.",
-                        "authors":"Pachat, Alexis et fizzrocks",
-                        "version":"0.1.0_credits",
-                        "patch_path":"patchs/thepollmine_0.1.0.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":false,
-                            "website":true,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             },
             {
                 "id":"weaponsdrawn",
-                "name":"Weapons Drawn",
+                "name":"Trazo del Crimen",
                 "background":"game_backgrounds/WeaponsDrawn.webp",
                 "path":"games/MurderDetectives",
                 "game_info":{
@@ -1965,12 +2160,12 @@
                     },
                     "length":"20 - 40 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH_JBFR",
-                    "tagline":"Trouvez les tueurs",
-                    "small_description":"Effectuez des meurtres avec vos dessins et essayez d'en résoudre grâce à vos talents de détective dans ce jeu où se melle dessin et déduction",
-                    "description":"# Des meurtres à foison\n\nDans ce jeu, vous allez devoir dessiner vos propres armes pour pouvoir effectuer des meurtres sur vos cibles. Mais attention ! Ces armes contiennent une lettre que vous allez devoir cacher sous peine d'être repéré. Agissez vite pour tuer rapidement et observer bien pour trouver les meurtiers parmis vos camarades.",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Encuentra a los asesinos",
+                    "small_description":"Encuentra a los asesinos",
+                    "description":"Este juego de deducción social convierte un baile elegante en una batalla campal de asesinatos en la que tú eres a la vez un asesino artístico y un detective atento.",
                     "images":[
-			"game_images/WeaponsDrawn/weaponsdrawn_1.webp",
+			            "game_images/WeaponsDrawn/weaponsdrawn_1.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_2.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_3.webp",
                         "game_images/WeaponsDrawn/weaponsdrawn_4.webp"
@@ -1985,22 +2180,7 @@
                     "version":"1.0.0"
                 },
                 "patchs":[
-                    {
-                        "id":"weaponsdrawn_fr",
-                        "name":"Weapon's Drawn FR",
-                        "small_description":"Traduisez votre jeu en Français !",
-                        "description":"Traduisez votre jeu en français avec ce patch !",
-                        "authors":"MisterShaokahn#0765",
-                        "version":"1.0.1_credits",
-                        "patch_path":"patchs/weaponsdrawn_1.0.1.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":false,
-                            "game_subtitles":false,
-                            "website":false,
-                            "audios":false
-                        }
-                    }
+                    
                 ]
             }
         ],
@@ -2010,7 +2190,7 @@
     {
         "id":"jpp9",
         "name":"The Jackbox Party Pack 9",
-        "description":"El primer paquete de fiestas de Jackbox",
+        "description":"El noveno paquete de fiestas de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Pack 9.exe",
             "mac":"The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
@@ -2029,83 +2209,83 @@
                 "id":"jpp9_es",
                 "name":"The Jackbox Party Pack 9",
                 "small_description":"¡Cambia los dominios a Jackbox.lol!",
-                "description":"Este juego ya se encuentra oficialmente traducido al español latino, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas!",
+                "description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
                 "version":"653.2-ES",
-		"patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
                 "components":[
                     {
-                        "id":"fibbage4_test_patch",
+                        "id":"fibbage4_patch",
                         "linked_game":"fibbage4",
                         "name":"Fibbage 4",
                         "description":"",
                         "authors":"",
-                        "small_description":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
                         "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":false,
+                            "audios":false
                         }
                     },
 		    {
-                        "id":"roomerang_test_patch",
+                        "id":"roomerang_patch",
                         "linked_game":"roomerang",
                         "name":"Roomerang",
                         "description":"",
                         "authors":"",
-                        "small_description":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
                         "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":false,
+                            "audios":false
                         }
                     },
 		    {
-                        "id":"junktopia_test_patch",
+                        "id":"junktopia_patch",
                         "linked_game":"junktopia",
                         "name":"Junktopia",
                         "description":"",
                         "authors":"",
-                        "small_description":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
                         "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":false,
+                            "audios":false
                         }
                     },
 		    {
-                        "id":"nonsensory_test_patch",
+                        "id":"nonsensory_patch",
                         "linked_game":"nonsensory",
                         "name":"Nonsensory",
-                        "description":"Nonsensory",
+                        "description":"",
                         "authors":"",
-                        "small_description":"Nonsensory",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
                         "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":false,
+                            "audios":false
                         }
                     },
 		    {
-                        "id":"quixort_test_patch",
+                        "id":"quixort_patch",
                         "linked_game":"quixort",
                         "name":"Quixort",
                         "description":"",
-                        "authors":"Test",
-                        "small_description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
                         "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":false,
+                            "audios":false
                         }
                     }
                 ]
@@ -2125,12 +2305,12 @@
                     },
                     "length":"20 minutos",
                     "type":"VERSUS",
-                    "translation":"SPANISH",
-                    "tagline":"Bluffez vos amis",
-                    "small_description":"Bienvenue dans Fibbage 4, le jeu où vous allez devoir mentir et faire tomber des personnes dans le panneau pour gagner des points.",
-                    "description":"# Fibbage quatre...\n\n Dans fibbage 4, vous allez devoir compléter des anecdotes. Chaque joueur va devoir imaginer une réponse à l'anecdote. En seconde partie, les réponses de chaque joueur sont montrées ainsi que la **vraie** réponse ! Le but est de trouver la vérité sans tomber sur les réponses adverses.\n\nEn plus des anecdotes classiques, vous trouverez aussi des anecdotes sous format vidéo et le Fibbage final ou vous devrez remplir 2 anecdotes en même temps.\n\nQui sera le meilleur menteur ?",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sé el mejor mentiroso",
+                    "small_description":"Sé el mejor mentiroso",
+                    "description":"El hilarante juego de mentiras regresa con un nuevo Fibbage Final, episodios temáticos, preguntas con video, preguntas enviadas por fanáticos y el modo Fibbage Enough About You.",
                     "images":[
-			"game_images/Fibbage4/fibbage4_1.jpg",
+			            "game_images/Fibbage4/fibbage4_1.jpg",
                         "game_images/Fibbage4/fibbage4_2.jpg",
                         "game_images/Fibbage4/fibbage4_3.jpg",
                         "game_images/Fibbage4/fibbage4_4.jpg"
@@ -2159,12 +2339,12 @@
                     },
                     "length":"25 - 35 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Saurez-vous gagner Roomerang",
-                    "small_description":"C'est le moment de vous faire connaitre ! Rejoignez la télé-réalité Roomerang et éliminé vos adversaires un à un jusqu'à ce qu'une seule personne soit vainqueur.",
-                    "description":"Bienvenue dans Roomerang\n\nIci, vous devez vous batailler pour la victoire. Vous avez chacun un petit détail sur vous. Que ce soit livreur de pizza, jardinier en herbe ou pro de l'escalade, vous avez les talents pour gagner la partie et éliminer tout le monde sur votre passage.",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"La casa de los regresos",
+                    "small_description":"La casa de los regresos",
+                    "description":"¡Canaliza a tu estrella de telerrealidad interior en un intento de estar por encima de tus compañeros de juego! Responde a las indicaciones, trae a la competencia y representa un papel para evitar ser eliminado. No temas, ¡incluso cuando estés fuera te encontrarás de vuelta en el drama!",
                     "images":[
-			"game_images/Roomerang/roomerang_1.jpg",
+			            "game_images/Roomerang/roomerang_1.jpg",
                         "game_images/Roomerang/roomerang_2.jpg",
                         "game_images/Roomerang/roomerang_3.jpg",
                         "game_images/Roomerang/roomerang_4.jpg"
@@ -2194,12 +2374,12 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Vendez vos objets",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Vende tus artículos",
+                    "small_description":"Vende tus artículos",
+                    "description":"¡Un extraño mago te ha convertido en una rana! Crea divertidas historias de fondo para objetos extraños y luego haz que tus compañeros de juego los evalúen. Más votos equivalen a más valor y luego ¡puf! ¡Eres un humano otra vez!",
                     "images":[
-			"game_images/Junktopia/junktopia_1.jpg",
+			            "game_images/Junktopia/junktopia_1.jpg",
                         "game_images/Junktopia/junktopia_2.jpg",
                         "game_images/Junktopia/junktopia_3.jpg",
                         "game_images/Junktopia/junktopia_4.jpg"
@@ -2229,12 +2409,12 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Partagez vos pensées",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Comparte tus pensamientos",
+                    "small_description":"Comparte tus pensamientos",
+                    "description":"¡La profesora Nanners está aquí para poner a prueba tu PNS (percepción no sensorial) en este juego de dibujo, escritura y adivinanzas! ¿Qué tan cerca puedes llegar a adivinar dónde se ubica el enunciado de otro jugador en la escala más tonta?",
                     "images":[
-			"game_images/Nonsensory/nonsensory_1.jpg",
+			            "game_images/Nonsensory/nonsensory_1.jpg",
                         "game_images/Nonsensory/nonsensory_2.jpg",
                         "game_images/Nonsensory/nonsensory_3.jpg",
                         "game_images/Nonsensory/nonsensory_4.jpg"
@@ -2264,12 +2444,12 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"TEAM",
-                    "translation":"FRENCH",
-                    "tagline":"Triez les blocs",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Ordena los bloques",
+                    "small_description":"Ordena los bloques",
+                    "description":"En esta fábrica de clasificación de trivia, ¡trabaja con tu equipo para clasificar las respuestas que caen en el orden correcto antes de que lleguen al suelo! O juega en el modo de un solo jugador y mira cuántos bloques puedes ordenar antes de llenarlos. ¡Es tan fácil como el A, C, B!",
                     "images":[
-			"game_images/Quixort/quixort_1.jpg",
+			            "game_images/Quixort/quixort_1.jpg",
                         "game_images/Quixort/quixort_2.jpg",
                         "game_images/Quixort/quixort_3.jpg",
                         "game_images/Quixort/quixort_4.jpg"
@@ -2295,8 +2475,8 @@
     
     {
         "id":"jpstarter",
-        "name":"Jackbox Party Starter",
-        "description":"La compilation de 3 jeux en français",
+        "name":"The Jackbox Party Starter",
+        "description":"El paquete de fiestas esencial de Jackbox",
         "executables":{
             "windows":"The Jackbox Party Starter.exe",
             "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
@@ -2306,6 +2486,68 @@
             "path":"loaders/tjpstarter/default.zip",
             "version":"1.0.0"
         },
+        "configuration":{
+            "file":"config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"jpp9_es",
+                    "name":"The Jackbox Party Pack 9",
+                    "small_description":"¡Cambia los dominios a Jackbox.lol!",
+                    "description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                    "version":"653.2-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
+                    "components":[
+                        {
+                            "id":"quiplash3_starter_patch",
+                            "linked_game":"quiplash3_starter",
+                            "name":"Quiplash 3",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"teeko_starter_patch",
+                            "linked_game":"teeko_starter",
+                            "name":"Tee K.O.",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"trivia_murder_party_2_starter_patch",
+                            "linked_game":"trivia_murder_party_2_starter",
+                            "name":"Trivia Murder Party 2",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
         "games":[
             {
                 "id":"quiplash3_starter",
@@ -2317,14 +2559,14 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 15 minutos",
+                    "length":"Alrededor de 15 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Soyez le plus drôle",
-                    "small_description":"C'est l'heure d'être drôle ! Epatez tous vos amis en répondant de la manière la plus marrante aux phrases farfelus de Quiplash 3.",
-                    "description":"# C'est l'heure de faire rire\n\n Vous allez recevoir une phrase. Essayez d'y répondre de la manière la plus drôle possible. Votre phrase sera face à celle d'un joueur et les autres votent pour leur préférée. Un jeu simple et efficace qui pourra vous faire rire pendant beaucoup de temps.",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La tricuela para el juego de fiesta de decir cualquier cosa! Responde los enunciados y haz reir a tus amigos... con suerte.",
                     "images":[
-			"game_images/Quiplash3/quiplash3_1.webp",
+			            "game_images/Quiplash3/quiplash3_1.webp",
                         "game_images/Quiplash3/quiplash3_2.webp",
                         "game_images/Quiplash3/quiplash3_3.webp",
                         "game_images/Quiplash3/quiplash3_4.webp"
@@ -2343,7 +2585,7 @@
             },
             {
                 "id":"teeko_starter",
-                "name":"Tee KO",
+                "name":"Tee K.O.",
                 "background":"game_backgrounds/TeeKO.webp",
                 "path":"games/AwShirt",
                 "game_info":{
@@ -2351,14 +2593,14 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Environ 30 minutos",
+                    "length":"Alrededor de 30 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Combattez vos tee-shirts",
-                    "small_description":"C'est l'heure d'être drôle ! Epatez tous vos amis en répondant de la manière la plus marrante aux phrases farfelus de Quiplash 3.",
-                    "description":"# C'est l'heure de faire rire\n\n Vous allez recevoir une phrase. Essayez d'y répondre de la manière la plus drôle possible. Votre phrase sera face à celle d'un joueur et les autres votent pour leur préférée. Un jeu simple et efficace qui pourra vous faire rire pendant beaucoup de temps.",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"¡Crea tus mejores camisetas!",
+                    "small_description":"¡Crea tus mejores camisetas!",
+                    "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
                     "images":[
-			"game_images/TeeKO/teeko_1.webp",
+			            "game_images/TeeKO/teeko_1.webp",
                         "game_images/TeeKO/teeko_2.webp",
                         "game_images/TeeKO/teeko_3.webp",
                         "game_images/TeeKO/teeko_4.webp"
@@ -2388,10 +2630,10 @@
                     },
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"FRENCH",
-                    "tagline":"Survivrez-vous à ce quiz ?",
-                    "small_description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
-                    "description":"Il n'y a pas encore de description pour ce jeu. Rejoignez le serveur Discord pour proposer la votre !",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"¿Sobrevivirás a esta trivia?",
+                    "small_description":"¿Sobrevivirás a esta trivia?",
+                    "description":"Un asesino serial está armando un juego absurdo de trivia desde su Hotel Asesino de la familia con la que vivía. ¿Podrás sobrevivir?",
                     "images":[
 						"game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
                         "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
