@@ -2496,8 +2496,8 @@
                     "name":"The Jackbox Party Pack 9",
                     "small_description":"¡Cambia los dominios a Jackbox.lol!",
                     "description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
-                    "version":"653.2-ES",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
+                    "version":"216.2-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
                     "components":[
                         {
                             "id":"quiplash3_starter_patch",
