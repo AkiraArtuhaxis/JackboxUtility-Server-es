@@ -1691,7 +1691,7 @@
                         },
                         {
                             "id":"champdup_patch",
-                            "linked_game":"talkingpoints",
+                            "linked_game":"champdup",
                             "name":"Champ'd Up: Batalla de Campeones",
                             "description":"",
                             "authors":"* Artuhaxis (traducción e imágenes)\n* Akira896 (traducción y archivos SWF)\n* Fixed Fun (logo)",
