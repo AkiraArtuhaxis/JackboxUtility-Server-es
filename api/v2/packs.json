@@ -2493,7 +2493,7 @@
             "patchs":[
                 {
                     "id":"jps_es",
-                    "name":"Traducción al Español Latino",
+                    "name":"Cambio de dominios a Jackbox.lol",
                     "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
                     "description":"",
                     "version":"216.2-ES",
