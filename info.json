@@ -10,5 +10,7 @@
             "api":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/api/v2/",
             "assets":"https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/assets"
         }
-    ]
+    ],
+    "controller":"jackbox.lol",
+    "languages":["es"]
 }

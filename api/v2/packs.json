@@ -36,6 +36,10 @@
         "id":"jpp1",
         "name":"The Jackbox Party Pack",
         "description":"El primer paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"331670",
+            "epic":"Feverfew"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack.exe",
             "mac":"The Jackbox Party Pack.app/Contents/MacOS/The Jackbox Party Pack",
@@ -275,6 +279,10 @@
         "id":"jpp2",
         "name":"The Jackbox Party Pack 2",
         "description":"El segundo paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"397460",
+            "epic":"Lilac"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 2.exe",
             "mac":"The Jackbox Party Pack 2.app/Contents/MacOS/The Jackbox Party Pack 2",
@@ -538,6 +546,10 @@
         "id":"jpp3",
         "name":"The Jackbox Party Pack 3",
         "description":"El tercer paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"434170",
+            "epic":"Orchid"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 3.exe",
             "mac":"The Jackbox Party Pack 3.app/Contents/MacOS/The Jackbox Party Pack 3",
@@ -801,6 +813,10 @@
         "id":"jpp4",
         "name":"The Jackbox Party Pack 4",
         "description":"El cuarto paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"610180",
+            "epic":"Snowdrop"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 4.exe",
             "mac":"The Jackbox Party Pack 4.app/Contents/MacOS/The Jackbox Party Pack 4",
@@ -1063,6 +1079,10 @@
         "id":"jpp5",
         "name":"The Jackbox Party Pack 5",
         "description":"El quinto paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"774461",
+            "epic":"Geranium"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 5.exe",
             "mac":"The Jackbox Party Pack 5.app/Contents/MacOS/The Jackbox Party Pack 5",
@@ -1349,6 +1369,10 @@
         "id":"jpp6",
         "name":"The Jackbox Party Pack 6",
         "description":"El sexto paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"1005300",
+            "epic":"Astrapia"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 6.exe",
             "mac":"The Jackbox Party Pack 6.app/Contents/MacOS/The Jackbox Party Pack 6",
@@ -1637,6 +1661,10 @@
         "id":"jpp7",
         "name":"The Jackbox Party Pack 7",
         "description":"El séptimo paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"1211630",
+            "epic":"7fb6ce95c6d04a44a55fef16ea0db4c9"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 7.exe",
             "mac":"The Jackbox Party Pack 7.app/Contents/MacOS/The Jackbox Party Pack 7",
@@ -1905,6 +1933,10 @@
         "id":"jpp8",
         "name":"The Jackbox Party Pack 8",
         "description":"El octavo paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"1552350",
+            "epic":"67003fc4eaa444608acf083a08dc907e"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 8.exe",
             "mac":"The Jackbox Party Pack 8.app/Contents/MacOS/The Jackbox Party Pack 8",
@@ -2191,6 +2223,10 @@
         "id":"jpp9",
         "name":"The Jackbox Party Pack 9",
         "description":"El noveno paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "steam":"1850960",
+            "epic":"ec6f77d356b247dc8d210850de8a3e2f"
+        },
         "executables":{
             "windows":"The Jackbox Party Pack 9.exe",
             "mac":"The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
@@ -2477,6 +2513,10 @@
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",
         "description":"El paquete de fiestas esencial de Jackbox",
+        "launchers_id":{
+            "steam":"1755580",
+            "epic":"dc6b83bf4b94436db882f770ed8d5257"
+        },
         "executables":{
             "windows":"The Jackbox Party Starter.exe",
             "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
@@ -2492,7 +2532,7 @@
         },
             "patchs":[
                 {
-                    "id":"jps_es",
+                    "id":"jpstarter_es",
                     "name":"Cambio de dominios a Jackbox.lol",
                     "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
                     "description":"",
