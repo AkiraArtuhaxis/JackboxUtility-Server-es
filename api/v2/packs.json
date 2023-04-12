@@ -616,7 +616,7 @@
                 {
                             "id":"fakinit_patch",
                             "linked_game":"fakinit",
-                            "name":"Engáñame",
+                            "name":"¡Engáñame!",
                             "description":"",
                             "authors":"Traducción\n* Artuhaxis (traducción)\n* Akira896 (SWFs)\n* Markmtz90 (imágenes)\n* Fixed Fun (logo)\nDoblaje\n* Fausto Serra (anfitrión)\n* Akira896 (supervisión del doblaje, adaptación a latino y recorte y ecualización de audios)\n* Artuhaxis (adaptación a latino y recorte y ecualización de audios)",
                             "small_description":"¡Juego traducido y doblado al español!",
@@ -743,7 +743,7 @@
             },
             {
                 "id":"fakinit",
-                "name":"Engáñame",
+                "name":"¡Engáñame!",
                 "background":"game_backgrounds/FakinIt.webp",
                 "path":"games/FakinIt",
                 "game_info":{
