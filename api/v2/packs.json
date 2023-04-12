@@ -48,7 +48,7 @@
             "patchs":[
                 {
                     "id":"jpp1_es",
-                    "name":"The Jackbox Party Pack ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee cuatro juegos traducidos al español. You Don't Know Jack 2015 aún no está traducido.",
                     "description":"",
                     "version":"20.10-ES",
@@ -89,7 +89,7 @@
                             "linked_game":"lieswatter",
                             "name":"Mata Mentiras",
                             "description":"",
-                            "authors":"* Fukken Hanzel (traducción principal)\n* Akira896 (SWF y logo)\nNicolaselzorro2 (traducción asistente)\n* TheDarkSid3r (imágenes adicionales)",
+                            "authors":"* Fukken Hanzel (traducción principal)\n* Akira896 (SWF y logo)\n* Nicolaselzorro2 (traducción asistente)\n* TheDarkSid3r (imágenes adicionales)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -287,7 +287,7 @@
             "patchs":[
                 {
                     "id":"jpp2_es",
-                    "name":"The Jackbox Party Pack 2 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. Earwax: Sonidos raros posee un doblaje latino.",
                     "description":"",
                     "version":"74.4-ES",
@@ -313,7 +313,7 @@
                             "linked_game":"earwax",
                             "name":"Earwax: Sonidos Raros",
                             "description":"",
-                            "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\n* Doblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
+                            "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\nDoblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
                             "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -343,7 +343,7 @@
                             "linked_game":"quiplashxl",
                             "name":"Quiplash XL",
                             "description":"",
-                            "authors":"Radioactive Man (usa sus aportes a la traducción de Quiplash 1)\n* Artuhaxis (traducción)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "authors":"* Radioactive Man (usa sus aportes a la traducción de Quiplash 1)\n* Artuhaxis (traducción)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -358,7 +358,7 @@
                             "linked_game":"bombcorp",
                             "name":"Bomba S.A.",
                             "description":"",
-                            "authors":"* Markmtz90 (traducción principal)\n* Akira896 (revisión)\n* Artuhaxis y TheDarkSid3r (ayuda adicional)\n* Fixed Fun (título)",
+                            "authors":"* Markmtz90\n* Akira896 (revisión)\n* Artuhaxis y TheDarkSid3r (ayuda adicional)\n* Fixed Fun (título)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -550,7 +550,7 @@
             "patchs":[
                 {
                     "id":"jpp3_es",
-                    "name":"The Jackbox Party Pack 3 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. ¡Engáñame! posee un doblaje latino.",
                     "description":"",
                     "version":"13.13-ES",
@@ -813,7 +813,7 @@
             "patchs":[
                 {
                     "id":"jpp4_es",
-                    "name":"The Jackbox Party Pack 4 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. Sobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico poseen un doblaje latino.",
                     "description":"",
                     "version":"134.16-ES",
@@ -854,7 +854,7 @@
                             "linked_game":"monsterseekingmonster",
                             "name":"Monstruo Busca Monstruo",
                             "description":"",
-                            "authors":"Traducción\nArtuhaxis y Akira896\n* Fixed Fun (logo)\nDoblaje\nRocío Benítez Blasco (anfitriona)\n* Eleiber (traducción del guion)\n* Artuhaxis (recorte y ecualización de audios)\n* Akira896 (suprevisión del doblaje, cantante, voz de marioneta y ecualización de audios)\n* Nahuel Guidi (cantante)",
+                            "authors":"Traducción\n* Artuhaxis y Akira896\n* Fixed Fun (logo)\nDoblaje\n* Rocío Benítez Blasco (anfitriona)\n* Eleiber (traducción del guion)\n* Artuhaxis (recorte y ecualización de audios)\n* Akira896 (suprevisión del doblaje, cantante, voz de marioneta y ecualización de audios)\n* Nahuel Guidi (cantante)",
                             "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -1079,7 +1079,7 @@
             "patchs":[
                 {
                     "id":"jpp5_es",
-                    "name":"The Jackbox Party Pack 5 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español. Zeeple Dome y Patentes Dementes poseen un doblaje latino.",
                     "description":"",
                     "version":"213.21-ES",
@@ -1365,7 +1365,7 @@
             "patchs":[
                 {
                     "id":"jpp6_es",
-                    "name":"The Jackbox Party Pack 6 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español.",
                     "description":"",
                     "version":"456.14-ES",
@@ -1421,7 +1421,7 @@
                             "linked_game":"dictionarium",
                             "name":"Diccionarium",
                             "description":"",
-                            "authors":"LucastuFett y Fenixhim272 (traducción)\n* Akira896 (traducción y archivos SWF)\n* Roxas (imágenes)\n* Fixed Fun (animaciones de los cronómetros)",
+                            "authors":"* LucastuFett y Fenixhim272 (traducción)\n* Akira896 (traducción y archivos SWF)\n* Roxas (imágenes)\n* Fixed Fun (animaciones de los cronómetros)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -1436,7 +1436,7 @@
                             "linked_game":"pushthebutton",
                             "name":"Pulsa el Botón",
                             "description":"",
-                            "authors":"Markmtz90 (traducción e imágenes)\n* Artuhaxis (asistencia)\n* Akira896 (asistencia y archivos SWF)\n* Fixed Fun (logo)",
+                            "authors":"* Markmtz90 (traducción e imágenes)\n* Artuhaxis (asistencia)\n* Akira896 (asistencia y archivos SWF)\n* Fixed Fun (logo)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -1653,7 +1653,7 @@
             "patchs":[
                 {
                     "id":"jpp7_es",
-                    "name":"The Jackbox Party Pack 7 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee cuatro juegos traducidos al español. Blather 'Round aún no está traducido. Talking Points cuenta con doblaje latino.",
                     "description":"",
                     "version":"561.14-ES",
@@ -1664,7 +1664,7 @@
                             "linked_game":"quiplash3",
                             "name":"Quiplash 3",
                             "description":"",
-                            "authors":"Brody, Suukiro y Fukken Hanzel (traducción principal)\n* Akira896, Tejas, Artuhaxis y Fenixhim272 (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "authors":"* Brody, Suukiro y Fukken Hanzel (traducción principal)\n* Akira896, Tejas, Artuhaxis y Fenixhim272 (traducción asistente)\n* Fixed Fun (imágenes)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -1921,7 +1921,7 @@
             "patchs":[
                 {
                     "id":"jpp8_es",
-                    "name":"The Jackbox Party Pack 8 ES",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este paquete posee todos sus juegos traducidos al español.",
                     "description":"",
                     "version":"437.19-ES",
@@ -1932,7 +1932,7 @@
                             "linked_game":"drawful_animate",
                             "name":"Drawful: Animado",
                             "description":"",
-                            "authors":"Fixed Fun, Akira896, Artuhaxis y Pepe Pepo (traducción)\n* Akira896 (imágenes y SWFs)",
+                            "authors":"* Fixed Fun, Akira896, Artuhaxis y Pepe Pepo (traducción)\n* Akira896 (imágenes y SWFs)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -2207,7 +2207,7 @@
         "patchs":[
             {
                 "id":"jpp9_es",
-                "name":"The Jackbox Party Pack 9",
+                "name":"Cambio de dominios a Jackbox.lol",
                 "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
                 "description":"",
                 "version":"653.2-ES",
@@ -2492,8 +2492,8 @@
         },
             "patchs":[
                 {
-                    "id":"jpp9_es",
-                    "name":"The Jackbox Party Pack 9",
+                    "id":"jps_es",
+                    "name":"Traducción al Español Latino",
                     "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
                     "description":"",
                     "version":"216.2-ES",
