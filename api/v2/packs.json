@@ -62,7 +62,7 @@
                 {
                     "id":"jpp1_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee cuatro juegos traducidos al español. You Don't Know Jack 2015 aún no está traducido.",
+                    "small_description":"You Don't Know Jack 2015 no está traducido.",
                     "description":"",
                     "version":"Build:  20.10-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
@@ -305,7 +305,7 @@
                 {
                     "id":"jpp2_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Earwax: Sonidos raros posee un doblaje latino.",
+                    "small_description":"Pack 100% traducido. Earwax: Sonidos Raros cuenta con doblaje latino.",
                     "description":"",
                     "version":"74.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
@@ -572,7 +572,7 @@
                 {
                     "id":"jpp3_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español. ¡Engáñame! posee un doblaje latino.",
+                    "small_description":"Pack 100% traducido. ¡Engáñame! cuenta con doblaje latino.",
                     "description":"",
                     "version":"Build:  13.13-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
@@ -839,7 +839,7 @@
                 {
                     "id":"jpp4_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Sobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico poseen un doblaje latino.",
+                    "small_description":"Pack 100% traducido. Sobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico poseen un doblaje latino.",
                     "description":"",
                     "version":"Build:  134.16-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
@@ -1109,7 +1109,7 @@
                 {
                     "id":"jpp5_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español. Zeeple Dome y Patentes Dementes poseen un doblaje latino.",
+                    "small_description":"Pack 100% traducido. Zeeple Dome y Patentes Dementes cuentan con doblaje latino.",
                     "description":"",
                     "version":"Build:  213.21-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
@@ -1399,7 +1399,7 @@
                 {
                     "id":"jpp6_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "small_description":"Pack 100% traducido.",
                     "description":"",
                     "version":"Build:  456.14-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
@@ -1691,7 +1691,7 @@
                 {
                     "id":"jpp7_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee cuatro juegos traducidos al español. Blather 'Round aún no está traducido. Talking Points cuenta con doblaje latino.",
+                    "small_description":"Blather 'Round no está traducido. Talking Points cuenta con doblaje latino.",
                     "description":"",
                     "version":"561.14-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
@@ -1963,7 +1963,7 @@
                 {
                     "id":"jpp8_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este paquete posee todos sus juegos traducidos al español.",
+                    "small_description":"Pack 100% traducido.",
                     "description":"",
                     "version":"437.19-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
@@ -2253,7 +2253,7 @@
             {
                 "id":"jpp9_es",
                 "name":"Cambio de dominios a Jackbox.lol",
-                "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                "small_description":"Pack localizado oficialmente en latino. Este parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
                 "version":"653.2-ES",
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
@@ -2543,7 +2543,7 @@
                 {
                     "id":"jpstarter_es",
                     "name":"Cambio de dominios a Jackbox.lol",
-                    "small_description":"Este juego ya se encuentra oficialmente traducido al español, ¡pero con este parche puedes cambiar los dominios a Jackbox.lol si lo deseas! También realiza algunas correcciones menores.",
+                    "small_description":"Pack localizado oficialmente en latino. Este parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
                     "version":"216.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
