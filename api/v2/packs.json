@@ -2259,7 +2259,7 @@
             {
                 "id":"jpp9_es",
                 "name":"Cambio de dominios a Jackbox.lol",
-                "small_description":"Pack localizado oficialmente en latino.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
                 "version":"653.2-ES",
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
@@ -2549,7 +2549,7 @@
                 {
                     "id":"jpstarter_es",
                     "name":"Cambio de dominios a Jackbox.lol",
-                    "small_description":"Pack localizado oficialmente en latino.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                    "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
                     "version":"216.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
@@ -2811,7 +2811,7 @@
                 {
                     "id":"quip_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado)",
+                    "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
                     "version":"23.1-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES.zip",
@@ -2837,7 +2837,7 @@
                 {
                     "id":"quip_spa",
                     "name":"Traducción al Español Castellano",
-                    "small_description":"Juego 100% traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado)",
+                    "small_description":"Juego 100% traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
                     "version":"23.1-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-SPAIN.zip",
@@ -2917,7 +2917,7 @@
                 {
                     "id":"quip2int_es",
                     "name":"Adaptación al Español Latino",
-                    "small_description":"Juego adaptado al español latino.\nAdaptado solo de manera textual (no incluye doblaje latino).",
+                    "small_description":"Juego adaptado al español latino.\nAdaptado solo de manera textual (no cuenta con doblaje latino).",
                     "description":"",
                     "version":"141.3-LAT",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-LAT.zip",
@@ -3228,7 +3228,7 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3308,14 +3308,14 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
                 {
                     "id":"wtd_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Juego traducido al español.",
+                    "small_description":"Juego 100% traducido.",
                     "description":"",
                     "version":"20.3-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES.zip",
@@ -3414,14 +3414,14 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
                 {
                     "id":"rttg_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Juego traducido al español.",
+                    "small_description":"Juego 100% traducido.",
                     "description":"",
                     "version":"17.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/RiffTrax-The-Game-Spanish/releases/latest/download/RTTG-ES.zip",
