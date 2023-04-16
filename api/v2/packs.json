@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip_es"]
+	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip2int_es","df2_es","df2_es_egs","uyw_es","wtd_es","rttg_es"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip_es"]
+	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","uyw_es","wtd_es_spain","rttg_es"]
 	}
     ],
     "packs":[
@@ -3111,7 +3111,7 @@
     },
     {
         "id":"df2_egs",
-        "name":"Drawful 2",
+        "name":"Drawful 2 [EGS]",
         "description":"¡Dibuja mal con estilo!",
         "launchers_id":{
             "epic":"Daisy"
@@ -3154,7 +3154,7 @@
                 },
                 {
                     "id":"df2_es_egs_spain",
-                    "name":"Traducción al Español Latino",
+                    "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nIncluye un doblaje castellano completo.",
                     "description":"",
                     "version":"6.1-SPA",
