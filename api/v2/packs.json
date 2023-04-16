@@ -3162,7 +3162,7 @@
                     "components":[
                 {
                             "id":"drawful_2_egs_spain_patch",
-                            "linked_game":"drawful_2",
+                            "linked_game":"drawful_2_egs",
                             "name":"Drawful 2",
                             "description":"",
                             "authors":"",
@@ -3181,7 +3181,7 @@
             ],
         "games":[
             {
-                "id":"drawful_2",
+                "id":"drawful_2_egs",
                 "name":"Drawful 2",
                 "background":"game_backgrounds/Drawful2EGS.webp",
                 "path":"",
@@ -3192,7 +3192,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
-                    "translation":"NATIVELY_TRANSLATED",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Dibuja mal con estilo!",
                     "small_description":"¡Dibuja mal con estilo!",
                     "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
