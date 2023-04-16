@@ -3181,7 +3181,7 @@
             ],
         "games":[
             {
-                "id":"drawful2",
+                "id":"drawful_2",
                 "name":"Drawful 2",
                 "background":"game_backgrounds/Drawful2.webp",
                 "path":"",
