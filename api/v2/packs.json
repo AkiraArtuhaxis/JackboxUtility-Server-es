@@ -405,7 +405,7 @@
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Que gane el mejor mentiroso!",
                     "small_description":"¡Que gane el mejor mentiroso!",
-                    "description":"Bienvenido a Bomba S.A. Los internos como tú deben ayudar a desactivar bombas en nuestra oficina. Es una oficina rara, llena de bombas. Empecemos.",
+                    "description":"¡Más Fibbage! Miente a tus amigos, evita sus mentiras, y descubre la verdad. “En Arizona, necesitas permiso para poder darle ______ a cerdos.” ¡Ya!",
                     "images":[
 						"game_images/Fibbage2/fibbage2_1.webp",
                         "game_images/Fibbage2/fibbage2_2.webp",
@@ -2379,7 +2379,7 @@
                 "path":"games/MakeFriends",
                 "game_info":{
                     "players":{
-                        "min":3,
+                        "min":4,
                         "max":9
                     },
                     "length":"25 - 35 minutos",
@@ -2705,6 +2705,85 @@
         ],
         "icon":"jpstarter.ico",
         "background":"backgrounds/jpstarter.jpg"
+    },
+    {
+        "id":"fbxl",
+        "name":"Fibbage XL",
+        "description":"¡Que gane el mejor mentiroso!",
+        "launchers_id":{
+            "steam":"448080"
+        },
+        "executables":{
+            "windows":"Fibbage XL.exe",
+            "mac":"Fibbage XL.app/Contents/MacOS/Fibbage XL",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"fbxl_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego 100% traducido.",
+                    "description":"",
+                    "version":"22.4-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Fibbage-XL-Spanish/releases/latest/download/FBXL-ES.zip",
+                    "components":[
+                {
+                            "id":"fibbagexl_standalone_patch",
+                            "linked_game":"fibbagexl_standalone_patch",
+                            "name":"Fibbage XL",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"fibbagexl_standalone",
+                "name":"Fibbage XL",
+                "background":"game_backgrounds/FibbageXL.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":2,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Que gane el mejor mentiroso!",
+                    "small_description":"¡Que gane el mejor mentiroso!",
+                    "description":"Engaña amigos con mentiras, evita las de ellos, y encuentra la (usualmente fea) verdad. “El alcalde de Rabbit Hash, Kentucky, es un ____”. ¡Ya!",
+                    "images":[
+						"game_images/FibbageXL/fibbagexl_1.webp",
+                        "game_images/FibbageXL/fibbagexl_2.webp",
+                        "game_images/FibbageXL/fibbagexl_3.webp"
+                    ],
+                    "tags":[
+                        "knowledge", "writing","drawing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"fbxl.ico",
+        "background":"backgrounds/fbxl.jpg"
     }
 
 ]
