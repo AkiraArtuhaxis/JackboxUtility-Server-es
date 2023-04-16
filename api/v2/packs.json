@@ -4,7 +4,7 @@
             "id":"talking",
             "name":"Discusión",
             "icon":"action_center",
-            "description":"Juegos que requieren discusión entre jugadores para avanzar en el juego."
+            "description":"Juegos que requieren o se benefician de discusión en voz alta entre los jugadores."
        },
        {
        	    "id":"drawing",
@@ -20,9 +20,9 @@
        },
        {
        	    "id":"deduction",
-            "name":"Deducción",
+            "name":"Estrategia",
             "icon":"comment_urgent",
-            "description":"Estos son juegos de deducción social."
+            "description":"Tendrás que pensar bien tus acciones en estos juegos."
        },
        {
        	    "id":"knowledge",
@@ -189,7 +189,8 @@
                         "game_images/Drawful/drawful_2.webp"
                     ],
                     "tags":[
-                    	"drawing"
+                    	"drawing",
+                        "writing"
                     ]
 
                 },
@@ -277,8 +278,7 @@
                         "game_images/FibbageXL/fibbagexl_3.webp"
                     ],
                     "tags":[
-                    	"writing",
-                    	"knowledge"
+                    	"writing","knowledge"
                     ]
 
                 },
@@ -748,7 +748,7 @@
                         "game_images/Guesspionage/guesspionage_4.webp"
                     ],
                     "tags":[
-                    	"deduction"
+                    	"knowledge"
                     ]
 
                 },
@@ -767,7 +767,7 @@
                         "max":6
                     },
                     "length":"15 - 20 minutos",
-                    "type":"VERSUS",
+                    "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Encuentra al impostor escurridizo",
                     "small_description":"Encuentra al impostor escurridizo",
@@ -1016,7 +1016,8 @@
                         "game_images/MonsterSeekingMonster/monsterseekingmonster_4.webp"
                     ],
                     "tags":[
-                        "writing"
+                        "writing",
+                        "deduction"
                     ]
 
                 },
@@ -1258,7 +1259,8 @@
                         "game_images/SplitTheRoom/splittheroom_4.webp"
                     ],
                     "tags":[
-                        "writing"
+                        "writing",
+                        "deduction"
                     ]
 
                 },
@@ -1364,7 +1366,8 @@
                     ],
                     "tags":[
                         "talking",
-                        "writing"
+                        "writing",
+                        "drawing"
                     ]
 
                 },
@@ -1513,7 +1516,7 @@
                         "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
                     ],
                     "tags":[
-                        "knowledge", "writing","drawing"
+                        "knowledge"
                     ]
 
                 },
@@ -1548,6 +1551,7 @@
                         "game_images/RoleModels/rolemodels_4.webp"
                     ],
                     "tags":[
+                        "writing",
                         "talking"
                     ]
 
@@ -1583,7 +1587,8 @@
                         "game_images/JokeBoat/jokeboat_4.webp"
                     ],
                     "tags":[
-                        "writing"
+                        "writing",
+                        "talking"
                     ]
 
                 },
@@ -1825,7 +1830,7 @@
                     ],
                     "tags":[
                         "talking",
-                        "writing"
+                        "deduction"
                     ]
 
                 },
@@ -1917,7 +1922,7 @@
                         "max":6
                     },
                     "length":"15 - 30 minutos",
-                    "type":"VERSUS",
+                    "type":"COOP",
                     "translation":"ENGLISH",
                     "tagline":"Adivinanzas alocadas",
                     "small_description":"Adivinanzas alocadas",
@@ -1929,7 +1934,7 @@
                         "game_images/BlatherRound/blatherround_4.webp"
                     ],
                     "tags":[
-                        "writing"
+                        "knowledge","writing","talking"
                     ]
 
                 },
@@ -2077,7 +2082,8 @@
                         "game_images/DrawfulAnimate/drawfulanimate_4.webp"
                     ],
                     "tags":[
-                        "drawing"
+                        "drawing",
+                        "writing"
                     ]
 
                 },
@@ -2112,7 +2118,7 @@
                         "game_images/TheWheelOfEnormousProportions/thewheelofenormousproportions_4.webp"
                     ],
                     "tags":[
-                        "drawing"
+                        "knowledge"
                     ]
 
                 },
@@ -2183,7 +2189,7 @@
                     ],
                     "tags":[
                         "talking",
-                        "writing"
+                        "deduction"
                     ]
 
                 },
@@ -2206,7 +2212,7 @@
                         "max":8
                     },
                     "length":"20 - 40 minutos",
-                    "type":"VERSUS",
+                    "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Encuentra a los asesinos",
                     "small_description":"Encuentra a los asesinos",
@@ -2218,7 +2224,7 @@
                         "game_images/WeaponsDrawn/weaponsdrawn_4.webp"
                     ],
                     "tags":[
-                        "talking","drawing","writing"
+                        "talking","drawing","writing","deduction"
                     ]
 
                 },
@@ -2367,7 +2373,7 @@
                         "game_images/Fibbage4/fibbage4_4.jpg"
                     ],
                     "tags":[
-                        "writing"
+                        "writing","knowledge"
                     ]
 
                 },
@@ -2436,7 +2442,8 @@
                         "game_images/Junktopia/junktopia_4.jpg"
                     ],
                     "tags":[
-                        "writing"
+                        "writing",
+                        "talking"
                     ]
 
                 },
@@ -2506,7 +2513,7 @@
                         "game_images/Quixort/quixort_4.jpg"
                     ],
                     "tags":[
-                        "talking", "knowledge"
+                        "talking","knowledge"
                     ]
 
                 },
@@ -2661,8 +2668,8 @@
                         "game_images/TeeKO/teeko_4.webp"
                     ],
                     "tags":[
-                        "writing",
-                        "drawing"
+                    	"drawing",
+                    	"writing"
                     ]
 
                 },
@@ -2696,7 +2703,7 @@
                         "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
                     ],
                     "tags":[
-                        "knowledge", "writing","drawing"
+                        "knowledge"
                     ]
 
                 },
@@ -2779,7 +2786,7 @@
                         "game_images/FibbageXL/fibbagexl_3.webp"
                     ],
                     "tags":[
-                        "knowledge", "writing","drawing"
+                        "knowledge","writing"
                     ]
 
                 },
@@ -3097,7 +3104,8 @@
                         "game_images/Drawful2/drawful2_4.webp"
                     ],
                     "tags":[
-                    	"writing"
+                    	"drawing",
+                        "writing"
                     ]
 
                 },
@@ -3203,7 +3211,8 @@
                         "game_images/Drawful2/drawful2_4.webp"
                     ],
                     "tags":[
-                    	"writing"
+                    	"drawing",
+                        "writing"
                     ]
 
                 },
