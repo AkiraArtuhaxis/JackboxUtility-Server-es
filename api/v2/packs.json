@@ -37,7 +37,7 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es"]
+	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es"]
 	}
     ],
     "packs":[
@@ -2733,7 +2733,7 @@
                     "components":[
                 {
                             "id":"fibbagexl_standalone_patch",
-                            "linked_game":"fibbagexl_standalone_patch",
+                            "linked_game":"fibbagexl_standalone",
                             "name":"Fibbage XL",
                             "description":"",
                             "authors":"",
