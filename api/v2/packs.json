@@ -178,7 +178,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Qué $#&! dibujaste?",
@@ -438,7 +438,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"La competencia de sonidos",
@@ -469,7 +469,7 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Hora de subastar",
@@ -529,7 +529,7 @@
                         "min":1,
                         "max":4
                     },
-                    "length":"10 - 30 minutos",
+                    "length":"5 - 10 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Explotación laboral",
@@ -673,7 +673,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Sé el más divertido",
@@ -798,7 +798,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Crea tus mejores camisetas!",
@@ -972,7 +972,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Inicia sesión y diviértete!",
@@ -1003,7 +1003,7 @@
                         "min":3,
                         "max":7
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Incluso los monstruos pueden amar",
@@ -1035,7 +1035,7 @@
                         "min":3,
                         "max":16
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Participa en el Torneo Interestelar",
@@ -1066,7 +1066,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Combina tus diseños",
@@ -1246,7 +1246,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Crea tus mejores dilemas",
@@ -1282,7 +1282,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Es hora de rapear",
@@ -1317,7 +1317,7 @@
                         "min":1,
                         "max":6
                     },
-                    "length":"10 minutos o más",
+                    "length":"10 - 15 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"El combate espacial",
@@ -1352,7 +1352,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Crea tus propios inventos!",
@@ -1503,7 +1503,7 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Sobrevivirás a esta trivia?",
@@ -1538,7 +1538,7 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Quién eres?",
@@ -1574,7 +1574,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Haz reír a tus amigos",
@@ -1610,7 +1610,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"10 minutos",
+                    "length":"10 - 15 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Inventa palabras",
@@ -1782,7 +1782,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Sé el más divertido",
@@ -1816,7 +1816,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 15 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Haz tus tareas!",
@@ -1851,7 +1851,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 20 minutos",
+                    "length":"20 - 25 minutos",
                     "translation":"COMMUNITY_TRANSLATED",
                     "type":"VERSUS",
                     "tagline":"El combate de diseños",
@@ -1886,7 +1886,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"20 - 40 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Charlas locas",
@@ -1921,7 +1921,7 @@
                         "min":2,
                         "max":6
                     },
-                    "length":"15 - 30 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"COOP",
                     "translation":"ENGLISH",
                     "tagline":"Adivinanzas alocadas",
@@ -2069,7 +2069,7 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"15 - 30 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Anímalo todo!",
@@ -2140,7 +2140,7 @@
                         "min":3,
                         "max":10
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Serás el mejor empleado?",
@@ -2175,7 +2175,7 @@
                         "min":2,
                         "max":10
                     },
-                    "length":"Alrededor de 15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"TEAM",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Escapa de la cueva",
@@ -2211,7 +2211,7 @@
                         "min":4,
                         "max":8
                     },
-                    "length":"20 - 40 minutos",
+                    "length":"20 - 30 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Encuentra a los asesinos",
@@ -2360,7 +2360,7 @@
                         "min":2,
                         "max":8
                     },
-                    "length":"20 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"¡Que gane el mejor mentiroso!",
@@ -2394,7 +2394,7 @@
                         "min":4,
                         "max":9
                     },
-                    "length":"25 - 35 minutos",
+                    "length":"25 - 30 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"La casa de los regresos",
@@ -2429,7 +2429,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"Vende tus artículos",
@@ -2465,7 +2465,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"Comparte tus pensamientos",
@@ -2500,7 +2500,7 @@
                         "min":1,
                         "max":10
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"TEAM",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"Ordena los bloques",
@@ -2621,7 +2621,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 15 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"Sé el más divertido",
@@ -2655,7 +2655,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"Alrededor de 30 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"¡Crea tus mejores camisetas!",
@@ -2690,7 +2690,7 @@
                         "min":1,
                         "max":8
                     },
-                    "length":"15 - 25 minutos",
+                    "length":"15 - 20 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"¿Sobrevivirás a esta trivia?",
@@ -3091,7 +3091,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
                     "tagline":"¡Dibuja mal con estilo!",
@@ -3198,7 +3198,7 @@
                         "min":3,
                         "max":8
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Dibuja mal con estilo!",
@@ -3279,7 +3279,7 @@
                         "min":3,
                         "max":6
                     },
-                    "length":"15 - 20 minutos",
+                    "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Fiesta de palabras",
