@@ -145,7 +145,7 @@
                 "game_info":{
                     "players":{
                         "min":1,
-                        "max":8
+                        "max":4
                     },
                     "length":"15 - 20 minutos",
                     "type":"VERSUS",
@@ -2096,7 +2096,7 @@
                 "path":"games/TheWheel",
                 "game_info":{
                     "players":{
-                        "min":3,
+                        "min":2,
                         "max":8
                     },
                     "length":"15 - 25 minutos",
@@ -2351,7 +2351,7 @@
                 "path":"games/Fibbage4",
                 "game_info":{
                     "players":{
-                        "min":3,
+                        "min":2,
                         "max":8
                     },
                     "length":"20 minutos",
