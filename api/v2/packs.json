@@ -3136,7 +3136,7 @@
                     "components":[
                 {
                             "id":"drawful_2_egs_patch",
-                            "linked_game":"drawful_2",
+                            "linked_game":"drawful_2_egs",
                             "name":"Drawful 2",
                             "description":"",
                             "authors":"Adaptación\n* Akira896\nDoblaje\n* Camila Iriart (anfitriona)\n* Akira896 y Fixed Fun (adaptación del guion)\n* Akira896 (recorte y ecualización de audios, supervisión y voz adicional)",
