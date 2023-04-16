@@ -36,8 +36,14 @@
     	{
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
-	    "smallDescription":"¡Traduce los juegos al español latino!",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es"]
+	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
+	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip_es"]
+	},
+    {
+	    "id":"spanish_spain_patchs",
+	    "name":"Traducción al Español Castellano",
+	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
+	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip_es"]
 	}
     ],
     "packs":[
@@ -2784,6 +2790,696 @@
         ],
         "icon":"fbxl.ico",
         "background":"backgrounds/fbxl.jpg"
+    },
+    {
+        "id":"quip",
+        "name":"Quiplash",
+        "description":"Sé el más divertido",
+        "launchers_id":{
+            "steam":"351510"
+        },
+        "executables":{
+            "windows":"Quiplash.exe",
+            "mac":"Quiplash.app/Contents/MacOS/Quiplash",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"quip_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado)",
+                    "description":"",
+                    "version":"23.1-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES.zip",
+                    "components":[
+                {
+                            "id":"quiplash_patch",
+                            "linked_game":"quiplash",
+                            "name":"Quiplash",
+                            "description":"",
+                            "authors":"* Radioactive Man (traducción principal)\n* Artuhaxis (traducción asistente)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"quip_spa",
+                    "name":"Traducción al Español Castellano",
+                    "small_description":"Juego 100% traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado)",
+                    "description":"",
+                    "version":"23.1-SPA",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-SPAIN.zip",
+                    "components":[
+                {
+                            "id":"quiplash_patch_spain",
+                            "linked_game":"quiplash",
+                            "name":"Quiplash",
+                            "description":"",
+                            "authors":"* hectorflipi (traducción y doblaje)\n* lau_fleur (traducción)\n* exviolinista13 (traducción)\n* Akira896 (SWFs e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"quiplash",
+                "name":"Quiplash",
+                "background":"game_backgrounds/Quiplash.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La pelea de ingenios e ingeniosidad llena de risas en su forma más GRANDE! ¡Inventa “el mejor nombre para darle a un bebé feo” y gana!",
+                    "images":[
+						"game_images/QuiplashXL/quiplashxl_1.webp",
+                        "game_images/QuiplashXL/quiplashxl_2.webp",
+                        "game_images/QuiplashXL/quiplashxl_3.webp",
+                        "game_images/QuiplashXL/quiplashxl_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"quip.ico",
+        "background":"backgrounds/quip.jpg"
+    },
+    {
+        "id":"quip2int",
+        "name":"Quiplash 2 InterLASHional",
+        "description":"Sé el más divertido",
+        "launchers_id":{
+            "steam":"1111940"
+        },
+        "executables":{
+            "windows":"Quiplash 2 InterLASHional.exe",
+            "mac":"Quiplash 2 InterLASHional.app/Contents/MacOS/Quiplash 2 InterLASHional",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"quip2int_es",
+                    "name":"Adaptación al Español Latino",
+                    "small_description":"Juego adaptado al español latino.\nAdaptado solo de manera textual (no incluye doblaje latino).",
+                    "description":"",
+                    "version":"141.3-LAT",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-LAT.zip",
+                    "components":[
+                {
+                            "id":"quiplash2interlashional_patch",
+                            "linked_game":"quiplash2interlashional",
+                            "name":"Quiplash 2 InterLASHional",
+                            "description":"",
+                            "authors":"* Akira896",
+                            "small_description":"¡Juego adaptado al latino!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"quip2int_es_spain",
+                    "name":"Cambio de dominios a Jackbox.lol",
+                    "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
+                    "description":"",
+                    "version":"141.3-SPA",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-ES-SPAIN.zip",
+                    "components":[
+                {
+                            "id":"quiplash2interlashional_spain_patch",
+                            "linked_game":"quiplash2interlashional",
+                            "name":"Quiplash 2 InterLASHional",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"quiplash2interlashional",
+                "name":"Quiplash 2 InterLASHional",
+                "background":"game_backgrounds/Quiplash2InterLASHional.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"Los jugadores escriben su mejor respuesta a la pregunta y luego se enfrentan entre sí en una batalla cara a cara, mientras que el resto de los jugadores (y el público) votan por su favorito. Es todo lo preciado del juego Quiplash actual, más 100 preguntas ADICIONALES en español. ¡Encontrarás las mismas VIEJAS preguntas en el ABURRIDO inglés! ¡Todo en un Quiplash QUINQUELINGÜE!",
+                    "images":[
+						"game_images/Quiplash2InterLASHional/quiplash2interlashional_1.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_2.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_3.webp",
+                        "game_images/Quiplash2InterLASHional/quiplash2interlashional_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"quip2int.ico",
+        "background":"backgrounds/quip2int.jpg"
+    },
+    {
+        "id":"df2",
+        "name":"Drawful 2",
+        "description":"¡Dibuja mal con estilo!",
+        "launchers_id":{
+            "steam":"442070"
+        },
+        "executables":{
+            "windows":"Drawful 2.exe",
+            "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"df2_es",
+                    "name":"Adaptación al Español Latino",
+                    "small_description":"Juego adaptado al español latino.\nIncluye un doblaje latino completo.",
+                    "description":"",
+                    "version":"150.8-LAT",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-LAT.zip",
+                    "components":[
+                {
+                            "id":"drawful_2_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"Adaptación\n* Akira896\nDoblaje\n* Camila Iriart (anfitriona)\n* Akira896 y Fixed Fun (adaptación del guion)\n* Akira896 (recorte y ecualización de audios, supervisión y voz adicional)",
+                            "small_description":"¡Juego adaptado y doblado al latino!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"df2_es_spain",
+                    "name":"Cambio de dominios a Jackbox.lol",
+                    "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
+                    "description":"",
+                    "version":"150.5-SPA",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-SPAIN.zip",
+                    "components":[
+                {
+                            "id":"drawful_2_spain_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"drawful2",
+                "name":"Drawful 2",
+                "background":"game_backgrounds/Drawful2.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"¡Dibuja mal con estilo!",
+                    "small_description":"¡Dibuja mal con estilo!",
+                    "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
+                    "images":[
+						"game_images/Drawful2/drawful2_1.webp",
+                        "game_images/Drawful2/drawful2_2.webp",
+                        "game_images/Drawful2/drawful2_3.webp",
+                        "game_images/Drawful2/drawful2_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"df2.ico",
+        "background":"backgrounds/df2.jpg"
+    },
+    {
+        "id":"df2_egs",
+        "name":"Drawful 2",
+        "description":"¡Dibuja mal con estilo!",
+        "launchers_id":{
+            "epic":"Daisy"
+        },
+        "executables":{
+            "windows":"Drawful 2.exe",
+            "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"df2_es_egs",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego traducido al español latino.\nIncluye un doblaje latino completo.",
+                    "description":"",
+                    "version":"6.3-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS.zip",
+                    "components":[
+                {
+                            "id":"drawful_2_egs_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"Adaptación\n* Akira896\nDoblaje\n* Camila Iriart (anfitriona)\n* Akira896 y Fixed Fun (adaptación del guion)\n* Akira896 (recorte y ecualización de audios, supervisión y voz adicional)",
+                            "small_description":"¡Juego traducido y doblado al latino!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"df2_es_egs_spain",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego traducido al español castellano.\nIncluye un doblaje castellano completo.",
+                    "description":"",
+                    "version":"6.1-SPA",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS-SPAIN.zip",
+                    "components":[
+                {
+                            "id":"drawful_2_egs_spain_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Juego traducido y doblado al castellano!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"drawful2",
+                "name":"Drawful 2",
+                "background":"game_backgrounds/Drawful2.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"¡Dibuja mal con estilo!",
+                    "small_description":"¡Dibuja mal con estilo!",
+                    "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
+                    "images":[
+						"game_images/Drawful2/drawful2_1.webp",
+                        "game_images/Drawful2/drawful2_2.webp",
+                        "game_images/Drawful2/drawful2_3.webp",
+                        "game_images/Drawful2/drawful2_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"df2.ico",
+        "background":"backgrounds/df2.jpg"
+    },
+    {
+        "id":"uyw",
+        "name":"Use Your Words",
+        "description":"Fiesta de palabras",
+        "launchers_id":{
+            "steam":"521350"
+        },
+        "executables":{
+            "windows":"uyw.exe",
+            "mac":"Use Your Words.app/Contents/MacOS/Use Your Words",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"uyw_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Solo está traducido el modo “Sub The Title”.",
+                    "description":"",
+                    "version":"1.2-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES.zip",
+                    "components":[
+                {
+                            "id":"use_your_words_patch",
+                            "linked_game":"use_your_words",
+                            "name":"Use Your Words",
+                            "description":"",
+                            "authors":"* Radioactive Man",
+                            "small_description":"¡Sub The Title traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"use_your_words",
+                "name":"Use Your Words",
+                "background":"game_backgrounds/UseYourWords.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Fiesta de palabras",
+                    "small_description":"Fiesta de palabras",
+                    "description":"¡Use Your Words es el juego de fiestas para gente divertida y sus amigos no divertidos! ¡Ríete a lo largo de cuatro divertidísimos minijuegos! ¡Use tu teléfono inteligente para completar el espacio en blanco, o prueba tu suerte usando una de nuestras respuestas para reírte! No importa cuál sea tu estrategia, ¡Use Your Words trae la comedia a casa!",
+                    "images":[
+						"game_images/UseYourWords/useyourwords_1.webp",
+                        "game_images/UseYourWords/useyourwords_2.webp",
+                        "game_images/UseYourWords/useyourwords_3.webp",
+                        "game_images/UseYourWords/useyourwords_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"uyw.ico",
+        "background":"backgrounds/uyw.jpg"
+    },
+    {
+        "id":"wtd",
+        "name":"What The Dub?!",
+        "description":"Doblajes de locura",
+        "launchers_id":{
+            "steam":"1495860"
+        },
+        "executables":{
+            "windows":"WhatTheDub.exe",
+            "mac":"WhatTheDub.app/Contents/MacOS/WhatTheDub",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"wtd_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego traducido al español.",
+                    "description":"",
+                    "version":"20.3-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES.zip",
+                    "components":[
+                {
+                            "id":"what_the_dub_patch",
+                            "linked_game":"what_the_dub",
+                            "name":"What The Dub?!",
+                            "description":"",
+                            "authors":"* Akira896 (traducción principal)\n* Fukken Hanzel (traducción asistente)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"wtd_es_spain",
+                    "name":"Traducción al Español Castellano",
+                    "small_description":"Juego traducido al español castellano.\nLos subtítulos de los últimos videos agregados al juego se encuentran en latino.",
+                    "description":"",
+                    "version":"20.3-SPA",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES-SPAIN.zip",
+                    "components":[
+                {
+                            "id":"what_the_dub_spain_patch",
+                            "linked_game":"what_the_dub",
+                            "name":"What The Dub?!",
+                            "description":"",
+                            "authors":"* Danda (traducción principal)\n* Fukken Hanzel (traducción asistente)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"what_the_dub",
+                "name":"What The Dub?!",
+                "background":"game_backgrounds/WhatTheDub.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Doblajes de locura",
+                    "small_description":"Doblajes de locura",
+                    "description":"What The Dub?! es un juego de fiestas multijugador en el que cada jugador sobregraba los diálogos que faltan de películas B hilarantemente horribles, anuncios de servicio público obsoletos y películas industriales extrañas, ¡con sus propios doblajes ingeniosos (o simplemente estúpidos)!",
+                    "images":[
+						"game_images/WhatTheDub/whatthedub_1.webp",
+                        "game_images/WhatTheDub/whatthedub_2.webp",
+                        "game_images/WhatTheDub/whatthedub_3.webp",
+                        "game_images/WhatTheDub/whatthedub_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"wtd.ico",
+        "background":"backgrounds/wtd.jpg"
+    },
+    {
+        "id":"rttg",
+        "name":"RiffTrax: The Game",
+        "description":"¡Hora de los riffs!",
+        "launchers_id":{
+            "steam":"1707870"
+        },
+        "executables":{
+            "windows":"RiffTraxTheGame.exe",
+            "mac":"RiffTraxTheGame.app/Contents/MacOS/RiffTraxTheGame",
+            "linux":"Launcher.sh"
+        },
+        "configuration":{
+            "file":"jbg.config.jet",
+            "version_property":"buildVersion"
+        },
+            "patchs":[
+                {
+                    "id":"rttg_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego traducido al español.",
+                    "description":"",
+                    "version":"17.2-ES",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/RiffTrax-The-Game-Spanish/releases/latest/download/RTTG-ES.zip",
+                    "components":[
+                {
+                            "id":"rifftrax_the_game_patch",
+                            "linked_game":"rifftrax_the_game",
+                            "name":"RiffTrax: The Game",
+                            "description":"",
+                            "authors":"* Fukken Hanzel",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":false,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"rifftrax_the_game",
+                "name":"RiffTrax: The Game",
+                "background":"game_backgrounds/RiffTraxTheGame.webp",
+                "path":"",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutos",
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¡Hora de los riffs!",
+                    "small_description":"¡Hora de los riffs!",
+                    "description":"RiffTrax: The Game es un juego de fiestas multijugador en el que los jugadores compiten para hacer divertidas las malas películas. ¿Tienes lo que se necesita para ser el próximo genio de los riffs de películas? Reúne a tus amigos y búrlate de algunas de las peores abominaciones cinematográficas jamás creadas.",
+                    "images":[
+						"game_images/RiffTraxTheGame/rifftraxthegame_1.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_2.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_3.webp",
+                        "game_images/RiffTraxTheGame/rifftraxthegame_4.webp"
+                    ],
+                    "tags":[
+                    	"writing"
+                    ]
+
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"rttg.ico",
+        "background":"backgrounds/rttg.jpg"
     }
 
 ]
