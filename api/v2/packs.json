@@ -70,7 +70,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.",
                     "description":"",
-                    "version":"Build:  20.10-ES",
+                    "version":"20.10-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "components":[
                         {
@@ -580,7 +580,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\n¡Engáñame! cuenta con doblaje latino.",
                     "description":"",
-                    "version":"Build:  13.13-ES",
+                    "version":"13.13-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
                     "components":[
                 {
@@ -847,7 +847,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nSobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico cuentan con doblaje latino.",
                     "description":"",
-                    "version":"Build:  134.16-ES",
+                    "version":"134.16-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
                     "components":[
                 {
@@ -1117,7 +1117,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nZeeple Dome y Patentes Dementes cuentan con doblaje latino.",
                     "description":"",
-                    "version":"Build:  213.21-ES",
+                    "version":"213.21-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
                     "components":[
                 {
@@ -1407,7 +1407,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.",
                     "description":"",
-                    "version":"Build:  456.14-ES",
+                    "version":"456.14-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
                     "components":[
                 {
@@ -1753,7 +1753,7 @@
                             "name":"Talking Points",
                             "description":"",
                             "authors":"Traducción\n* Zants69, Akira896 y Eleiber (traducción)\n* Artuhaxis, Fixed Fun, Fukken Hanzel y YosY (imágenes)\nDoblaje\n *Ana Fernández (anfitriona)\n* Akira896 (supervisión y traducción del guion)",
-                            "small_description":"¡Juego traducido al español!",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
