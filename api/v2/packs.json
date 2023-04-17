@@ -3139,7 +3139,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego traducido al español latino.\nIncluye un doblaje latino completo.",
                     "description":"",
-                    "version":"6.3-ES",
+                    "version":"6.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS.zip",
                     "components":[
                 {
@@ -3165,7 +3165,7 @@
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nSe toma de base la traducción oficial de la versión de Steam.\nIncluye un doblaje castellano completo.",
                     "description":"",
-                    "version":"6.1-SPA",
+                    "version":"6.2-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS-SPAIN.zip",
                     "components":[
                 {
