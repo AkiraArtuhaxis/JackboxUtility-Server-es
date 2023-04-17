@@ -2281,7 +2281,7 @@
                             "game_text":false,
                             "game_assets":false,
                             "game_subtitles":false,
-                            "website":false,
+                            "website":true,
                             "audios":false
                         }
                     },
@@ -2296,7 +2296,7 @@
                             "game_text":false,
                             "game_assets":false,
                             "game_subtitles":false,
-                            "website":false,
+                            "website":true,
                             "audios":false
                         }
                     },
@@ -2311,7 +2311,7 @@
                             "game_text":false,
                             "game_assets":false,
                             "game_subtitles":false,
-                            "website":false,
+                            "website":true,
                             "audios":false
                         }
                     },
@@ -2326,7 +2326,7 @@
                             "game_text":false,
                             "game_assets":false,
                             "game_subtitles":false,
-                            "website":false,
+                            "website":true,
                             "audios":false
                         }
                     },
@@ -2341,7 +2341,7 @@
                             "game_text":false,
                             "game_assets":false,
                             "game_subtitles":false,
-                            "website":false,
+                            "website":true,
                             "audios":false
                         }
                     }
@@ -2844,7 +2844,7 @@
                 {
                     "id":"quip_es_spain",
                     "name":"Traducción al Español Castellano",
-                    "small_description":"Juego 100% traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
+                    "small_description":"Juego traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción latina del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
                     "version":"23.1-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-SPAIN.zip",
@@ -2966,7 +2966,7 @@
                                 "game_text":false,
                                 "game_assets":false,
                                 "game_subtitles":false,
-                                "website":false,
+                                "website":true,
                                 "audios":false
                             }
                         }
@@ -3072,7 +3072,7 @@
                                 "game_text":false,
                                 "game_assets":false,
                                 "game_subtitles":false,
-                                "website":false,
+                                "website":true,
                                 "audios":false
                             }
                         }
@@ -3163,7 +3163,7 @@
                 {
                     "id":"df2_es_egs_spain",
                     "name":"Traducción al Español Castellano",
-                    "small_description":"Juego traducido al español castellano.\nIncluye un doblaje castellano completo.",
+                    "small_description":"Juego traducido al español castellano.\nSe toma de base la traducción oficial de la versión de Steam.\nIncluye un doblaje castellano completo.",
                     "description":"",
                     "version":"6.1-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS-SPAIN.zip",
@@ -3172,7 +3172,7 @@
                             "id":"drawful_2_egs_spain_patch",
                             "linked_game":"drawful_2_egs",
                             "name":"Drawful 2",
-                            "description":"",
+                            "description":"* Jackbox Games (traducción)\n *Akira896 (port de la traducción de Steam)",
                             "authors":"",
                             "small_description":"¡Juego traducido y doblado al castellano!",
                             "patch_type":{
