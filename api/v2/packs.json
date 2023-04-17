@@ -2572,7 +2572,7 @@
                                 "game_text":false,
                                 "game_assets":false,
                                 "game_subtitles":false,
-                                "website":false,
+                                "website":true,
                                 "audios":false
                             }
                         },
@@ -2587,7 +2587,7 @@
                                 "game_text":false,
                                 "game_assets":false,
                                 "game_subtitles":false,
-                                "website":false,
+                                "website":true,
                                 "audios":false
                             }
                         },
@@ -2602,7 +2602,7 @@
                                 "game_text":false,
                                 "game_assets":false,
                                 "game_subtitles":false,
-                                "website":false,
+                                "website":true,
                                 "audios":false
                             }
                         }
@@ -2949,7 +2949,7 @@
                 },
                 {
                     "id":"quip2int_es_spain",
-                    "name":"Cambio de dominios a Jackbox.lol",
+                    "name":"Cambio de dominio a Jackbox.lol",
                     "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
                     "version":"141.3-SPA",
@@ -3055,7 +3055,7 @@
                 },
                 {
                     "id":"df2_es_spain",
-                    "name":"Cambio de dominios a Jackbox.lol",
+                    "name":"Cambio de dominio a Jackbox.lol",
                     "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
                     "version":"150.5-SPA",
@@ -3172,7 +3172,7 @@
                             "id":"drawful_2_egs_spain_patch",
                             "linked_game":"drawful_2_egs",
                             "name":"Drawful 2",
-                            "description":"* Jackbox Games (traducción)\n *Akira896 (port de la traducción de Steam)",
+                            "description":"* Jackbox Games (traducción)\n* Akira896 (adaptación de la traducción de Steam)",
                             "authors":"",
                             "small_description":"¡Juego traducido y doblado al castellano!",
                             "patch_type":{
