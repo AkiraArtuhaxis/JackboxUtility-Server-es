@@ -2827,6 +2827,10 @@
             "mac":"Fibbage XL.app/Contents/MacOS/Fibbage XL",
             "linux":"Launcher.sh"
         },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
+        },
         "configuration":{
             "file":"jbg.config.jet",
             "version_property":"buildVersion"
@@ -2886,6 +2890,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -2905,6 +2913,10 @@
             "windows":"Quiplash.exe",
             "mac":"Quiplash.app/Contents/MacOS/Quiplash",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"jbg.config.jet",
@@ -2992,6 +3004,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -3011,6 +3027,10 @@
             "windows":"Quiplash 2 InterLASHional.exe",
             "mac":"Quiplash 2 InterLASHional.app/Contents/MacOS/Quiplash 2 InterLASHional",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/standalones/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"jbg.config.jet",
@@ -3098,6 +3118,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/standalones/standalones.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -3117,6 +3141,10 @@
             "windows":"Drawful 2.exe",
             "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/drawful2/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"jbg.config.jet",
@@ -3205,6 +3233,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/drawful2/drawful2.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -3224,6 +3256,10 @@
             "windows":"Drawful 2.exe",
             "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/drawful2/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"jbg.config.jet",
@@ -3311,6 +3347,10 @@
                         "writing"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/drawful2/drawful2.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
