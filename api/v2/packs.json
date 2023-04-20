@@ -60,6 +60,10 @@
             "mac":"The Jackbox Party Pack.app/Contents/MacOS/The Jackbox Party Pack",
             "linux":"Launcher.sh"
         },
+        "loader":{
+            "path":"loaders/tjpp1/default.zip",
+            "version":"1.0.0"
+        },
         "configuration":{
             "file":"config.jet",
             "version_property":"buildVersion"
@@ -322,6 +326,10 @@
             "windows":"The Jackbox Party Pack 2.exe",
             "mac":"The Jackbox Party Pack 2.app/Contents/MacOS/The Jackbox Party Pack 2",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp2/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"config.jet",
@@ -610,6 +618,10 @@
             "mac":"The Jackbox Party Pack 3.app/Contents/MacOS/The Jackbox Party Pack 3",
             "linux":"Launcher.sh"
         },
+        "loader":{
+            "path":"loaders/tjpp3/default.zip",
+            "version":"1.0.0"
+        },
         "configuration":{
             "file":"config.jet",
             "version_property":"buildVersion"
@@ -896,6 +908,10 @@
             "windows":"The Jackbox Party Pack 4.exe",
             "mac":"The Jackbox Party Pack 4.app/Contents/MacOS/The Jackbox Party Pack 4",
             "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp4/default.zip",
+            "version":"1.0.0"
         },
         "configuration":{
             "file":"config.jet",
