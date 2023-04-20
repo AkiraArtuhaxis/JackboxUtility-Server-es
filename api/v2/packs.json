@@ -833,8 +833,8 @@
                     "length":"15 - 20 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Encuentra al impostor escurridizo",
-                    "small_description":"Encuentra al impostor escurridizo",
+                    "tagline":"Atrapa al impostor escurridizo",
+                    "small_description":"Atrapa al impostor escurridizo",
                     "description":"Todos dan una respuesta, pero no todos conocen la pregunta. Uno de tus amigos tiene algo que ocultar. ¡Encuentra al impostor antes que sea demasiado tarde!",
                     "images":[
 						"game_images/FakinIt/fakinit_1.webp",
@@ -869,8 +869,8 @@
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"¡Crea tus mejores camisetas!",
-                    "small_description":"¡Crea tus mejores camisetas!",
+                    "tagline":"Batalla de camisetas",
+                    "small_description":"Batalla de camisetas",
                     "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
                     "images":[
 						"game_images/TeeKO/teeko_1.webp",
@@ -1416,8 +1416,8 @@
                     "length":"10 - 15 minutos",
                     "type":"COOP",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"El combate espacial",
-                    "small_description":"El combate espacial",
+                    "tagline":"Batalla espacial",
+                    "small_description":"Batalla espacial",
                     "description":"¡El programa de juegos más letal de la galaxia! ¡¡¡Dispárate para ganar premios fabulosos!!!",
                     "images":[
 						"game_images/ZeepleDome/zeepledome_1.webp",
@@ -2754,8 +2754,8 @@
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"¡Crea tus mejores camisetas!",
-                    "small_description":"¡Crea tus mejores camisetas!",
+                    "tagline":"Batalla de camisetas",
+                    "small_description":"Batalla de camisetas",
                     "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
                     "images":[
 			            "game_images/TeeKO/teeko_1.webp",
