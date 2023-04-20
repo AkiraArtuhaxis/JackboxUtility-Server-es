@@ -3143,7 +3143,7 @@
             "linux":"Launcher.sh"
         },
         "loader":{
-            "path":"loaders/drawful2/default.zip",
+            "path":"loaders/df2/default.zip",
             "version":"1.0.0"
         },
         "configuration":{
@@ -3234,7 +3234,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/drawful2/drawful2.zip",
+                    "path":"loaders/df2/drawful2.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
@@ -3258,7 +3258,7 @@
             "linux":"Launcher.sh"
         },
         "loader":{
-            "path":"loaders/drawful2/default.zip",
+            "path":"loaders/df2egs/default.zip",
             "version":"1.0.0"
         },
         "configuration":{
@@ -3349,7 +3349,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/drawful2/drawful2.zip",
+                    "path":"loaders/df2egs/drawful2.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
