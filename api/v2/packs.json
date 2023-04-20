@@ -165,7 +165,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/tjpp2/ydkj2015.zip",
+                    "path":"loaders/tjpp1/ydkj2015.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
@@ -199,7 +199,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/tjpp2/drawful.zip",
+                    "path":"loaders/tjpp1/drawful.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
@@ -232,7 +232,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/tjpp2/wordspud.zip",
+                    "path":"loaders/tjpp1/wordspud.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
@@ -265,7 +265,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/tjpp2/lieswatter.zip",
+                    "path":"loaders/tjpp1/lieswatter.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
@@ -299,7 +299,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/tjpp2/fibbagexl.zip",
+                    "path":"loaders/tjpp1/fibbagexl.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
