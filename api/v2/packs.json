@@ -164,6 +164,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/ydkj2015.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -194,6 +198,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/drawful.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -222,6 +230,10 @@
                     	"writing"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/wordspud.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -252,6 +264,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/lieswatter.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -281,6 +297,10 @@
                     	"writing","knowledge"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/fibbagexl.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -424,6 +444,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/fibbage2.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -454,6 +478,10 @@
                     
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp2/earwax.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -487,6 +515,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/bidiots.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -518,6 +550,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp2/quiplashxl.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -548,6 +584,10 @@
                 },
                 "background":"game_backgrounds/BombCorp.webp",
                 "path":"games/BombInterns",
+                "loader":{
+                    "path":"loaders/tjpp2/bombcorp.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -690,6 +730,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp3/quiplash2.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -721,6 +765,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp3/triviamurderparty.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -751,6 +799,10 @@
                     	"knowledge"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/guesspionage.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -784,6 +836,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp3/fakinit.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -815,6 +871,10 @@
                     	"writing"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp3/teeko.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -958,6 +1018,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp4/fibbage3.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -988,6 +1052,10 @@
                         "writing"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/survivetheinternet.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
@@ -1021,6 +1089,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp4/monsterseekingmonster.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -1052,6 +1124,10 @@
                     ]
 
                 },
+                "loader":{
+                    "path":"loaders/tjpp4/bracketeering.zip",
+                    "version":"1.0.0"
+                },
                 "patchs":[
                     
                 ]
@@ -1082,6 +1158,10 @@
                     	"drawing"
                     ]
 
+                },
+                "loader":{
+                    "path":"loaders/tjpp4/civicdoodle.zip",
+                    "version":"1.0.0"
                 },
                 "patchs":[
                     
