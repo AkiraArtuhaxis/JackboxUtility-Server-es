@@ -1860,7 +1860,7 @@
                                 "game_assets":true,
                                 "game_subtitles":true,
                                 "website":true,
-                                "audios":false
+                                "audios":true
                             }
                         }
                     ]
