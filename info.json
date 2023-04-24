@@ -25,17 +25,17 @@
             "text":"Discord"
         },
         {
-            "icon":"cc-paypal",
+            "icon":"paypal",
             "url":"https://www.paypal.com/donate/?hosted_button_id=3ER5926XZCSBW",
             "text":"Donar"
         },
         {
-            "icon":"discord",
+            "icon":"twitter",
             "url":"https://twitter.com/esjackbox",
             "text":"Twitter"
         },
         {
-            "icon":"discord",
+            "icon":"youtube",
             "url":"https://www.youtube.com/@esjackbox",
             "text":"YouTube"
         }
