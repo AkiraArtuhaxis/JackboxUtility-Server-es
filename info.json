@@ -12,5 +12,32 @@
         }
     ],
     "controller":"jackbox.lol",
-    "languages":["es"]
+    "languages":["es"],
+    "links": [
+        {
+            "icon":"globe",
+            "url":"https://traducciones.jackbox.lol/",
+            "text":"Sitio web"
+        },
+        {
+            "icon":"discord",
+            "url":"https://discord.com/invite/k8MASuepRw",
+            "text":"Discord"
+        },
+        {
+            "icon":"cc-paypal",
+            "url":"https://www.paypal.com/donate/?hosted_button_id=3ER5926XZCSBW",
+            "text":"Donar"
+        },
+        {
+            "icon":"discord",
+            "url":"https://twitter.com/esjackbox",
+            "text":"Twitter"
+        },
+        {
+            "icon":"discord",
+            "url":"https://www.youtube.com/@esjackbox",
+            "text":"YouTube"
+        }
+     ]
 }
