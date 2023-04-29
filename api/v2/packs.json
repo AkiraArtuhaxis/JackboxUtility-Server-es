@@ -3294,10 +3294,7 @@
                     },
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":[
-                    	"NATIVELY_TRANSLATED",
-                        "COMMUNITY_TRANSLATED"
-                    ],
+                    "translation":"NATIVELY_TRANSLATED",
                     "tagline":"¡Dibuja mal con estilo!",
                     "small_description":"¡Dibuja mal con estilo!",
                     "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
