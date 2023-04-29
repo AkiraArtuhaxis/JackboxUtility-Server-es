@@ -44,6 +44,12 @@
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
 	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpstarter_es","fbxl_es","quip_es_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","uyw_es","wtd_es_spain","rttg_es"]
+	},
+    {
+	    "id":"catalan_patchs",
+	    "name":"Traducció al Català (Prueba)",
+	    "smallDescription":"Tradueix els jocs al català!\nEls jocs que no tenen una traducció al català tenen traduccions a l'espanyol de part de Jackbox en español.",
+	    "patchs":["jpp4_es","jpp4_ca"]
 	}
     ],
     "packs":[
@@ -999,6 +1005,77 @@
                                 "game_subtitles":false,
                                 "website":true,
                                 "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp4_ca",
+                    "name":"Traducció al Català",
+                    "small_description":"Fibbage: Enough About You, Survive the Internet, Monster Seeking Monster i Civic Doodle es troben traduïts al català.",
+                    "description":"",
+                    "version":"134.2-CA",
+                    "patch_path":"https://github.com/PauGuri2002/JPP4-CA/releases/latest/download/JPP4-CA.zip",
+                    "components":[
+                {
+                            "id":"fibbage3_patch",
+                            "linked_game":"fibbage3",
+                            "name":"Fibbage 3",
+                            "description":"",
+                            "authors":"* PauX",
+                            "small_description":"¡Fibbage: Enough About You traduït al català!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"survivetheinternet_patch",
+                            "linked_game":"survivetheinternet",
+                            "name":"Sobrevive al Internet",
+                            "description":"",
+                            "authors":"* PauX",
+                            "small_description":"Joc traduït al català!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"monsterseekingmonster_patch",
+                            "linked_game":"monsterseekingmonster",
+                            "name":"Monstruo Busca Monstruo",
+                            "description":"",
+                            "authors":"* PauX",
+                            "small_description":"Joc traduït al català!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"civicdoodle_patch",
+                            "linked_game":"civicdoodle",
+                            "name":"Garabato Cívico",
+                            "description":"",
+                            "authors":"* PauX",
+                            "small_description":"Joc traduït al català!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
                             }
                         }
                     ]
@@ -3217,7 +3294,10 @@
                     },
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
-                    "translation":"NATIVELY_TRANSLATED",
+                    "translation":[
+                    	"NATIVELY_TRANSLATED",
+                        "COMMUNITY_TRANSLATED"
+                    ],
                     "tagline":"¡Dibuja mal con estilo!",
                     "small_description":"¡Dibuja mal con estilo!",
                     "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
