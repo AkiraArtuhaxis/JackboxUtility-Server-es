@@ -1798,9 +1798,9 @@
                 {
                     "id":"jpp7_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nBlather 'Round no está traducido.\nTalking Points cuenta con doblaje latino.",
+                    "small_description":"Pack 100% traducido.\nTalking Points cuenta con doblaje latino.",
                     "description":"",
-                    "version":"561.14-ES",
+                    "version":"561.15-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
                     "components":[
                 {
@@ -1861,6 +1861,21 @@
                                 "game_subtitles":true,
                                 "website":true,
                                 "audios":true
+                            }
+                        },
+                        {
+                            "id":"blatherround_patch",
+                            "linked_game":"blatherround",
+                            "name":"Balbuceando Juntos",
+                            "description":"",
+                            "authors":"* Markmtz90 (traducción)\n* Ker y Eleiber (traducción de subtítulos)\n* Markmtz90 y Akira896 (SWFs y testeo)\n* Fixed Fun (video del tutorial)\n* TheDarkSid3r (ayuda adicional)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
                             }
                         }
                     ]
@@ -2005,11 +2020,27 @@
                     "version":"1.0.1"
                 },
                 "patchs":[
+                    {
+                        "id":"cursedpoints_es",
+                        "name":"Cursed Points",
+                        "small_description":"¡Mod traducido al español!",
+                        "description":"Da una charla sobre imágenes cursed que nunca has visto antes. No importa si tiene sentido, ¡es más divertido si no lo tiene!\nAVISO: Si quieres volver a jugar Talking Points (sin el mod), deberás verificar la integridad de los archivos con Steam/EGS y luego reinstalar el parche de traducción.",
+                        "version":"561.CapyV1-ES",
+                        "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
+                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/download/561.15-ES/CursedPointsES-CapyV1-ES.zip",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                        }
+                    }
                 ]
             },
             {
                 "id":"blatherround",
-                "name":"Blather 'Round",
+                "name":"Balbuceando Juntos",
                 "background":"game_backgrounds/BlatherRound.webp",
                 "path":"games/BlankyBlank",
                 "game_info":{
@@ -2019,7 +2050,7 @@
                     },
                     "length":"15 - 20 minutos",
                     "type":"COOP",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Adivinanzas alocadas",
                     "small_description":"Adivinanzas alocadas",
                     "description":"¡Un juego de adivinanzas sobre la cultura popular donde nada suena correcto! Es una buena experiencia llena de diversión.",
