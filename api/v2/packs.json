@@ -1036,7 +1036,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp4/fibbage3.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1071,7 +1071,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp4/survivetheinternet.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1107,7 +1107,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp4/monsterseekingmonster.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1142,7 +1142,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp4/bracketeering.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -1177,7 +1177,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp4/civicdoodle.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
