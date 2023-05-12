@@ -65,7 +65,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+	    "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -76,6 +77,11 @@
                     "description":"",
                     "version":"20.11-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -332,7 +338,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+	    "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -343,6 +350,11 @@
                     "description":"",
                     "version":"74.5-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -623,7 +635,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -634,6 +647,11 @@
                     "description":"",
                     "version":"13.13-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -914,7 +932,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -925,6 +944,11 @@
                     "description":"",
                     "version":"134.17-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -1205,7 +1229,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -1216,6 +1241,11 @@
                     "description":"",
                     "version":"213.21-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -1497,7 +1527,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -1508,6 +1539,11 @@
                     "description":"",
                     "version":"456.14-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -1791,7 +1827,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -1802,6 +1839,11 @@
                     "description":"",
                     "version":"561.15-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -2094,7 +2136,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2105,6 +2148,11 @@
                     "description":"",
                     "version":"437.19-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -2385,7 +2433,8 @@
             "version":"1.0.0"
         },
     "configuration":{
-		"file":"jbg.config.jet",
+	    "version_origin":"game_file",
+        "version_file":"jbg.config.jet",
 		"version_property":"buildVersion"
 	},
         "patchs":[
@@ -2396,6 +2445,11 @@
                 "description":"",
                 "version":"653.2-ES",
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                 "components":[
                     {
                         "id":"fibbage4_patch",
@@ -2676,7 +2730,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+            "version_origin":"game_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2687,6 +2742,11 @@
                     "description":"",
                     "version":"216.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                         {
                             "id":"quiplash3_starter_patch",
@@ -2863,7 +2923,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2874,6 +2935,11 @@
                     "description":"",
                     "version":"22.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Fibbage-XL-Spanish/releases/latest/download/FBXL-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Fibbage-XL-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"fibbagexl_standalone_patch",
@@ -2950,7 +3016,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2961,6 +3028,11 @@
                     "description":"",
                     "version":"23.1-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash_patch",
@@ -2987,6 +3059,11 @@
                     "description":"",
                     "version":"23.1-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main[Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash_patch_spain",
@@ -3064,7 +3141,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3075,6 +3153,11 @@
                     "description":"",
                     "version":"141.3-LAT",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-LAT.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash2interlashional_patch",
@@ -3101,6 +3184,11 @@
                     "description":"",
                     "version":"141.3-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-ES-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/main/Main[Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"quiplash2interlashional_spain_patch",
@@ -3178,7 +3266,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3189,6 +3278,11 @@
                     "description":"",
                     "version":"150.8-LAT",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-LAT.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"drawful_2_patch",
@@ -3215,6 +3309,11 @@
                     "description":"",
                     "version":"150.5-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"drawful_2_spain_patch",
@@ -3293,7 +3392,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+            "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3304,6 +3404,11 @@
                     "description":"",
                     "version":"6.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[EGS]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"drawful_2_egs_patch",
@@ -3330,6 +3435,11 @@
                     "description":"",
                     "version":"6.2-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[EGS][Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"drawful_2_egs_spain_patch",
@@ -3404,7 +3514,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+            "version_origin":"game_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3415,6 +3526,11 @@
                     "description":"",
                     "version":"1.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Use-Your-Words-Spanish/main/Main/config.dat",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"use_your_words_patch",
@@ -3484,7 +3600,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+            "version_origin":"game_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3495,6 +3612,11 @@
                     "description":"",
                     "version":"20.3-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/What-The-Dub-Spanish/main/Main/config.dat",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"what_the_dub_patch",
@@ -3521,6 +3643,11 @@
                     "description":"",
                     "version":"20.3-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/What-The-Dub-Spanish/main/Main[Spain]/config.dat",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"what_the_dub_spain_patch",
@@ -3590,7 +3717,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+            "version_origin":"game_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3601,6 +3729,11 @@
                     "description":"",
                     "version":"17.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/RiffTrax-The-Game-Spanish/releases/latest/download/RTTG-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/RiffTrax-The-Game-Spanish/main/Main/config.dat",
+						"version_property":"buildVersion"
+					},
                     "components":[
                 {
                             "id":"rifftrax_the_game_patch",
