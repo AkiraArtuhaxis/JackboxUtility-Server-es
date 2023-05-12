@@ -2685,7 +2685,9 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"config.jet",
+		
+	    "version_origin":"repo_file",
+            "version_file":"config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2872,7 +2874,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+	    "version_origin":"repo_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -2959,7 +2962,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+	    "version_origin":"repo_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3073,7 +3077,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+	    "version_origin":"repo_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3187,7 +3192,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+	    "version_origin":"repo_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3302,7 +3308,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "file":"jbg.config.jet",
+	    "version_origin":"repo_file",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
             "patchs":[
