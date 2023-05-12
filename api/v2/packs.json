@@ -77,7 +77,12 @@
                     "description":"",
                     "version":"20.11-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
-                    "components":[
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+			    	"components":[
                         {
                             "id":"drawful_patch",
                             "linked_game":"drawful",
