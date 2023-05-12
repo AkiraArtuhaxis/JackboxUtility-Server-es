@@ -3420,7 +3420,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+	    "version_origin":"repo_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3500,7 +3501,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+	    "version_origin":"repo_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
@@ -3606,7 +3608,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "file":"config.dat",
+	    "version_origin":"repo_file",
+            "version_file":"config.dat",
             "version_property":"buildVersion"
         },
             "patchs":[
