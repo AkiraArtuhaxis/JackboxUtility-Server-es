@@ -65,7 +65,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -338,7 +339,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -635,7 +637,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -932,7 +935,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1229,7 +1233,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1527,7 +1532,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1827,7 +1833,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2136,7 +2143,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2433,9 +2441,10 @@
             "version":"1.0.0"
         },
     "configuration":{
-	    "version_origin":"game_file",
+        "version_origin":"game_file",
+        "file":"jbg.config.jet",
         "version_file":"jbg.config.jet",
-		"version_property":"buildVersion"
+        "version_property":"buildVersion"
 	},
         "patchs":[
             {
@@ -2730,7 +2739,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.jet",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2923,7 +2933,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"jbg.config.jet",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3016,7 +3027,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"jbg.config.jet",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3141,7 +3153,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"jbg.config.jet",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3266,7 +3279,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"jbg.config.jet",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3392,7 +3406,8 @@
             "version":"1.0.0"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"jbg.config.jet",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3514,7 +3529,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.dat",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
@@ -3600,7 +3616,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.dat",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
@@ -3717,7 +3734,8 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-            "version_origin":"game_file",
+	        "version_origin":"game_file",
+            "file":"config.dat",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
