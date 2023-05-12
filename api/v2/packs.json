@@ -75,7 +75,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.",
                     "description":"",
-                    "version":"20.11-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
