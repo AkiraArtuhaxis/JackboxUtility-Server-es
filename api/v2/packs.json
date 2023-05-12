@@ -65,7 +65,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -333,7 +333,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -625,7 +625,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -917,7 +917,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1209,7 +1209,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1502,7 +1502,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -1797,7 +1797,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2101,7 +2101,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2393,7 +2393,7 @@
             "version":"1.0.0"
         },
     "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
 		"version_property":"buildVersion"
 	},
@@ -2686,7 +2686,7 @@
         },
         "configuration":{
 		
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.jet",
             "version_property":"buildVersion"
         },
@@ -2874,7 +2874,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -2962,7 +2962,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3077,7 +3077,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3192,7 +3192,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3308,7 +3308,7 @@
             "version":"1.0.0"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
@@ -3420,7 +3420,7 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
@@ -3501,7 +3501,7 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
@@ -3608,7 +3608,7 @@
             "linux":"Launcher.sh"
         },
         "configuration":{
-	    "version_origin":"repo_file",
+	    "version_origin":"game_file",
             "version_file":"config.dat",
             "version_property":"buildVersion"
         },
