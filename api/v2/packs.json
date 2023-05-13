@@ -3267,7 +3267,8 @@
         "name":"Drawful 2",
         "description":"¡Dibuja mal con estilo!",
         "launchers_id":{
-            "steam":"442070"
+            "steam":"442070",
+            "epic":"Daisy"
         },
         "executables":{
             "windows":"Drawful 2.exe",
@@ -3379,133 +3380,6 @@
                 },
                 "loader":{
                     "path":"loaders/df2/drawful2.zip",
-                    "version":"1.0.0"
-                },
-                "patchs":[
-                    
-                ]
-            }
-        ],
-        "icon":"df2.ico",
-        "background":"backgrounds/df2.jpg"
-    },
-    {
-        "id":"df2_egs",
-        "name":"Drawful 2 [Epic Games]",
-        "description":"¡Dibuja mal con estilo!",
-        "launchers_id":{
-            "epic":"Daisy"
-        },
-        "executables":{
-            "windows":"Drawful 2.exe",
-            "mac":"Drawful 2.app/Contents/MacOS/Drawful 2",
-            "linux":"Launcher.sh"
-        },
-        "loader":{
-            "path":"loaders/df2egs/default.zip",
-            "version":"1.0.0"
-        },
-        "configuration":{
-	        "version_origin":"game_file",
-            "file":"jbg.config.jet",
-            "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
-        },
-            "patchs":[
-                {
-                    "id":"df2_es_egs",
-                    "name":"Traducción al Español Latino",
-                    "small_description":"Juego traducido al español latino.\nIncluye un doblaje latino completo.",
-                    "description":"",
-                    "version":"6.4-ES",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS.zip",
-                    "configuration": {
-						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[EGS]/jbg.config.jet",
-						"version_property":"buildVersion"
-					},
-                    "components":[
-                {
-                            "id":"drawful_2_egs_patch",
-                            "linked_game":"drawful_2_egs",
-                            "name":"Drawful 2",
-                            "description":"",
-                            "authors":"Adaptación\n* Akira896\nDoblaje\n* Camila Iriart (anfitriona)\n* Akira896 y Fixed Fun (adaptación del guion)\n* Akira896 (recorte y ecualización de audios, supervisión y voz adicional)",
-                            "small_description":"¡Juego traducido y doblado al latino!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":true
-                            }
-                        }
-                    ]
-                    
-                },
-                {
-                    "id":"df2_es_egs_spain",
-                    "name":"Traducción al Español Castellano",
-                    "small_description":"Juego traducido al español castellano.\nSe toma de base la traducción oficial de la versión de Steam.\nIncluye un doblaje castellano completo.",
-                    "description":"",
-                    "version":"6.2-SPA",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-EGS-SPAIN.zip",
-                    "configuration": {
-						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[EGS][Spain]/jbg.config.jet",
-						"version_property":"buildVersion"
-					},
-                    "components":[
-                {
-                            "id":"drawful_2_egs_spain_patch",
-                            "linked_game":"drawful_2_egs",
-                            "name":"Drawful 2",
-                            "description":"* Jackbox Games (traducción)\n* Akira896 (adaptación de la traducción de Steam)",
-                            "authors":"",
-                            "small_description":"¡Juego traducido y doblado al castellano!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":true
-                            }
-                        }
-                    ]
-                    
-                }
-            ],
-        "games":[
-            {
-                "id":"drawful_2_egs",
-                "name":"Drawful 2",
-                "background":"game_backgrounds/Drawful2EGS.webp",
-                "path":"",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "length":"20 - 25 minutos",
-                    "type":"VERSUS",
-                    "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"¡Dibuja mal con estilo!",
-                    "small_description":"¡Dibuja mal con estilo!",
-                    "description":"Drawful ha vuelto para amenizar tu próxima fiesta con Drawful 2, que reta a los jugadores a dibujar cosas absurdas en sus teléfonos inteligentes y tabletas.",
-                    "images":[
-						"game_images/Drawful2/drawful2_1.webp",
-                        "game_images/Drawful2/drawful2_2.webp",
-                        "game_images/Drawful2/drawful2_3.webp",
-                        "game_images/Drawful2/drawful2_4.webp"
-                    ],
-                    "tags":[
-                    	"drawing",
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/df2egs/drawful2.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
