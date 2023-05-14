@@ -75,7 +75,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.",
                     "description":"",
-                    "version":"20.11-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -348,7 +347,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nEarwax: Sonidos Raros cuenta con doblaje latino.",
                     "description":"",
-                    "version":"74.5-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -645,7 +643,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\n¡Engáñame! cuenta con doblaje latino.",
                     "description":"",
-                    "version":"13.13-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -942,7 +939,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nSobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico cuentan con doblaje latino.",
                     "description":"",
-                    "version":"134.17-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -1239,7 +1235,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nZeeple Dome y Patentes Dementes cuentan con doblaje latino.",
                     "description":"",
-                    "version":"213.21-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -1537,7 +1532,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.",
                     "description":"",
-                    "version":"456.14-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -1837,7 +1831,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nTalking Points cuenta con doblaje latino.",
                     "description":"",
-                    "version":"561.15-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -2146,7 +2139,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.",
                     "description":"",
-                    "version":"437.19-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -2740,7 +2732,6 @@
                     "name":"Cambio de dominios a Jackbox.lol",
                     "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
-                    "version":"216.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -2933,7 +2924,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.",
                     "description":"",
-                    "version":"22.4-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Fibbage-XL-Spanish/releases/latest/download/FBXL-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3026,7 +3016,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
-                    "version":"23.1-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3057,7 +3046,6 @@
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción latina del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
-                    "version":"23.1-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-SPAIN.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3151,7 +3139,6 @@
                     "name":"Adaptación al Español Latino",
                     "small_description":"Juego adaptado al español latino.\nAdaptado solo de manera textual (no cuenta con doblaje latino).",
                     "description":"",
-                    "version":"141.3-LAT",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-LAT.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3182,7 +3169,6 @@
                     "name":"Cambio de dominio a Jackbox.lol",
                     "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
-                    "version":"141.3-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/download/Q2INT-ES-SPAIN.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3277,7 +3263,6 @@
                     "name":"Adaptación al Español Latino",
                     "small_description":"Juego adaptado al español latino.\nIncluye un doblaje latino completo.",
                     "description":"",
-                    "version":"150.8-LAT",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-LAT.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3308,7 +3293,6 @@
                     "name":"Cambio de dominio a Jackbox.lol",
                     "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
-                    "version":"150.5-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-SPAIN.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3399,7 +3383,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Solo está traducido el modo “Sub The Title”.",
                     "description":"",
-                    "version":"1.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3485,7 +3468,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.",
                     "description":"",
-                    "version":"20.3-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3516,7 +3498,6 @@
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nLos subtítulos de los últimos videos agregados al juego se encuentran en latino.",
                     "description":"",
-                    "version":"20.3-SPA",
                     "patch_path":"https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES-SPAIN.zip",
                     "configuration": {
 						"version_origin":"repo_file",
@@ -3602,7 +3583,6 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.",
                     "description":"",
-                    "version":"17.2-ES",
                     "patch_path":"https://github.com/AkiraArtuhaxis/RiffTrax-The-Game-Spanish/releases/latest/download/RTTG-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
