@@ -345,7 +345,7 @@
                 {
                     "id":"jpp2_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.\nEarwax: Sonidos Raros cuenta con doblaje latino.",
+                    "small_description":"Pack 100% traducido.\nEarwax cuenta con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
                     "configuration": {
@@ -372,7 +372,7 @@
                         {
                             "id":"earwax_patch",
                             "linked_game":"earwax",
-                            "name":"Earwax: Sonidos Raros",
+                            "name":"Earwax",
                             "description":"",
                             "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\nDoblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
                             "small_description":"¡Juego traducido y doblado al español!",
@@ -472,7 +472,7 @@
             },
             {
                 "id":"earwax",
-                "name":"Earwax: Sonidos Raros",
+                "name":"Earwax",
                 "background":"game_backgrounds/Earwax.webp",
                 "path":"games/Earwax",
                 "game_info":{
@@ -483,8 +483,8 @@
                     "length":"15 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"La competencia de sonidos",
-                    "small_description":"La competencia de sonidos",
+                    "tagline":"Sonidos raros",
+                    "small_description":"Sonidos raros",
                     "description":"¿Mugido de vaca? ¿Explosión gigante? ¿O un pequeño pedo? ¿Cuál eliges? ¡El juego de efectos de sonido que te dejará hasta los oídos de risa!",
                     "images":[
 						"game_images/Earwax/earwax_1.webp",
@@ -994,7 +994,7 @@
                 {
                             "id":"bracketeering_patch",
                             "linked_game":"bracketeering",
-                            "name":"Bracketeering: Apuesta al Mejor",
+                            "name":"Bracketeering",
                             "description":"",
                             "authors":"* Akira896 (traducción principal y archivos SWF)\n* Raúl Mora y Artuhaxis (traducción)\n* Fixed Fun (logo)",
                             "small_description":"¡Juego traducido al español!",
@@ -1135,7 +1135,7 @@
             },
             {
                 "id":"bracketeering",
-                "name":"Bracketeering: Apuesta al Mejor",
+                "name":"Bracketeering",
                 "background":"game_backgrounds/Bracketeering.webp",
                 "path":"games/Bracketeering",
                 "game_info":{
@@ -1146,8 +1146,8 @@
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Participa en el Torneo Interestelar",
-                    "small_description":"Participa en el Torneo Interestelar",
+                    "tagline":"Apuesta al mejor",
+                    "small_description":"Apuesta al mejor",
                     "description":"¡El perverso torneo de debate! \"¿Cuál es el mejor vegetal para que Benedict Cumberbatch le haga la voz en una película?\" Apuesta inteligentemente en qué ganará cada argumento estúpido.",
                     "images":[
 			            "game_images/Bracketeering/bracketeering_1.webp",
@@ -1275,7 +1275,7 @@
                         {
                             "id":"mad_verse_city_patch",
                             "linked_game":"mad_verse_city",
-                            "name":"Mad Verse City: Ciudad del Rap",
+                            "name":"Mad Verse City",
                             "description":"",
                             "authors":"* Artuhaxis (traducción de rondas)\n* Akira896 (traducción de otros archivos y SWF)\n* Markmtz90 (imágenes)\n* P4ND4_1100010 (voces de los robots en español)\n* Fixed Fun (logo traducido)\n* Fukken Hanzel (traducción y revisión general restante)",
                             "small_description":"¡Juego traducido al español!",
@@ -1395,7 +1395,7 @@
             },
             {
                 "id":"mad_verse_city",
-                "name":"Mad Verse City: Ciudad del Rap",
+                "name":"Mad Verse City",
                 "background":"game_backgrounds/MadVerseCity.webp",
                 "path":"games/RapBattle",
                 "game_info":{
@@ -1406,8 +1406,8 @@
                     "length":"20 - 25 minutos",
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Es hora de rapear",
-                    "small_description":"Es hora de rapear",
+                    "tagline":"Ciudad del rap",
+                    "small_description":"Ciudad del rap",
                     "description":"¡El juego de batallas rap de robots! Tirate unas buenas rimas contra tus amigos para ver quien es el mejor MC y cuál el gato más pillo.",
                     "images":[
 						"game_images/MadVerseCity/madversecity_1.webp",
@@ -1871,7 +1871,7 @@
                         {
                             "id":"champdup_patch",
                             "linked_game":"champdup",
-                            "name":"Champ'd Up: Batalla de Campeones",
+                            "name":"Champ'd Up",
                             "description":"",
                             "authors":"* Artuhaxis (traducción e imágenes)\n* Akira896 (traducción y archivos SWF)\n* Fixed Fun (logo)",
                             "small_description":"¡Juego traducido al español!",
@@ -1989,7 +1989,7 @@
             },
             {
                 "id":"champdup",
-                "name":"Champ'd Up: Batalla de Campeones",
+                "name":"Champ'd Up",
                 "background":"game_backgrounds/Champdup.webp",
                 "path":"games/WorldChampions",
                 "game_info":{
@@ -2000,8 +2000,8 @@
                     "length":"20 - 25 minutos",
                     "translation":"COMMUNITY_TRANSLATED",
                     "type":"VERSUS",
-                    "tagline":"El combate de diseños",
-                    "small_description":"El combate de diseños",
+                    "tagline":"Batalla de campeones",
+                    "small_description":"Batalla de campeones",
                     "description":"Entra al Coliseo Garabato, donde personajes luchan por títulos raros. ¿Podrás derribar al gran favorito?",
                     "images":[
 			            "game_images/ChampdUp/champdup_1.webp",
@@ -2194,7 +2194,7 @@
                         {
                             "id":"thepollmine_patch",
                             "linked_game":"thepollmine",
-                            "name":"The Poll Mine: Examinando opiniones",
+                            "name":"The Poll Mine",
                             "description":"",
                             "authors":"* Fukken Hanzel y Artuhaxis (traducción principal)\n* Akira896 y Pepe Pepo (traducción asistente)\n* Akira896 (imágenes y SWFs)\n* El Tristanlaker2582 (imagen adicional)",
                             "small_description":"¡Juego traducido al español!",
@@ -2334,7 +2334,7 @@
             },
             {
                 "id":"thepollmine",
-                "name":"The Poll Mine: Examinando opiniones",
+                "name":"The Poll Mine",
                 "background":"game_backgrounds/ThePollMine.webp",
                 "path":"games/SurveyBomb",
                 "game_info":{
@@ -2345,8 +2345,8 @@
                     "length":"15 - 20 minutos",
                     "type":"TEAM",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Escapa de la cueva",
-                    "small_description":"Escapa de la cueva",
+                    "tagline":"Examinando opiniones",
+                    "small_description":"Examinando opiniones",
                     "description":"¡Un juego de encuestas que es todo sobre TI! ¡Divídanse en equipos y vean quién puede escapar de la guarida de la bruja!",
                     "images":[
 			            "game_images/PollMine/pollmine_1.webp",
