@@ -1858,14 +1858,14 @@
                             "linked_game":"thedevilsandthedetails",
                             "name":"La Familia es un Infierno",
                             "description":"",
-                            "authors":"* Alonsinwhat, Benelux y Artuhaxis (traducción principal)\n* Akira896, MarioPereyra, NatsukiZoe y Inuzen (traducción asistente)\n* Akira896 (testeo)\n* Fukken Hanzel y Fixed Fun (imágenes)\n* Akira896 y PauX (SWFs)",
-                            "small_description":"¡Juego traducido al español!",
+                            "authors":"Traducción\n* Alonsinwhat, Benelux y Artuhaxis (traducción principal)\n* Akira896, MarioPereyra, NatsukiZoe y Inuzen (traducción asistente)\n* Akira896 (testeo)\n* Fukken Hanzel y Fixed Fun (imágenes)\n* Akira896 y PauX (SWFs)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Nahuel Guidi y Jazmín Fernández (cantantes)\n* Fixed Fun, Akira896 y Artuhaxis (adaptación de la canción)\n* Akira896 (transcripción del guion y supervisión del doblaje)\n* Artuhaxis (recorte y ecualización de audios)",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
                                 "game_subtitles":true,
                                 "website":true,
-                                "audios":false
+                                "audios":true
                             }
                         },
                         {
