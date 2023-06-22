@@ -304,7 +304,7 @@
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Es cierto o falso?",
                     "small_description":"¿Es cierto o falso?",
-                    "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?\nAVISO: Al abrir este juego con la Utility, te abrirá el menú del Party Pack, omitiendo la introducción. Esto es intencional, ya que el juego se congela al intentar abrirlo de manera más eficaz como el resto de los juegos.",
+                    "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?\n\nAVISO: Al abrir este juego con la Utility, te abrirá el menú del Party Pack, omitiendo la introducción. Esto es intencional, ya que el juego se congela al intentar abrirlo de manera más eficaz como el resto de los juegos.",
                     "images":[
 						"game_images/LieSwatter/lieswatter_1.webp",
                         "game_images/LieSwatter/lieswatter_2.webp"
