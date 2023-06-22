@@ -992,7 +992,7 @@
                     "audience":true,
                     "audience_description":"El público intenta adivinar quién es el impostor junto a los jugadores.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Es necesario que los jugadores puedan verse entre sí para que el juego funcione correctamente. Por ello, si se juega en streaming, los jugadores deben poseer cámaras para jugar. Para la categoría \"HAY QUE APUNTAR\", se recomienda que los jugadores escriban los nombres de los demás en distintos papeles y los muestren a la cámara cuando sea necesario. Alternativamente, pueden escribir los nombres de los demás en el chat cuando haga falta. De no haber cámaras, el juego puede jugarse de una manera alternativa mencionada en la descripción.",
+                    "stream_friendly_description":"Es necesario que los jugadores puedan verse entre sí para que el juego funcione correctamente. Por ello, si se juega en streaming, los jugadores deben poseer cámaras para jugar. Para la categoría \"HAY QUE APUNTAR\", se recomienda que los jugadores escriban los nombres de los demás en distintos papeles y los muestren a la cámara cuando sea necesario. Alternativamente, pueden escribir los nombres de los demás en el chat cuando haga falta.",
                     "moderation":"CENSORING",
                     "moderation_description":"Con la opción \"Censura manual\" activada, el VIP puede censurar las respuestas de los jugadores una vez que aparecen en pantalla en la ronda final.",
                     "subtitles":false,
