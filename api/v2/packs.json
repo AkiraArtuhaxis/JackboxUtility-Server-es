@@ -2677,7 +2677,7 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"El público vota por qué jugador cree que lo har´+a mejor en las preguntas y gana porciones al acertar correctamente. Estas se colocan en la ruleta y pueden causar acciones a los jugadores cuando alguien cae en ellas.",
+                    "audience_description":"El público vota por qué jugador cree que lo hará mejor en las preguntas y gana porciones al acertar correctamente. Estas se colocan en la ruleta y pueden causar acciones a los jugadores cuando alguien cae en ellas.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Este juego no requiere moderación. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\" o desactivar la opción \"Permitir respuestas escritas por jugadores\".",
