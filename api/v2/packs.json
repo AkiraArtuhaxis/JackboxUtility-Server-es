@@ -3,7 +3,7 @@
        {
             "id":"talking",
             "name":"Discusión",
-            "icon":"action_center",
+            "icon":"megaphone",
             "description":"Juegos que requieren o se benefician de discusión en voz alta entre los jugadores."
        },
        {
@@ -15,7 +15,7 @@
        {
        	    "id":"writing",
             "name":"Escritura",
-            "icon":"text_align_top",
+            "icon":"keyboard_classic",
             "description":"Tendrás que escribir en estos juegos."
        },
        {
@@ -27,7 +27,7 @@
        {
        	    "id":"knowledge",
             "name":"Trivia",
-            "icon":"knowledge_management_app",
+            "icon":"unknown",
             "description":"Estos juegos son de trivia."
        }
     ],
