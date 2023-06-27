@@ -2801,7 +2801,7 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"El público puede intentar adivinar las puertas correctas junto a los jugadores. Además, en el \"Modo streamer\", los jugadores juegan en un equipo contra todo el público.",
+                    "audience_description":"El público responde las encuestas, influenciando los resultados de las mismas. Después, puede intentar adivinar las puertas correctas junto a los jugadores. Además, en el \"Modo streamer\", los jugadores juegan en un equipo contra todo el público.",
                     "stream_friendly":"MIDLY_PLAYABLE",
                     "stream_friendly_description":"Al ser un juego de discusión, se recomienda que los jugadores puedan al menos escucharse entre ellos. Al jugar en plataformas de streaming, es más recomendable que el equipo de jugadores juegue contra el equipo del público en el \"Modo streamer\".",
                     "moderation":"FULL_MODERATION",
