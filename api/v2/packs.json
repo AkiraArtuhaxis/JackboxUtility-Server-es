@@ -1738,7 +1738,7 @@
                     "family_friendly":"FAMILY_FRIENDLY",
                     "audience":false,
                     "stream_friendly":"NOT_PLAYABLE",
-                    "stream_friendly_description":"En este juego, los jugadores deben realizar acciones en tiempo real. Por ello, si se juega en streaming, los jugadores observando la transmición experimentarán una gran latencia entre sus acciones y lo que aparece en pantalla.",
+                    "stream_friendly_description":"En este juego, los jugadores deben realizar acciones en tiempo real. Por ello, si se juega en streaming, los jugadores observando la transmisión experimentarán una gran latencia entre sus acciones y lo que aparece en pantalla.",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Este juego no requiere moderación.",
                     "subtitles":false,
@@ -1959,7 +1959,7 @@
                     "audience":true,
                     "audience_description":"El público controla a un jugador, respondiendo preguntas y votando en las apuestas de los minijuegos. En la ronda final, intenta escapar junto a los demás jugadores.",
                     "stream_friendly":"PLAYABLE",
-                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmición posea sonido para escuchar el dictado.",
+                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmisión posea sonido para escuchar el dictado.",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Si es necesario, se recomienda activar la opción \"Modo sin escritura/dibujo en pantalla\" para que los jugadores no puedan enviar texto o dibujos.",
                     "subtitles":true,
@@ -3487,7 +3487,7 @@
                     "audience":true,
                     "audience_description":"El público controla a un jugador, respondiendo preguntas y votando en las apuestas de los minijuegos. En la ronda final, intenta escapar junto a los demás jugadores.",
                     "stream_friendly":"PLAYABLE",
-                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmición posea sonido para escuchar el dictado.",
+                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmisión posea sonido para escuchar el dictado.",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Si es necesario, se recomienda activar la opción \"Modo sin escritura/dibujo en pantalla\" para que los jugadores no puedan enviar texto o dibujos.",
                     "subtitles":true,
@@ -3610,7 +3610,7 @@
                         "game_images/FibbageXL/fibbagexl_3.webp"
                     ],
                     "tags":[
-                        "knowledge","writing"
+                        "writing","knowledge"
                     ]
 
                 },
