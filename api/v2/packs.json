@@ -28,7 +28,7 @@
        	    "id":"knowledge",
             "name":"Trivia",
             "icon":"unknown",
-            "description":"Estos juegos son de trivia."
+            "description":"Prueba tu conocimiento con estos juegos."
        }
     ],
     "patchsCategories":
@@ -4186,7 +4186,7 @@
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
-                                "game_subtitles":false,
+                                "game_subtitles":true,
                                 "website":false,
                                 "audios":false
                             }
@@ -4216,7 +4216,7 @@
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
-                                "game_subtitles":false,
+                                "game_subtitles":true,
                                 "website":false,
                                 "audios":false
                             }
@@ -4247,7 +4247,7 @@
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a playwtd.com/mod podrán decidir qué se mostrará en pantalla.",
-                    "subtitles":false,
+                    "subtitles":true,
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Doblajes de locura",
@@ -4316,7 +4316,7 @@
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
-                                "game_subtitles":false,
+                                "game_subtitles":true,
                                 "website":false,
                                 "audios":false
                             }
@@ -4347,7 +4347,7 @@
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a rifftrax.games/mod podrán decidir qué se mostrará en pantalla.",
-                    "subtitles":false,
+                    "subtitles":true,
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¡Hora de los riffs!",
