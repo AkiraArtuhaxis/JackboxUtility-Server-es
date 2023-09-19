@@ -1,13 +1,6 @@
 {
     "news":[
         {
-            "id":"2023-02-21 19:02:14",
-            "title":"¡Nuevo doblaje latino!",
-            "smallDescription":"¡Balbuceando Juntos ahora posee un doblaje latino!",
-            "content":"# ¡Hora de empezar con tus tareas!\nEl juego \"La Familia es un Infierno\" ahora posee un doblaje completo al español latino.\n¡Disponible ahora mismo en el nuevo parche en español de The Jackbox Party Pack 7!",
-            "image":"news_images/DevilsNews.png"
-        },
-        {
             "id":"2023-02-22 19:02:14",
             "title":"Jackbox Utility",
             "smallDescription":"¡Te damos la bienvenida a la nueva versión de Jackbox Utility!",
