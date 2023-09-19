@@ -2955,7 +2955,6 @@
                 "name":"Cambio de dominios a Jackbox.lol",
                 "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
-                "version":"653.2-ES",
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES.zip",
                 "configuration": {
 						"version_origin":"repo_file",
@@ -3285,7 +3284,258 @@
         "icon":"jpp9.ico",
         "background":"backgrounds/jpp9.jpg"
     },
-    
+    {
+        "id": "jpp10",
+        "name": "The Jackbox Party Pack 10",
+        "description": "El décimo paquete de fiesta de Jackbox",
+        "launchers_id": {
+            "steam": "2216830"
+        },
+        "executables": {
+            "windows": "The Jackbox Party Pack 10.exe",
+            "mac": "The Jackbox Party Pack 10.app/Contents/MacOS/The Jackbox Party Pack 10",
+            "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjpp10/default.zip",
+            "version": "1.0.0"
+        },
+        "configuration": {
+            "file": "jbg.config.jet",
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/"
+        },
+        "patchs": [
+        ],
+        "games": [
+            {
+                "id": "teeko2",
+                "name": "Tee K.O. 2",
+                "background": "game_backgrounds/TeeKO2.webp",
+                "path": "games/AwShirt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 25
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "El público puede votar por sus camisetas favoritas.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "20 - 25 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline":"Batalla de camisetas",
+                    "small_description":"Batalla de camisetas",
+                    "description":"En Tee K.O. 2, volverás a la misteriosa Isla de las Camisetas, donde los guerreros más aguerridos del mundo compiten en un mortífero torneo de lucha. ¡La victoria se decide dibujando a golpe de dedo, no a puñetazos!",
+                    "images": [
+                        "game_images/TeeKO2/teeko2.mp4",
+                        "game_images/TeeKO2/teeko2_1.png",
+                        "game_images/TeeKO2/teeko2_2.png",
+                        "game_images/TeeKO2/teeko2_3.png",
+                        "game_images/TeeKO2/teeko2_4.png"
+                    ],
+                    "tags": [
+                        "writing",
+                        "drawing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/teeko2.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "timejinx",
+                "name": "Timejinx",
+                "background": "game_backgrounds/Timejinx.webp",
+                "path": "games/TimeTrivia",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "El público también responde las preguntas.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Este juego no requiere moderación.",
+                    "subtitles": true,
+                    "length": "15 - 20 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Tiempo para jugar",
+                    "small_description": "Tiempo para jugar",
+                    "description": "En Timejinx adoptarás el papel de un viajero temporal que viene del futuro a competir en una noche de juegos de preguntas de lo más intensa. Salva tu línea temporal actual respondiendo a las preguntas del pasado.",
+                    "images": [
+                        "game_images/TimeJinx/timejinx.mp4",
+                        "game_images/TimeJinx/timejinx_1.png",
+                        "game_images/TimeJinx/timejinx_2.png",
+                        "game_images/TimeJinx/timejinx_3.png",
+                        "game_images/TimeJinx/timejinx_4.png"
+                    ],
+                    "tags": [
+                        "knowledge"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/timejinx.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "fixytext",
+                "name": "FixyText",
+                "background": "game_backgrounds/FixyText.webp",
+                "path": "games/RiskyText",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "audience_description": "El público puede votar por las palabras más divertidas.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Debido al funcionamiento del juego, no se pueden censurar las respuestas de los jugadores. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "15 - 20 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Mezcolanza de palabras",
+                    "small_description": "Mezcolanza de palabras",
+                    "description": "FixyText es el lejano oeste de la edición de texto. En este juego tan caótico, todo el mundo está en un chat grupal, escribiendo a la vez para hacer la afirmación más memorable posible. Y no hay tecla para borrar. ¡Chúpate esa, autocorrector!",
+                    "images": [
+                        "game_images/FixyText/fixytext.mp4",
+                        "game_images/FixyText/fixytext_1.png",
+                        "game_images/FixyText/fixytext_2.png",
+                        "game_images/FixyText/fixytext_3.png",
+                        "game_images/FixyText/fixytext_4.png"
+                    ],
+                    "tags": [
+                        "writing"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/fixytext.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "dodoremi",
+                "name": "Dodo Re Mi",
+                "background": "game_backgrounds/DodoReMi.webp",
+                "path": "games/NopusOpus",
+                "game_info": {
+                    "players": {
+                        "min": 1,
+                        "max": 9
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 25
+                    },
+                    "family_friendly": "FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "El público también puede interpretar las canciones.",
+                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly_description": "Hay una sincronización al comienzo de cada canción, por lo que el retraso de la transmisión se elimina automáticamente.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Este juego no requiere moderación.",
+                    "subtitles": true,
+                    "length": "15 - 25 minutos",
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Música desenfrenada",
+                    "small_description": "Música desenfrenada",
+                    "description": "En Dodo Re Mi, tu teléfono es tu instrumento. Tu bandada y tú tendréis que tocar música juntos para escapar de la voraz planta selvática. ",
+                    "images": [
+                        "game_images/DodoReMi/dodoremi.mp4",
+                        "game_images/DodoReMi/dodoremi_1.png",
+                        "game_images/DodoReMi/dodoremi_2.png",
+                        "game_images/DodoReMi/dodoremi_3.png",
+                        "game_images/DodoReMi/dodoremi_4.png"
+                    ],
+                    "tags": []
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/dodoremi.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            },
+            {
+                "id": "hypnotorious",
+                "name": "Hypnotorious",
+                "background": "game_backgrounds/Hypnotorious.webp",
+                "path": "games/Strangers",
+                "game_info": {
+                    "players": {
+                        "min": 4,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 25
+                    },
+                    "family_friendly": "OPTIONAL",
+                    "audience": true,
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "15 - 25 minutos",
+                    "type": "COOP",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Hipnosis en equipo",
+                    "small_description": "Hipnosis en equipo",
+                    "description": "Hypnotorious es un juego de roles secretos, de tentativas de alianza y, por supuesto, de respuestas absurdas a preguntas ridículas. ¿Quién está de tu parte?",
+                    "images": [
+                        "game_images/Hypnotorious/hypnotorious.mp4",
+                        "game_images/Hypnotorious/hypnotorious_1.png",
+                        "game_images/Hypnotorious/hypnotorious_2.png",
+                        "game_images/Hypnotorious/hypnotorious_3.png",
+                        "game_images/Hypnotorious/hypnotorious_4.png"
+                    ],
+                    "tags": [
+                        "writing",
+                        "deduction"
+                    ]
+                },
+                "loader": {
+                    "path": "loaders/tjpp10/hypnotorious.zip",
+                    "version": "1.0.0"
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jpp10.ico",
+        "background": "backgrounds/jpp10.jpg"
+    },
     {
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",
