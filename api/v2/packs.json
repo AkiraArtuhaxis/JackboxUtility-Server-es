@@ -1851,7 +1851,7 @@
                 {
                     "id":"jpp6_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.",
+                    "small_description":"Pack 100% traducido. Pulsa el Botón cuenta con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
                     "configuration": {
@@ -4183,7 +4183,7 @@
                 {
                     "id":"df2_es",
                     "name":"Adaptación al Español Latino",
-                    "small_description":"Juego adaptado al español latino.\nIncluye un doblaje latino completo.",
+                    "small_description":"Juego adaptado al español latino.\nCuenta con un doblaje latino completo.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-LAT.zip",
                     "configuration": {
