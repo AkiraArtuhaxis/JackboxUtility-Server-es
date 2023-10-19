@@ -3310,7 +3310,97 @@
             "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
             "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152"
         },
-        "patchs": [
+        "patchs":[
+            {
+                "id":"jpp10_es",
+                "name":"Cambio de dominios a Jackbox.lol",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "description":"",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/releases/latest/download/JPP10-ES.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                "components":[
+                    {
+                        "id":"teeko2_patch",
+                        "linked_game":"teeko2",
+                        "name":"Tee K.O. 2",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"timejinx_patch",
+                        "linked_game":"timejinx",
+                        "name":"Timejinx",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"fixytext_patch",
+                        "linked_game":"fixytext",
+                        "name":"FixyText",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"dodoremi_patch",
+                        "linked_game":"dodoremi",
+                        "name":"Dodo Re Mi",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"hypnotorious_patch",
+                        "linked_game":"hypnotorious",
+                        "name":"Hypnotorious",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    }
+                ]
+                
+            }
         ],
         "games": [
             {
