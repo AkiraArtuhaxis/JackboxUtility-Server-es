@@ -3307,7 +3307,8 @@
             "version_file": "jbg.config.jet"
         },
         "store_links": {
-            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/"
+            "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
+            "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152"
         },
         "patchs": [
         ],
@@ -3427,7 +3428,7 @@
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Mezcolanza de palabras",
                     "small_description": "Mezcolanza de palabras",
-                    "description": "FixyText es el lejano oeste de la edición de texto. En este juego tan caótico, todo el mundo está en un chat grupal, escribiendo a la vez para hacer la afirmación más memorable posible. Y no hay tecla para borrar. ¡Chúpate esa, autocorrector!",
+                    "description": "FixyText es el lejano oeste de la edición de texto. En este juego tan caótico, todo el mundo está en un chat grupal, escribiendo a la vez para hacer la afirmación más memorable posible. Y no hay tecla para borrar. ¡Toma eso, autocorrector!",
                     "images": [
                         "game_images/FixyText/fixytext.mp4",
                         "game_images/FixyText/fixytext_1.png",
@@ -3472,7 +3473,7 @@
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Música desenfrenada",
                     "small_description": "Música desenfrenada",
-                    "description": "En Dodo Re Mi, tu teléfono es tu instrumento. Tu bandada y tú tendréis que tocar música juntos para escapar de la voraz planta selvática. ",
+                    "description": "En Dodo Re Mi, tu teléfono es tu instrumento. Tu bandada y tú tendrán que tocar música juntos para escapar de la voraz planta selvática. ",
                     "images": [
                         "game_images/DodoReMi/dodoremi.mp4",
                         "game_images/DodoReMi/dodoremi_1.png",
@@ -3514,7 +3515,7 @@
                     "translation": "NATIVELY_TRANSLATED",
                     "tagline": "Hipnosis en equipo",
                     "small_description": "Hipnosis en equipo",
-                    "description": "Hypnotorious es un juego de roles secretos, de tentativas de alianza y, por supuesto, de respuestas absurdas a preguntas ridículas. ¿Quién está de tu parte?",
+                    "description": "Hypnotorious es un juego de roles secretos, de tentativas de alianza y, por supuesto, de respuestas absurdas a preguntas ridículas. ¿Quién está de tu lado?",
                     "images": [
                         "game_images/Hypnotorious/hypnotorious.mp4",
                         "game_images/Hypnotorious/hypnotorious_1.png",
