@@ -3289,7 +3289,8 @@
         "name": "The Jackbox Party Pack 10",
         "description": "El décimo paquete de fiesta de Jackbox",
         "launchers_id": {
-            "steam": "2216830"
+            "steam": "2216830",
+            "epic":"fddfaf1422fb43b08d3ccc0fcc110a65"
         },
         "executables": {
             "windows": "The Jackbox Party Pack 10.exe",
