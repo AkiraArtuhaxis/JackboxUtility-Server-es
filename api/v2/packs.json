@@ -3422,7 +3422,7 @@
                     "audience_description": "El público puede votar por sus camisetas favoritas.",
                     "stream_friendly": "PLAYABLE",
                     "moderation": "FULL_MODERATION",
-                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
                     "subtitles": true,
                     "length": "20 - 25 minutos",
                     "type": "VERSUS",
@@ -3438,8 +3438,8 @@
                         "game_images/TeeKO2/teeko2_4.png"
                     ],
                     "tags": [
-                        "writing",
-                        "drawing"
+                        "drawing",
+                        "writing"
                     ]
                 },
                 "loader": {
@@ -3467,7 +3467,7 @@
                     "audience_description": "El público actúa como jugador y puede responder a todas las preguntas. Su puntaje no estará en el marcador, pero el promedio se mostrará en la pantalla.",
                     "stream_friendly": "PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"Este juego no requiere moderación.",
+                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
                     "subtitles": true,
                     "length": "15 - 20 minutos",
                     "type": "VERSUS",
@@ -3476,11 +3476,11 @@
                     "small_description": "Tiempo para jugar",
                     "description": "En Timejinx adoptarás el papel de un viajero temporal que viene del futuro a competir en una noche de juegos de preguntas de lo más intensa. Salva tu línea temporal actual respondiendo a las preguntas del pasado.",
                     "images": [
-                        "game_images/TimeJinx/timejinx.mp4",
-                        "game_images/TimeJinx/timejinx_1.png",
-                        "game_images/TimeJinx/timejinx_2.png",
-                        "game_images/TimeJinx/timejinx_3.png",
-                        "game_images/TimeJinx/timejinx_4.png"
+                        "game_images/Timejinx/timejinx.mp4",
+                        "game_images/Timejinx/timejinx_1.png",
+                        "game_images/Timejinx/timejinx_2.png",
+                        "game_images/Timejinx/timejinx_3.png",
+                        "game_images/Timejinx/timejinx_4.png"
                     ],
                     "tags": [
                         "knowledge"
@@ -3511,7 +3511,7 @@
                     "audience_description": "El público puede votar por sus palabras favoritas.",
                     "stream_friendly": "PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
                     "subtitles": true,
                     "length": "15 - 20 minutos",
                     "type": "VERSUS",
@@ -3556,7 +3556,7 @@
                     "stream_friendly": "PLAYABLE",
                     "stream_friendly_description": "Este juego se basa en interpretar canciones en tiempo real. Sin embargo, hay una sincronización al comienzo de cada canción, por lo que el retraso en un stream se elimina automáticamente.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"Este juego no requiere moderación.",
+                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
                     "subtitles": true,
                     "length": "15 - 25 minutos",
                     "type": "COOP",
@@ -3595,10 +3595,11 @@
                     },
                     "family_friendly": "OPTIONAL",
                     "audience": true,
-                    "stream_friendly": "PLAYABLE",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Al ser un juego de discusión, se recomienda que los jugadores puedan al menos escucharse entre ellos.",
                     "audience_description": "El público elige las respuestas favoritas de los jugadores.",
                     "moderation": "FULL_MODERATION",
-                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
                     "subtitles": true,
                     "length": "15 - 25 minutos",
                     "type": "COOP",
@@ -3615,7 +3616,8 @@
                     ],
                     "tags": [
                         "writing",
-                        "deduction"
+                        "deduction",
+                        "talking"
                     ]
                 },
                 "loader": {
