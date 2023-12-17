@@ -77,7 +77,7 @@
                 {
                     "id":"jpp1_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.",
+                    "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.\nDrawful cuenta con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "configuration": {
@@ -92,13 +92,13 @@
                             "name":"Drawful",
                             "description":"",
                             "authors":"* Artuhaxis\n* Akira896",
-                            "small_description":"¡Juego traducido al español!",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
                                 "game_subtitles":false,
                                 "website":true,
-                                "audios":false
+                                "audios":true
                             }
                         },
                         {
