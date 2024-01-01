@@ -4700,7 +4700,7 @@
                 {
                     "id":"uyw_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Solo está traducido el modo “Sub The Title”.",
+                    "small_description":"Juego 100% traducido.\nCuenta con un doblaje latino completo.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES.zip",
                     "configuration": {
@@ -4712,16 +4712,16 @@
                 {
                             "id":"use_your_words_patch",
                             "linked_game":"use_your_words",
-                            "name":"Use Your Words",
+                            "name":"Usa Tus Palabras",
                             "description":"",
-                            "authors":"* Radioactive Man",
-                            "small_description":"¡Sub The Title traducido al español!",
+                            "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios, voz temporal y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
+                            "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
-                                "game_assets":false,
+                                "game_assets":true,
                                 "game_subtitles":false,
                                 "website":false,
-                                "audios":false
+                                "audios":true
                             }
                         }
                     ]
@@ -4731,7 +4731,7 @@
         "games":[
             {
                 "id":"use_your_words",
-                "name":"Use Your Words",
+                "name":"Usa Tus Palabras",
                 "background":"game_backgrounds/UseYourWords.webp",
                 "path":"",
                 "game_info":{
@@ -4755,7 +4755,7 @@
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Fiesta de palabras",
                     "small_description":"Fiesta de palabras",
-                    "description":"¡Use Your Words es el juego de fiestas para gente divertida y sus amigos no divertidos! ¡Ríete a lo largo de cuatro divertidísimos minijuegos! ¡Use tu teléfono inteligente para completar el espacio en blanco, o prueba tu suerte usando una de nuestras respuestas para reírte! No importa cuál sea tu estrategia, ¡Use Your Words trae la comedia a casa!",
+                    "description":"¡Usa Tus Palabras es el juego de fiestas para gente divertida y sus amigos no divertidos! ¡Ríete a lo largo de cuatro divertidísimos minijuegos! ¡Use tu teléfono inteligente para completar el espacio en blanco, o prueba tu suerte usando una de nuestras respuestas para reírte! No importa cuál sea tu estrategia, ¡Usa Tus Palabras trae la comedia a casa!",
                     "images":[
 						"game_images/UseYourWords/useyourwords.mp4",
                         "game_images/UseYourWords/useyourwords_1.webp",
