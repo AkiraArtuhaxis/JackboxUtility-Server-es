@@ -2,13 +2,6 @@
     "news":[
         {
             "id":"2023-02-22 19:02:14",
-            "title":"¡Nuevo doblaje latino!",
-            "smallDescription":"¡Nuevo doblaje latino!",
-            "content":"# ¡Ven a la fiesta!\n\nEl juego \"Usa Tus Palabras\" (Use Your Words) ahora se encuentra completamente traducido y doblado en español latino.\n\n",
-            "image":"news_images/UYWTranslationDubPromo.png"
-        },
-        {
-            "id":"2023-02-22 19:02:14",
             "title":"Jackbox Utility",
             "smallDescription":"¡Te damos la bienvenida a la Jackbox Utility!",
             "content":"# ¡Esto es Jackbox Utility!\n\nEn esta aplicación, puedes parchear juegos y luego ejecutarlos, omitiendo las introducciones y las secciones de menú.\n\nUsando toda clase de filtros y categorías, buscar el juego que deseas jugar nunca ha sido más fácil.\n\n¡Hora de entrar en acción más rápido!",
