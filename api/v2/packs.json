@@ -194,7 +194,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/ydkj2015.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -239,7 +239,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/drawful.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -314,7 +314,7 @@
                     "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"¿Es cierto o falso?",
                     "small_description":"¿Es cierto o falso?",
-                    "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?\n\nAVISO: Al abrir este juego con la Utility, te abrirá el menú del Party Pack, omitiendo la introducción. Esto es intencional, ya que el juego se congela al intentar abrirlo de manera más eficaz como el resto de los juegos.",
+                    "description":"¿Las langostas orinan de sus cabezas? ¿Japón votó por los fideos instantáneos como el mayor invento del s. XX? ¿O piensas que es mentira?",
                     "images":[
 						"game_images/LieSwatter/lieswatter.mp4",
                         "game_images/LieSwatter/lieswatter_1.webp",
@@ -327,7 +327,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/lieswatter.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
@@ -372,7 +372,7 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp1/fibbagexl.zip",
-                    "version":"1.0.0"
+                    "version":"1.0.1"
                 },
                 "patchs":[
                     
