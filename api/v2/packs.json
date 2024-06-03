@@ -2129,8 +2129,7 @@
         "name":"The Jackbox Party Pack 6",
         "description":"El sexto paquete de fiestas de Jackbox",
         "launchers_id":{
-            "steam":"1005300",
-            "epic":"Astrapia"
+            "steam":"1005300"
         },
         "executables":{
             "windows":"The Jackbox Party Pack 6.exe",
@@ -2143,15 +2142,14 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 6.app/Contents/Resources/macos"
         },
         "store_links":{
-            "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
-            "epic":"https://store.epicgames.com/p/jackbox-party-pack-6"
+            "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/"
         },
             "patchs":[
                 {
@@ -2162,7 +2160,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "components":[
@@ -2482,6 +2480,372 @@
                 },
                 "loader":{
                     "path":"loaders/tjpp6/pushthebutton.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpp6.ico",
+        "background":"backgrounds/jpp6.jpg"
+    },
+        {
+        "id":"jpp6_egs",
+        "name":"The Jackbox Party Pack 6 [Epic Games]",
+        "description":"El sexto paquete de fiestas de Jackbox",
+        "launchers_id":{
+            "epic":"Astrapia"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Pack 6.exe",
+            "mac":"The Jackbox Party Pack 6.app/Contents/MacOS/The Jackbox Party Pack 6",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpp6_egs/default.zip",
+            "version":"1.0.0"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"config.jet",
+            "version_property":"buildVersion"
+        },
+        "resource_location":{
+            "mac":"The Jackbox Party Pack 6.app/Contents/Resources/macos"
+        },
+        "store_links":{
+            "epic":"https://store.epicgames.com/p/jackbox-party-pack-6"
+        },
+            "patchs":[
+                {
+                    "id":"jpp6_es_egs",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nPulsa el Botón cuenta con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES-EGS.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "components":[
+                {
+                            "id":"trivia_murder_party_2_patch_egs",
+                            "linked_game":"trivia_murder_party_2",
+                            "name":"Trivia Murder Party 2",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (traducción e imágenes)\n* Raúl Mora (traducción)\n* Akira896 (archivos SWF, imágenes y asistencia en subtítulos)\n* Fukken Hanzel y Alomancia (imágenes)\n* Pachekin (asistencia en subtítulos)\n* Fixed Fun (videos)\nDoblaje\n* Akira896 (voz del dictado)\n* Jorge Pineda (voz de Schmitty)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"role_models_patch_egs",
+                            "linked_game":"role_models",
+                            "name":"Modelo a Seguir",
+                            "description":"",
+                            "authors":"* Artuhaxis, Raúl Mora, Tejas y Akira896 (traducción principal)\n* DanielMGC, MrCityWaffles, NatsukiZoe y diegoflg3 (traducción asistente)\n* Akira896 (SWFs y video del tutorial)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"jokeboat_patch_egs",
+                            "linked_game":"jokeboat",
+                            "name":"Crucero Cómico",
+                            "description":"",
+                            "authors":"* Akira896 (traducción)\n* Artuhaxis (imágenes)\n* Fixed Fun (imágenes adicionales y videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"dictionarium_patch_egs",
+                            "linked_game":"dictionarium",
+                            "name":"Diccionarium",
+                            "description":"",
+                            "authors":"* LucastuFett y Fenixhim272 (traducción)\n* Akira896 (traducción y archivos SWF)\n* Roxas (imágenes)\n* Fixed Fun (animaciones de los cronómetros)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"pushthebutton_patch_egs",
+                            "linked_game":"pushthebutton",
+                            "name":"Pulsa el Botón",
+                            "description":"",
+                            "authors":"Traducción\n* Markmtz90 (traducción e imágenes)\n* Artuhaxis (asistencia)\n* Akira896 (asistencia y archivos SWF)\n* Fixed Fun (logo)\nDoblaje\n* Rocío Benítez Blasco (anfitriona)\n* Nahuel Guidi y Akira896 (cantantes)\n* Fixed Fun, Akira896 y Artuhaxis (adaptación de la canción)\n* Akira896 y Artuhaxis (transcripción del guion; recorte y ecualización de audios)\n* Akira896 (revisión del guion; supervisión del doblaje)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+        	{
+                "id":"trivia_murder_party_2_egs",
+                "name":"Trivia Murder Party 2",
+                "background":"game_backgrounds/TriviaMurderParty2.webp",
+                "path":"games/TriviaMurderParty2",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "length":"15 - 20 minutos",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"El público controla a un jugador, respondiendo preguntas y votando en las apuestas de los minijuegos. En la ronda final, intenta escapar junto a los demás jugadores.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmisión posea sonido para escuchar el dictado.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Si es necesario, se recomienda activar la opción \"Modo sin escritura/dibujo en pantalla\" para que los jugadores no puedan enviar texto o dibujos.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¿Sobrevivirás a esta trivia?",
+                    "small_description":"¿Sobrevivirás a esta trivia?",
+                    "description":"Un asesino serial está armando un juego absurdo de trivia desde su Hotel Asesino de la familia con la que vivía. ¿Podrás sobrevivir?",
+                    "images":[
+						"game_images/TriviaMurderParty2/triviamurderparty2.mp4",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6_egs/triviamurderparty2.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"role_models_egs",
+                "name":"Modelo a Seguir",
+                "background":"game_backgrounds/RoleModels.webp",
+                "path":"games/RoleModels",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":6
+                    },
+                    "length":"15 - 20 minutos",
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"El público puede votar por sus respuestas favoritas. Además, durante las elecciones de rol, pueden responder como los jugadores (aunque solo para sí mismos) y se les dará un rol bonus al final del juego en base a sus respuestas.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"En las \"Pruebas de rendimiento espontáneo\" los jugadores deben realizar tareas para que luego los demás jugadores los vean realizarlas y voten por quién lo hizo mejor. Es importarte poder verse para estas tareas.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Con la opción \"Censura manual\" activada, el VIP puede censurar las respuestas de los jugadores una vez que aparecen en pantalla. Si es necesario, se recomienda activar la opción \"Desactivar fotos de jugadores\" para que los jugadores no puedan usar una foto como su avatar.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"¿Quién eres?",
+                    "small_description":"¿Quién eres?",
+                    "description":"Todos somos alguien, asi que, ¿quién eres? ¿El planificador? ¿El especial? ¿El picante? Entra al laboratorio y descúbrelo.",
+                    "images":[
+						"game_images/RoleModels/rolemodels.mp4",
+                        "game_images/RoleModels/rolemodels_1.webp",
+                        "game_images/RoleModels/rolemodels_2.webp",
+                        "game_images/RoleModels/rolemodels_3.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6_egs/rolemodels.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"jokeboat_egs",
+                "name":"Crucero Cómico",
+                "background":"game_backgrounds/JokeBoat.webp",
+                "path":"games/JokeBoat",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"20 - 25 minutos",
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"El público puede votar por sus respuestas favoritas.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Al ser un juego de presentaciones, se recomienda que los jugadores puedan al menos escucharse entre ellos.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Con la opción \"Censura manual\" activada, el VIP puede censurar las respuestas de los jugadores una vez que aparecen en pantalla.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Haz reír a tus amigos",
+                    "small_description":"Haz reír a tus amigos",
+                    "description":"¡Ahoy! Eres un comediante amateur en un crucero de cuarta. ¿Tienes lo que se necesita para ganar el show de talento?",
+                    "images":[
+			            "game_images/JokeBoat/jokeboat.mp4",
+                        "game_images/JokeBoat/jokeboat_1.webp",
+                        "game_images/JokeBoat/jokeboat_2.webp",
+                        "game_images/JokeBoat/jokeboat_3.webp",
+                        "game_images/JokeBoat/jokeboat_4.webp"
+                    ],
+                    "tags":[
+                        "writing",
+                        "talking"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6_egs/jokeboat.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"dictionarium_egs",
+                "name":"Diccionarium",
+                "background":"game_backgrounds/Dictionarium.webp",
+                "path":"games/Ridictionary",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "length":"10 - 15 minutos",
+                    "playtime":{
+                        "min":10,
+                        "max":15
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"El público puede votar por sus respuestas favoritas.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Con la opción \"Censura manual\" activada, el VIP puede censurar las respuestas de los jugadores una vez que aparecen en pantalla.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Inventa palabras",
+                    "small_description":"Inventa palabras",
+                    "description":"El ser humano ha estado inventando palabras y frases por siglos. Ahora es tu turno para contribuir una entrada en las páginas del Diccionarium.",
+                    "images":[
+			            "game_images/Dictionarium/dictionarium.mp4",
+                        "game_images/Dictionarium/dictionarium_1.webp",
+                        "game_images/Dictionarium/dictionarium_2.webp",
+                        "game_images/Dictionarium/dictionarium_3.webp",
+                        "game_images/Dictionarium/dictionarium_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6_egs/dictionarium.zip",
+                    "version":"1.0.0"
+                },
+                "patchs":[
+                    
+                ]
+            },
+            {
+                "id":"pushthebutton_egs",
+                "name":"Pulsa el Botón",
+                "background":"game_backgrounds/PushTheButton.webp",
+                "path":"games/PushTheButton",
+                "game_info":{
+                    "players":{
+                        "min":4,
+                        "max":10
+                    },
+                    "length":"15 - 25 minutos",
+                    "playtime":{
+                        "min":15,
+                        "max":25
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":false,
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Al ser un juego de deducción social, se recomienda que los jugadores puedan hablar en voz alta y discutir entre ellos, especialmente en la sección del Bioescáner (un jugador debe describir varios símbolos a los demás). Si se juega en plataformas de streaming, se debería evitar esta sección por completo y si uno de los humanos está AFK acaba siendo inganable para los humanos.",
+                    "moderation":"CENSORING",
+                    "moderation_description":"Con la opción \"Censura manual\" activada, el VIP puede censurar las respuestas de los jugadores una vez que aparecen en pantalla.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"COMMUNITY_TRANSLATED",
+                    "tagline":"Encuentra a los aliens",
+                    "small_description":"Encuentra a los aliens",
+                    "description":"¡Peligro! Alienígenas cambia-forma se han infiltrado en tu nave. ¿Pueden tú y tu tripulación encontrarlos antes que se acabe el tiempo?",
+                    "images":[
+			            "game_images/PushTheButton/pushthebutton.mp4",
+                        "game_images/PushTheButton/pushthebutton_1.webp",
+                        "game_images/PushTheButton/pushthebutton_2.webp",
+                        "game_images/PushTheButton/pushthebutton_3.webp",
+                        "game_images/PushTheButton/pushthebutton_4.webp"
+                    ],
+                    "tags":[
+                        "talking",
+                        "writing",
+                        "drawing",
+                        "deduction"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpp6_egs/pushthebutton.zip",
                     "version":"1.0.0"
                 },
                 "patchs":[
