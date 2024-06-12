@@ -2523,7 +2523,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nPulsa el Botón cuenta con doblaje latino.",
                     "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES-EGS.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES-EGS-SWITCH.zip",
                     "configuration": {
 						"version_origin":"repo_file",
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
