@@ -1821,7 +1821,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": [
