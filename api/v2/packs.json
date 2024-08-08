@@ -66,7 +66,7 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
         "resource_location":{
@@ -85,7 +85,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "components":[
@@ -431,7 +431,7 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
         "resource_location":{
@@ -450,7 +450,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "components":[
