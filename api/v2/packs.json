@@ -3080,7 +3080,7 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
         "resource_location":{
@@ -3099,7 +3099,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "components":[
@@ -3399,9 +3399,9 @@
                         "name":"Cursed Points",
                         "small_description":"¡Mod traducido al español!",
                         "description":"Da una charla sobre imágenes cursed que nunca has visto antes. No importa si tiene sentido, ¡es más divertido si no lo tiene!\nAVISO: Si quieres volver a jugar Talking Points (sin el mod), deberás verificar la integridad de los archivos con Steam/EGS y luego reinstalar el parche de traducción.",
-                        "version":"561.CapyV1-ES",
+                        "version":"7.CapyV1-ES",
                         "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
-                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/561.22-ES/CursedPointsES-CapyV1-ES.zip",
+                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/7.1-ES/CursedPointsES-CapyV1-ES.zip",
                         "patch_type":{
                             "game_text":true,
                             "game_assets":true,
@@ -3488,7 +3488,7 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"config.jet",
+            "version_file":"jbg.config.jet",
             "version_property":"buildVersion"
         },
         "resource_location":{
@@ -3507,7 +3507,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "components":[
