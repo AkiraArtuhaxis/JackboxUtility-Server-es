@@ -2000,7 +2000,8 @@
         "name":"The Jackbox Party Pack 6",
         "description":"El sexto paquete de fiestas de Jackbox",
         "launchers_id":{
-            "steam":"1005300"
+            "steam":"1005300",
+            "epic":"Astrapia"
         },
         "executables":{
             "windows":"The Jackbox Party Pack 6.exe",
@@ -2020,7 +2021,8 @@
             "mac":"The Jackbox Party Pack 6.app/Contents/Resources/macos"
         },
         "store_links":{
-            "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/"
+            "steam":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
+            "epic":"https://store.epicgames.com/p/jackbox-party-pack-6"
         },
             "patchs":[
                 {
