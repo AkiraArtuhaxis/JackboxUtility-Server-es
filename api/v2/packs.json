@@ -67,7 +67,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack.app/Contents/Resources/macos"
@@ -88,6 +93,82 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                        {
+                            "id":"drawful_patch",
+                            "linked_game":"drawful",
+                            "name":"Drawful",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis\n* Akira896\nDoblaje\n* Mila Tapia (anfitriona)\n* Akira896 (transcripción del guion; recorte y ecualización de audios, voz adicional y supervisión del doblaje)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                        {
+                            "id":"wordspud_patch",
+                            "linked_game":"wordspud",
+                            "name":"Papa Palabra",
+                            "description":"",
+                            "authors":"* Artuhaxis\n* Akira896 (SWF)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"lieswatter_patch",
+                            "linked_game":"lieswatter",
+                            "name":"Mata Mentiras",
+                            "description":"",
+                            "authors":"* Fukken Hanzel (traducción principal)\n* Akira896 (SWF y logo)\n* Nicolaselzorro2 (traducción asistente)\n* TheDarkSid3r (imágenes adicionales)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },                        {
+                            "id":"fibbagexl_patch",
+                            "linked_game":"fibbagexl",
+                            "name":"Fibbage XL",
+                            "description":"",
+                            "authors":"* Akira896 (traducción, imágenes y videos adicionales)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp1_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.\nDrawful cuenta con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES-EGS.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -432,7 +513,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 2.app/Contents/Resources/macos"
@@ -453,6 +539,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"fibbage2_patch",
+                            "linked_game":"fibbage2",
+                            "name":"Fibbage 2",
+                            "description":"",
+                            "authors":"* Akira896 (traducción e imágenes)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"earwax_patch",
+                            "linked_game":"earwax",
+                            "name":"Earwax",
+                            "description":"",
+                            "authors":"Traducción\n* Radioactive Man\n* Akira896 (revisión y SWFs)\n* Artuhaxis (revisión)\nDoblaje\n* Artuhaxis (anfitrión, guion y recorte de audios)\n* Eleiber (guion)\n* Akira896 (supervisión, voz masculina adicional, recorte de audios y ecualización de audios)\n* Ana Fernández (voz femenina)\n* Nico Svirnovsky (voz masculina)\n* BinaryPie (voz del viejo)\n* Akira896, Ernesto Fernández, Santiago Giordani, Rocío Benítez Blasco, Valentina Dogovich y Olivia Vulcano (voces de la multitud)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"bidiots_patch",
+                            "linked_game":"bidiots",
+                            "name":"Subastardos",
+                            "description":"",
+                            "authors":"* Radioactive Man\n* Akira896 (SWFs y revisión)\n* Artuhaxis y Fixed Fun (imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"quiplashxl_patch",
+                            "linked_game":"quiplashxl",
+                            "name":"Quiplash XL",
+                            "description":"",
+                            "authors":"* Radioactive Man (usa sus aportes a la traducción de Quiplash 1)\n* Artuhaxis (traducción)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"bombcorp_patch",
+                            "linked_game":"bombcorp",
+                            "name":"Bomba S.A.",
+                            "description":"",
+                            "authors":"* Markmtz90\n* Akira896 (revisión)\n* Artuhaxis y TheDarkSid3r (ayuda adicional)\n* Fixed Fun (título)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp2_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nEarwax cuenta con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES-EGS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -824,7 +1002,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 3.app/Contents/Resources/macos"
@@ -845,9 +1028,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
-                    "supported_platforms": [
-						"linux","windows"
-                    ],
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"quiplash2_patch",
+                            "linked_game":"quiplash2",
+                            "name":"Quiplash 2",
+                            "description":"",
+                            "authors":"* Akira896",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"triviamurderparty_patch",
+                            "linked_game":"triviamurderparty",
+                            "name":"Trivia Murder Party",
+                            "description":"",
+                            "authors":"* Pachekin y Fukken Hanzel (traducción)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales)\n* Eleiber (Jackbox.lol)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"guesspionage_patch",
+                            "linked_game":"guesspionage",
+                            "name":"Espiadivinos",
+                            "description":"",
+                            "authors":"* Akira896",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"fakinit_patch",
+                            "linked_game":"fakinit",
+                            "name":"¡Engáñame!",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (traducción)\n* Akira896 (SWFs)\n* Markmtz90 (imágenes)\n* Fixed Fun (logo)\nDoblaje\n* Fausto Serra (anfitrión)\n* Akira896 (supervisión del doblaje, adaptación a latino y recorte y ecualización de audios)\n* Artuhaxis (adaptación a latino y recorte y ecualización de audios)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"teeko_patch",
+                            "linked_game":"teeko",
+                            "name":"Tee K.O.",
+                            "description":"",
+                            "authors":"* Akira896\n* Artuhaxis",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp3_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\n¡Engáñame! cuenta con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES-EGS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -1221,7 +1493,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 4.app/Contents/Resources/macos"
@@ -1242,9 +1519,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
-                    "supported_platforms": [
-						"linux","windows"
-                    ],
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"fibbage3_patch",
+                            "linked_game":"fibbage3",
+                            "name":"Fibbage 3",
+                            "description":"",
+                            "authors":"Fibbage 3\n* Artuhaxis y Fukken Hanzel (traducción principal)\n* damian29, diegoflg3, Akira896, Markmtz90 y Alonsinwhat (traducción asistente)\n* P4ND4_1100010 (ayuda adicional)\n* Akira896 (SWFs)\nMentiras sobre ti\n* Artuhaxis y Akira896 (traducción)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"survivetheinternet_patch",
+                            "linked_game":"survivetheinternet",
+                            "name":"Sobrevive al Internet",
+                            "description":"",
+                            "authors":"Traducción\n* Akira896\n* Artuhaxis (imágenes adicionales); Fixed Fun (logo)\nDoblaje\n* Akira896 (anfitrión)\n* Artuhaxis (traducción del guion)\n* maritomomomemardo (voz de tutorial)\n* Artuhaxis (Gene)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"monsterseekingmonster_patch",
+                            "linked_game":"monsterseekingmonster",
+                            "name":"Monstruo Busca Monstruo",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis y Akira896\n* Fixed Fun (logo)\nDoblaje\n* Rocío Benítez Blasco (anfitriona)\n* Eleiber (traducción del guion)\n* Artuhaxis (recorte y ecualización de audios)\n* Akira896 (suprevisión del doblaje, cantante, voz de marioneta y ecualización de audios)\n* Nahuel Guidi (cantante)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"bracketeering_patch",
+                            "linked_game":"bracketeering",
+                            "name":"Bracketeering",
+                            "description":"",
+                            "authors":"* Akira896 (traducción principal y archivos SWF)\n* Raúl Mora y Artuhaxis (traducción)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"civicdoodle_patch",
+                            "linked_game":"civicdoodle",
+                            "name":"Garabato Cívico",
+                            "description":"",
+                            "authors":"Traducción\n* Akira896 (traducción)\n* Artuhaxis (imágenes adicionales)\n* Fixed Fun (logo)\nDoblaje\n* Ana Fernández y BinaryPie (anfitriones)\n* Eleiber (traducción del guion)\n* Akira896 (supervisión y voces adicionales)\n* maritomomomemardo, Artuhaxis, ner0, Vanesa Peralta, Guillermina Marín, Rocío Benítez Blasco y Camila Iriart (voces adicionales)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp4_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nSobrevive al Internet, Monstruo Busca Monstruo y Garabato Cívico cuentan con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES-EGS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -1617,7 +1983,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 5.app/Contents/Resources/macos"
@@ -1638,9 +2009,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
-                    "supported_platforms": [
-						"linux","windows"
-                    ],
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"ydkj_fullstream_patch",
+                            "linked_game":"ydkj_fullstream",
+                            "name":"You Don't Know Jack: Full Stream",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción principal)\n* Akira896, Marti005 y stefano30 (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (videos e imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"splittheroom_patch",
+                            "linked_game":"splittheroom",
+                            "name":"Divide la Sala",
+                            "description":"",
+                            "authors":"* Artuhaxis y Akira896 (traducción principal)\n* Eleiber, Raúl Mora, Nairoliv y Molonazo (traducción asistente)\n* Fixed Fun, Artuhaxis y Akira896 (imágenes)\n* Akira896 (SWFs y videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"mad_verse_city_patch",
+                            "linked_game":"mad_verse_city",
+                            "name":"Mad Verse City",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción de rondas)\n* Akira896 (traducción de otros archivos y SWF)\n* Markmtz90 (imágenes)\n* P4ND4_1100010 (voces de los robots en español)\n* Fixed Fun (logo traducido)\n* Fukken Hanzel (traducción y revisión general restante)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"zeeple_dome_patch",
+                            "linked_game":"zeeple_dome",
+                            "name":"Zeeple Dome",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis y Akira896\nDoblaje\n* Walter Tassi (anfitrión)\n* Nahuel Guidi (introducción)\n* Akira896 (traducción, supervisión, ecualización)\n* Artuhaxis (supervisión)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                {
+                            "id":"patentlystupid_patch",
+                            "linked_game":"patentlystupid",
+                            "name":"Patentes Dementes",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (enunciados)\n* Akira896 (SWF)\n* Fixed Fun (logo e imágenes adicionales)\nDoblaje\n* Fausto Serra (Tobías)\n* Ana Fernández (Lina)\n* Fixed Fun (guion)\n* Artuhaxis (guion y ecualización)\n* Akira896 (grabación y extra adicional)\n* Santiago Giordani, Rocío Benítez Blasco, Tomás Serio (baristas)\n* Artuhaxis (Gene)\n* maritomomomemardo, Ernesto Fernández, ner0, Camila Iriart, Trinidad González (extras adicionales)\n* Nahuel Guidi (cantante de créditos)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp5_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nZeeple Dome y Patentes Dementes cuentan con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES-EGS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2015,7 +2475,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 6.app/Contents/Resources/macos"
@@ -2036,6 +2501,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"trivia_murder_party_2_patch",
+                            "linked_game":"trivia_murder_party_2",
+                            "name":"Trivia Murder Party 2",
+                            "description":"",
+                            "authors":"Traducción\n* Artuhaxis (traducción e imágenes)\n* Raúl Mora (traducción)\n* Akira896 (archivos SWF, imágenes y asistencia en subtítulos)\n* Fukken Hanzel y Alomancia (imágenes)\n* Pachekin (asistencia en subtítulos)\n* Fixed Fun (videos)\nDoblaje\n* Akira896 (voz del dictado)\n* Jorge Pineda (voz de Schmitty)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"role_models_patch",
+                            "linked_game":"role_models",
+                            "name":"Modelo a Seguir",
+                            "description":"",
+                            "authors":"* Artuhaxis, Raúl Mora, Tejas y Akira896 (traducción principal)\n* DanielMGC, MrCityWaffles, NatsukiZoe y diegoflg3 (traducción asistente)\n* Akira896 (SWFs y video del tutorial)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"jokeboat_patch",
+                            "linked_game":"jokeboat",
+                            "name":"Crucero Cómico",
+                            "description":"",
+                            "authors":"* Akira896 (traducción)\n* Artuhaxis (imágenes)\n* Fixed Fun (imágenes adicionales y videos)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"dictionarium_patch",
+                            "linked_game":"dictionarium",
+                            "name":"Diccionarium",
+                            "description":"",
+                            "authors":"* LucastuFett y Fenixhim272 (traducción)\n* Akira896 (traducción y archivos SWF)\n* Roxas (imágenes)\n* Fixed Fun (animaciones de los cronómetros)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"pushthebutton_patch",
+                            "linked_game":"pushthebutton",
+                            "name":"Pulsa el Botón",
+                            "description":"",
+                            "authors":"Traducción\n* Markmtz90 (traducción e imágenes)\n* Artuhaxis (asistencia)\n* Akira896 (asistencia y archivos SWF)\n* Fixed Fun (logo)\nDoblaje\n* Rocío Benítez Blasco (anfitriona)\n* Nahuel Guidi y Akira896 (cantantes)\n* Fixed Fun, Akira896 y Artuhaxis (adaptación de la canción)\n* Akira896 y Artuhaxis (transcripción del guion; recorte y ecualización de audios)\n* Akira896 (revisión del guion; supervisión del doblaje)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp6_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nPulsa el Botón cuenta con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES-EGS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -2413,7 +2970,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 7.app/Contents/Resources/macos"
@@ -2434,6 +2996,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"quiplash3_patch",
+                            "linked_game":"quiplash3",
+                            "name":"Quiplash 3",
+                            "description":"",
+                            "authors":"* Brody, Suukiro y Fukken Hanzel (traducción principal)\n* Akira896, Tejas, Artuhaxis y Fenixhim272 (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"thedevilsandthedetails_patch",
+                            "linked_game":"thedevilsandthedetails",
+                            "name":"La Familia es un Infierno",
+                            "description":"",
+                            "authors":"Traducción\n* Alonsinwhat, Benelux y Artuhaxis (traducción principal)\n* Akira896, MarioPereyra, NatsukiZoe y Inuzen (traducción asistente)\n* Akira896 (testeo)\n* Fukken Hanzel y Fixed Fun (imágenes)\n* Akira896 y PauX (SWFs)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Nahuel Guidi y Jazmín Fernández (cantantes)\n* Fixed Fun, Akira896 y Artuhaxis (adaptación de la canción)\n* Akira896 (transcripción del guion y supervisión del doblaje)\n* Artuhaxis (recorte y ecualización de audios)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                        {
+                            "id":"champdup_patch",
+                            "linked_game":"champdup",
+                            "name":"Champ'd Up",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción e imágenes)\n* Akira896 (traducción y archivos SWF)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"talkingpoints_patch",
+                            "linked_game":"talkingpoints",
+                            "name":"Talking Points",
+                            "description":"",
+                            "authors":"Traducción\n* Zants69, Akira896 y Eleiber (traducción)\n* Artuhaxis, Fixed Fun, Fukken Hanzel y YosY (imágenes)\nDoblaje\n* Ana Fernández (anfitriona)\n* Akira896 (supervisión y traducción del guion)",
+                            "small_description":"¡Juego traducido y doblado al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        },
+                        {
+                            "id":"blatherround_patch",
+                            "linked_game":"blatherround",
+                            "name":"Balbuceando Juntos",
+                            "description":"",
+                            "authors":"* Markmtz90 (traducción)\n* Ker y Eleiber (traducción de subtítulos)\n* Markmtz90 y Akira896 (SWFs y testeo)\n* Fixed Fun (video del tutorial)\n* TheDarkSid3r (ayuda adicional)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp7_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.\nLa Familia es un Infierno y Talking Points cuentan con doblaje latino.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES-EGS-MS-SWITCH.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -2821,7 +3475,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 8.app/Contents/Resources/macos"
@@ -2842,6 +3501,98 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                        {
+                            "id":"drawful_animate_patch",
+                            "linked_game":"drawful_animate",
+                            "name":"Drawful: Animado",
+                            "description":"",
+                            "authors":"* Fixed Fun, Akira896, Artuhaxis y Pepe Pepo (traducción)\n* Akira896 (imágenes y SWFs)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"the_wheel_of_enormous_proportions_patch",
+                            "linked_game":"the_wheel_of_enormous_proportions",
+                            "name":"La Ruleta de Enormes Proporciones",
+                            "description":"",
+                            "authors":"* Ker (traducción principal)\n* Marti005, Artuhaxis y Akira896 (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (logo)\n* Neep y TheDarkSid3r (ayuda adicional)\n* Fixed Fun y Akira896 (canción de los créditos en español)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"jobjob_patch",
+                            "linked_game":"jobjob",
+                            "name":"Bajo Trabajo",
+                            "description":"",
+                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"thepollmine_patch",
+                            "linked_game":"thepollmine",
+                            "name":"The Poll Mine",
+                            "description":"",
+                            "authors":"* Fukken Hanzel y Artuhaxis (traducción principal)\n* Akira896 y Pepe Pepo (traducción asistente)\n* Akira896 (imágenes y SWFs)\n* El Tristanlaker2582 (imagen adicional)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                        {
+                            "id":"weaponsdrawn_patch",
+                            "linked_game":"weaponsdrawn",
+                            "name":"Trazo del Crimen",
+                            "description":"",
+                            "authors":"* Fukken Hanzel (traducción)\n* Akira896 (SWFs)\n* Fixed Fun (logo)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"jpp8_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Pack 100% traducido.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES-EGS.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["epic"],
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -3216,7 +3967,12 @@
     "configuration":{
         "version_origin":"game_file",
         "version_file":"jbg.config.jet",
-        "version_property":"buildVersion"
+        "version_property":"buildVersion",
+        "launcher_version_file" : {
+            "steam": "jbg.config.jet",
+            "epic_games": "config.jet",
+            "native": "jbg.config.jet"
+            }
 	},
     "resource_location":{
         "mac":"The Jackbox Party Pack 9.app/Contents/Resources/macos"
@@ -3611,7 +4367,12 @@
             "file": "jbg.config.jet",
             "version_property": "buildVersion",
             "version_origin": "game_file",
-            "version_file": "jbg.config.jet"
+            "version_file": "jbg.config.jet",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack 10.app/Contents/Resources/macos"
@@ -3990,7 +4751,12 @@
         "configuration":{
 	        "version_origin":"game_file",
             "version_file":"jbg.config.jet",
-            "version_property":"buildVersion"
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "config.jet",
+                "native": "jbg.config.jet"
+                }
         },
         "resource_location":{
             "mac":"The Jackbox Party Pack Starter.app/Contents/Resources/macos"
