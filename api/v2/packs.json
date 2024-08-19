@@ -3387,7 +3387,7 @@
                         "description":"Da una charla sobre imágenes cursed que nunca has visto antes. No importa si tiene sentido, ¡es más divertido si no lo tiene!\nAVISO: Si quieres volver a jugar Talking Points (sin el mod), deberás verificar la integridad de los archivos con Steam/EGS y luego reinstalar el parche de traducción.",
                         "version":"7.CapyV1-ES",
                         "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
-                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/7.1-ES/CursedPointsES-CapyV1-ES.zip",
+                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/7.2-ES/CursedPointsES-CapyV1-ES.zip",
                         "patch_type":{
                             "game_text":true,
                             "game_assets":true,
