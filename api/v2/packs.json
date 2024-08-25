@@ -3166,7 +3166,69 @@
                         }
                     ]
                     
+                },
+                {
+                    "id":"cursedpoints_es",
+                    "name":"Cursed Points",
+                    "small_description":"¡Mod traducido al español!",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.1b-ES/CursedPointsES-CapyV2-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/CursedPoints/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                        "id":"cursedpoints_patch",
+                        "linked_game":"talkingpoints",
+                        "name":"Cursed Points",
+                        "description":"",
+                        "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
+                        "small_description":"¡Mod traducido al español!",
+                        "patch_type":{
+                            "game_text":true,
+                            "game_assets":true,
+                            "game_subtitles":true,
+                            "website":true,
+                            "audios":true
+                    }
                 }
+            ]
+            
+        },
+        {
+            "id":"cursedpoints_es",
+            "name":"Cursed Points",
+            "small_description":"¡Mod traducido al español!",
+            "description":"",
+            "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.1b-ES/CursedPointsES-CapyV2-ES.zip",
+            "configuration": {
+                "version_origin":"repo_file",
+                "version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosEGSySwitch/config.jet",
+                "version_property":"buildVersion"
+            },
+            "supported_launchers" : ["epic"],
+            "components":[
+        {
+                "id":"cursedpoints_patch",
+                "linked_game":"talkingpoints",
+                "name":"Cursed Points",
+                "description":"",
+                "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
+                "small_description":"¡Mod traducido al español!",
+                "patch_type":{
+                    "game_text":true,
+                    "game_assets":true,
+                    "game_subtitles":true,
+                    "website":true,
+                    "audios":true
+                }
+            }
+        ]
+        
+    }
             ],
         "games":[
             {
@@ -3379,24 +3441,7 @@
                     "epic_games":true,
                     "native":true
                 },
-                "patchs":[
-                    {
-                        "id":"cursedpoints_es",
-                        "name":"Cursed Points",
-                        "small_description":"¡Mod traducido al español!",
-                        "description":"Da una charla sobre imágenes cursed que nunca has visto antes. No importa si tiene sentido, ¡es más divertido si no lo tiene!\nAVISO: Si quieres volver a jugar Talking Points (sin el mod), deberás verificar la integridad de los archivos con Steam/EGS y luego reinstalar el parche de traducción.",
-                        "version":"8.CapyV1-ES",
-                        "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
-                        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.1-ES/CursedPointsES-CapyV1-ES.zip",
-                        "patch_type":{
-                            "game_text":true,
-                            "game_assets":true,
-                            "game_subtitles":true,
-                            "website":true,
-                            "audios":true
-                        }
-                    }
-                ]
+                "patchs":[]
             },
             {
                 "id":"blatherround",
