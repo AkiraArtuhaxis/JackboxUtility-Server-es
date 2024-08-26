@@ -3175,7 +3175,7 @@
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.1b-ES/CursedPointsES-CapyV2-ES.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/CursedPoints/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "supported_launchers" : ["steam","native"],
