@@ -3744,8 +3744,8 @@
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"¡Anímalo todo!",
-                    "small_description":"¡Anímalo todo!",
+                    "tagline":"¡Anima mal con estilo!",
+                    "small_description":"¡Anima mal con estilo!",
                     "description":"El tercer juego de la serie Drawful permite a los jugadores crear dos imágenes correspondientes que dan lugar a un dinámico juego de adivinanzas pictóricas.",
                     "images":[
 						"game_images/DrawfulAnimate/drawfulanimate.mp4",
@@ -3791,7 +3791,7 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"El público vota por qué jugador cree que lo hará mejor en las preguntas y gana porciones al acertar correctamente. Estas se colocan en la ruleta y pueden causar acciones a los jugadores cuando alguien cae en ellas.",
+                    "audience_description":"El público puede votar por qué jugador cree que lo hará mejor en las preguntas y gana porciones al acertar correctamente. Estas se colocan en la ruleta y pueden causar acciones a los jugadores cuando alguien cae en ellas.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
                     "moderation_description":"Este juego no requiere moderación. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\" o desactivar la opción \"Permitir respuestas escritas por jugadores\".",
@@ -4501,7 +4501,6 @@
             "version": "1.0.0"
         },
         "configuration": {
-            "file": "jbg.config.jet",
             "version_property": "buildVersion",
             "version_origin": "game_file",
             "version_file": "jbg.config.jet",
@@ -5127,6 +5126,155 @@
         ],
         "icon":"jpstarter.ico",
         "background":"backgrounds/jpstarter.jpg"
+    },
+    {
+        "id": "jnp",
+        "name": "The Jackbox Naughty Pack",
+        "description": "El pícaro paquete de fiestas de Jackbox",
+        "launchers_id": {
+            "steam": "2652000"
+        },
+        "executables": {
+            "windows": "The Jackbox Naughty Pack.exe",
+            "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
+            "linux": "Launcher.sh"
+        },
+        "configuration": {
+            "version_property": "buildVersion",
+            "version_origin": "game_file",
+            "version_file": "jbg.config.jet"
+        },
+        "store_links": {
+            "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/"
+        },
+        "patchs": [],
+        "games": [
+            {
+                "id": "fakinitanl",
+                "internal_name": "FakinIt2",
+                "name": "Fakin' It All Night Long",
+                "background": "game_backgrounds/FakinItANL.webp",
+                "path": "games/FakinIt2",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 20,
+                        "max": 30
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "El público intenta adivinar quién es el impostor junto a los jugadores.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "15 - 20 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "Atrapa al farsante asqueroso",
+                    "small_description": "Atrapa al farsante asqueroso",
+                    "description": "Vuelve Fakin’ It y esta vez apostamos a todo o nada. Todos reciben una misión secreta, excepto el farsante, que intenta pasar desapercibido. Averigua cuál de tus amistades miente mejor... ¡y MUCHO más! Incluye categorías nuevas como “Dedoexplosión” y un nuevo modo de juego “remoto”. ¿Quién no disfrutaría de una buena dedoexplosión con amistades?",
+                    "images": [
+                        "game_images/FakinItANL/fakinitanl.mp4",
+                        "game_images/FakinItANL/fakinitanl_1.webp",
+                        "game_images/FakinItANL/fakinitanl_2.webp",
+                        "game_images/FakinItANL/fakinitanl_3.webp"
+                    ],
+                    "tags": [
+                        "deduction",
+                        "talking"
+                    ]
+                },
+                "patchs": []
+            },
+            {
+                "id": "dirtydrawful",
+                "internal_name": "Drawful3",
+                "name": "Dirty Drawful",
+                "background": "game_backgrounds/DirtyDrawful.webp",
+                "path": "games/Drawful3",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "El público intenta adivinar la respuesta correcta junto a los demás jugadores, dando puntos a los jugadores en caso de elegir sus títulos, y da likes a sus títulos favoritos.",
+                    "stream_friendly": "PLAYABLE",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "15 - 20 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "¡Dibuja asquersoamente con estilo!",
+                    "small_description": "¡Dibuja asquersoamente con estilo!",
+                    "description": "Es Drawful, pero más sucio... Es Dirty Drawful. Presentado por el búho de Drawful, pero como nunca la habías visto antes. Usamos de base el juego que tanto les gusta y le agregamos temas que harán que sus dibujos sean tan excitantes como terribles. Este juego tiene de todo: sexo, drogas, blasfemias, ¡lo que se te ocurra! Además, si no puedes comprometerte con una relación (o con tus dibujos), agregamos un botón de deshacer solo para ti.",
+                    "images": [
+                        "game_images/DirtyDrawful/dirtydrawful.mp4",
+                        "game_images/DirtyDrawful/dirtydrawful_1.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_2.webp",
+                        "game_images/DirtyDrawful/dirtydrawful_3.webp"
+                    ],
+                    "tags": [
+                        "drawing",
+                        "writing"
+                    ]
+                },
+                "patchs": []
+            },
+            {
+                "id": "letmefinish",
+                "internal_name": "CAPTCHA",
+                "name": "Let Me Finish",
+                "background": "game_backgrounds/LetMeFinish.webp",
+                "path": "games/CAPTCHA",
+                "game_info": {
+                    "players": {
+                        "min": 3,
+                        "max": 8
+                    },
+                    "playtime": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "family_friendly": "NOT_FAMILY_FRIENDLY",
+                    "audience": true,
+                    "audience_description": "El público puede votar por qué jugador les satisface más y así otorgar puntos.",
+                    "stream_friendly": "MIDLY_PLAYABLE",
+                    "stream_friendly_description": "Al ser un juego de presentaciones, se recomienda que los jugadores puedan al menos escucharse entre ellos.",
+                    "moderation": "FULL_MODERATION",
+                    "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles": true,
+                    "length": "15 - 25 minutos",
+                    "type": "VERSUS",
+                    "translation": "NATIVELY_TRANSLATED",
+                    "tagline": "¡Responde preguntas atroces!",
+                    "small_description": "¡Responde preguntas atroces!",
+                    "description": "Let Me Finish es el nuevo juego de presentación de Jackbox, que examina las cuestiones más serias de la vida, como “¿Dónde tienen el culo los buzones?” o “¿Cómo puedo excitar a un aguacate?”. Todos tienen su turno para hablar, ¿pero captarán lo que quieres decir?",
+                    "images": [
+                        "game_images/LetMeFinish/letmefinish.mp4",
+                        "game_images/LetMeFinish/letmefinish_1.webp",
+                        "game_images/LetMeFinish/letmefinish_2.webp",
+                        "game_images/LetMeFinish/letmefinish_3.webp"
+                    ],
+                    "tags": [
+                        "talking"
+                    ]
+                },
+                "patchs": []
+            }
+        ],
+        "icon": "jnp.ico",
+        "background": "backgrounds/jnp.jpg"
     },
     {
         "id":"fbxl",
