@@ -5460,12 +5460,17 @@
         "name": "The Jackbox Naughty Pack",
         "description": "El pícaro paquete de fiestas de Jackbox",
         "launchers_id": {
-            "steam": "2652000"
+            "steam": "2652000",
+            "epic": "a0cb04062cfb4e38b79cb076003a2cfe"
         },
         "executables": {
             "windows": "The Jackbox Naughty Pack.exe",
             "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
             "linux": "Launcher.sh"
+        },
+        "loader": {
+            "path": "loaders/tjnp/default.zip",
+            "version": "1.0.0"
         },
         "configuration": {
             "version_property": "buildVersion",
@@ -5476,7 +5481,8 @@
             "mac":"The Jackbox Naughty Pack.app/Contents/Resources/macos"
         },
         "store_links": {
-            "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/"
+            "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/",
+            "epic": "https://store.epicgames.com/p/jackbox-naughty-pack-0bffd7"
         },
         "patchs": [],
         "games": [
@@ -5519,6 +5525,15 @@
                         "talking"
                     ]
                 },
+                "loader": {
+                    "path": "loaders/tjnp/fakinitanl.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
+                },
                 "patchs": []
             },
             {
@@ -5559,6 +5574,15 @@
                         "drawing",
                         "writing"
                     ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp/dirtydrawful.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
                 },
                 "patchs": []
             },
@@ -5601,6 +5625,15 @@
                         "talking",
                         "drawing"
                     ]
+                },
+                "loader": {
+                    "path": "loaders/tjnp/letmefinish.zip",
+                    "version": "1.0.0"
+                },
+                "launch_with_loaders": {
+                    "steam": false,
+                    "epic_games": true,
+                    "native": true
                 },
                 "patchs": []
             }
