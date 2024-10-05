@@ -5736,7 +5736,39 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
-                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_platforms": ["windows","linux"],
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"quiplash_patch",
+                            "linked_game":"quiplash",
+                            "name":"Quiplash",
+                            "description":"",
+                            "authors":"* Radioactive Man (traducción principal)\n* Artuhaxis (traducción asistente)\n* Akira896 (SWFs, asistencia e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"quip_es",
+                    "name":"Traducción al Español Latino",
+                    "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-MAC.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_platforms": ["mac"],
                     "supported_launchers" : ["steam","native"],
                     "components":[
                 {
@@ -5768,7 +5800,39 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main[Spain]/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
-                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_platforms": ["windows","linux"],
+                    "supported_launchers" : ["steam","native"],
+                    "components":[
+                {
+                            "id":"quiplash_patch_spain",
+                            "linked_game":"quiplash",
+                            "name":"Quiplash",
+                            "description":"",
+                            "authors":"* hectorflipi (traducción y doblaje)\n* lau_fleur (traducción)\n* exviolinista13 (traducción)\n* Akira896 (SWFs e imágenes)\n* Fixed Fun (imágenes de rondas)",
+                            "small_description":"¡Juego traducido al español!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"quip_es_spain",
+                    "name":"Traducción al Español Castellano",
+                    "small_description":"Juego traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción latina del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES-MAC-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main[Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_platforms": ["mac"],
                     "supported_launchers" : ["steam","native"],
                     "components":[
                 {
