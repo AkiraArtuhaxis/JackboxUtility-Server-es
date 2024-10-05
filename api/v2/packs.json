@@ -5719,7 +5719,7 @@
             "version_property":"buildVersion"
         },
         "resource_location":{
-            "mac":"Quiplash.app/Contents/Resources/macos"
+            "mac":""
         },
         "store_links":{
             "steam":"https://store.steampowered.com/app/351510/Quiplash/"
