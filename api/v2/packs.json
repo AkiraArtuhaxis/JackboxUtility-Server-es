@@ -5710,7 +5710,7 @@
             "linux":"Launcher.sh"
         },
         "loader":{
-            "path":"loaders/standalones/default.zip",
+            "path":"loaders/standalones/quiplashdefault.zip",
             "version":"1.0.0"
         },
         "configuration":{
@@ -5894,7 +5894,7 @@
 
                 },
                 "loader":{
-                    "path":"loaders/standalones/standalones.zip",
+                    "path":"loaders/standalones/quiplash.zip",
                     "version":"1.0.0"
                 },
                 "launch_with_loaders":{
