@@ -6107,7 +6107,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam","native","epic"],
                     "components":[
                 {
                             "id":"drawful_2_patch",
@@ -6171,7 +6171,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam","native","epic"],
                     "components":[
                 {
                             "id":"drawful_2_spain_patch",
