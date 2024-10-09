@@ -94,7 +94,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -170,7 +170,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -537,7 +537,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -629,7 +629,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -721,7 +721,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -1115,7 +1115,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -1207,7 +1207,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -1603,7 +1603,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -1695,7 +1695,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -2090,7 +2090,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2182,7 +2182,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2274,7 +2274,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2671,7 +2671,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -2763,7 +2763,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -3163,7 +3163,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -3255,7 +3255,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -3347,7 +3347,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -3439,7 +3439,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                         "id":"cursedpoints_patch",
@@ -3464,14 +3464,14 @@
             "name":"Cursed Points",
             "small_description":"¡Mod traducido al español!",
             "description":"",
-            "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2-ES/CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip",
+            "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip",
             "configuration": {
                 "version_origin":"repo_file",
                 "version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosEGSySwitch/config.jet",
                 "version_property":"buildVersion"
             },
             "supported_platforms": ["windows","linux"],
-            "supported_launchers" : ["epic"],
+            "supported_launchers": ["epic"],
             "components":[
         {
                 "id":"cursedpoints_patch",
@@ -3496,14 +3496,14 @@
         "name":"Cursed Points",
         "small_description":"¡Mod traducido al español!",
         "description":"",
-        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2-ES/CursedPointsES-CapyV2-ES-MAC-EGS.zip",
+        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-MAC-EGS.zip",
         "configuration": {
             "version_origin":"repo_file",
             "version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosEGSySwitch/config.jet",
             "version_property":"buildVersion"
         },
         "supported_platforms": ["mac"],
-        "supported_launchers" : ["epic"],
+        "supported_launchers": ["epic"],
         "components":[
     {
             "id":"cursedpoints_patch",
@@ -3836,7 +3836,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -3928,7 +3928,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -4325,7 +4325,7 @@
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows","linux","mac"],
-                "supported_launchers" : ["steam","native"],
+                "supported_launchers": ["steam","native"],
                 "components":[
                     {
                         "id":"fibbage4_patch",
@@ -4417,7 +4417,7 @@
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows","linux","mac"],
-                "supported_launchers" : ["epic"],
+                "supported_launchers": ["epic"],
                 "components":[
                     {
                         "id":"fibbage4_patch",
@@ -4812,6 +4812,8 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                "supported_platforms": ["windows","linux","mac"],
+                "supported_launchers": ["steam","native","epic"],
                 "components":[
                     {
                         "id":"teeko2_patch",
@@ -5155,7 +5157,7 @@
         },
         "executables":{
             "windows":"The Jackbox Party Starter.exe",
-            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
+            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Starter",
             "linux":"Launcher.sh"
         },
         "loader":{
@@ -5191,6 +5193,8 @@
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/Main/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
+                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_launchers": ["steam","native","epic"],
                     "components":[
                         {
                             "id":"quiplash3_starter_patch",
@@ -5622,7 +5626,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"fibbagexl_standalone_patch",
@@ -5737,7 +5741,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash_patch",
@@ -5769,7 +5773,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash_patch",
@@ -5801,7 +5805,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash_patch_spain",
@@ -5833,7 +5837,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"quiplash_patch_spain",
@@ -5952,7 +5956,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native","epic"],
+                    "supported_launchers": ["steam","native","epic"],
                     "components":[
                 {
                             "id":"quiplash2interlashional_patch",
@@ -5984,7 +5988,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native","epic"],
+                    "supported_launchers": ["steam","native","epic"],
                     "components":[
                 {
                             "id":"quiplash2interlashional_spain_patch",
@@ -6103,7 +6107,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"drawful_2_patch",
@@ -6135,7 +6139,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"drawful_2_patch",
@@ -6167,7 +6171,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"drawful_2_spain_patch",
@@ -6199,14 +6203,14 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["epic"],
+                    "supported_launchers": ["epic"],
                     "components":[
                 {
                             "id":"drawful_2_spain_patch",
                             "linked_game":"drawful_2",
                             "name":"Drawful 2",
                             "description":"",
-                            "authors":"",
+                            "authors":"Adaptación\n* Akira896",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":false,
@@ -6313,14 +6317,14 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"use_your_words_patch",
                             "linked_game":"use_your_words",
                             "name":"Usa Tus Palabras",
                             "description":"",
-                            "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios, voz temporal y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
+                            "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
                             "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -6345,14 +6349,14 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"use_your_words_patch",
                             "linked_game":"use_your_words",
                             "name":"Usa Tus Palabras",
                             "description":"",
-                            "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios, voz temporal y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
+                            "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
                             "small_description":"¡Juego traducido y doblado al español!",
                             "patch_type":{
                                 "game_text":true,
@@ -6449,7 +6453,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"what_the_dub_patch",
@@ -6481,7 +6485,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"what_the_dub_patch",
@@ -6513,7 +6517,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"what_the_dub_spain_patch",
@@ -6545,7 +6549,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"what_the_dub_spain_patch",
@@ -6649,7 +6653,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"rifftrax_the_game_patch",
@@ -6681,7 +6685,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["mac"],
-                    "supported_launchers" : ["steam","native"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"rifftrax_the_game_patch",
