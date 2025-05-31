@@ -3810,9 +3810,9 @@
             "version_file":"jbg.config.jet",
             "version_property":"buildVersion",
             "launcher_version_file" : {
-                "steam": "jbg.config.jet",
-                "epic_games": "jbg.config.jet",
-                "native": "jbg.config.jet"
+                "steam": "config.jet",
+                "epic_games": "config.jet",
+                "native": "config.jet"
                 }
         },
         "resource_location":{
