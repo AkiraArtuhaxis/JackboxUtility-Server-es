@@ -3807,7 +3807,7 @@
         },
         "configuration":{
 	        "version_origin":"game_file",
-            "version_file":"jbg.config.jet",
+            "version_file":"config.jet",
             "version_property":"buildVersion",
             "launcher_version_file" : {
                 "steam": "config.jet",
@@ -3838,7 +3838,7 @@
                     "components":[
                 {
                             "id":"quiplash3_patch_ms",
-                            "linked_game":"quiplash3",
+                            "linked_game":"quiplash3_ms",
                             "name":"Quiplash 3",
                             "description":"",
                             "authors":"* Brody, Suukiro y Fukken Hanzel (traducción principal)\n* Akira896, Tejas, Artuhaxis y Fenixhim272 (traducción asistente)\n* Fixed Fun (imágenes)",
@@ -3853,7 +3853,7 @@
                         },
                         {
                             "id":"thedevilsandthedetails_patch_ms",
-                            "linked_game":"thedevilsandthedetails",
+                            "linked_game":"thedevilsandthedetails_ms",
                             "name":"La Familia es un Infierno",
                             "description":"",
                             "authors":"Traducción\n* Alonsinwhat, Benelux y Artuhaxis (traducción principal)\n* Akira896, MarioPereyra, NatsukiZoe y Inuzen (traducción asistente)\n* Akira896 (testeo)\n* Fukken Hanzel y Fixed Fun (imágenes)\n* Akira896 y PauX (SWFs)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Nahuel Guidi y Jazmín Fernández (cantantes)\n* Fixed Fun, Akira896 y Artuhaxis (adaptación de la canción)\n* Akira896 (transcripción del guion y supervisión del doblaje)\n* Artuhaxis (recorte y ecualización de audios)",
@@ -3868,7 +3868,7 @@
                         },
                         {
                             "id":"champdup_patch_ms",
-                            "linked_game":"champdup",
+                            "linked_game":"champdup_ms",
                             "name":"Champ'd Up",
                             "description":"",
                             "authors":"* Artuhaxis (traducción e imágenes)\n* Akira896 (traducción y archivos SWF)\n* Fixed Fun (logo)",
@@ -3883,7 +3883,7 @@
                         },
                         {
                             "id":"talkingpoints_patch_ms",
-                            "linked_game":"talkingpoints",
+                            "linked_game":"talkingpoints_ms",
                             "name":"Talking Points",
                             "description":"",
                             "authors":"Traducción\n* Zants69, Akira896 y Eleiber (traducción)\n* Artuhaxis, Fixed Fun, Fukken Hanzel y YosY (imágenes)\nDoblaje\n* Ana Fernández (anfitriona)\n* Akira896 (supervisión y traducción del guion)",
@@ -3898,7 +3898,7 @@
                         },
                         {
                             "id":"blatherround_patch_ms",
-                            "linked_game":"blatherround",
+                            "linked_game":"blatherround_ms",
                             "name":"Balbuceando Juntos",
                             "description":"",
                             "authors":"* Markmtz90 (traducción)\n* Ker y Eleiber (traducción de subtítulos)\n* Markmtz90 y Akira896 (SWFs y testeo)\n* Fixed Fun (video del tutorial)\n* TheDarkSid3r (ayuda adicional)",
@@ -3929,8 +3929,8 @@
                     "supported_launchers": ["native"],
                     "components":[
                 {
-                        "id":"cursedpoints_patch",
-                        "linked_game":"talkingpoints",
+                        "id":"cursedpoints_patch_ms",
+                        "linked_game":"talkingpoints_ms",
                         "name":"Cursed Points",
                         "description":"",
                         "authors":"* Akira896 (traducción del mod)\n* Equipo CapyParty (creación del mod)",
@@ -5238,7 +5238,7 @@
                 "components":[
                     {
                         "id":"fibbage4_patch_ms",
-                        "linked_game":"fibbage4",
+                        "linked_game":"fibbage4_ms",
                         "name":"Fibbage 4",
                         "description":"",
                         "authors":"",
@@ -5253,7 +5253,7 @@
                     },
 		    {
                         "id":"roomerang_patch_ms",
-                        "linked_game":"roomerang",
+                        "linked_game":"roomerang_ms",
                         "name":"Roomerang",
                         "description":"",
                         "authors":"",
@@ -5268,7 +5268,7 @@
                     },
 		    {
                         "id":"junktopia_patch_ms",
-                        "linked_game":"junktopia",
+                        "linked_game":"junktopia_ms",
                         "name":"Junktopia",
                         "description":"",
                         "authors":"",
@@ -5283,7 +5283,7 @@
                     },
 		    {
                         "id":"nonsensory_patch_ms",
-                        "linked_game":"nonsensory",
+                        "linked_game":"nonsensory_ms",
                         "name":"Nonsensory",
                         "description":"",
                         "authors":"",
@@ -5298,7 +5298,7 @@
                     },
 		    {
                         "id":"quixort_patch_ms",
-                        "linked_game":"quixort",
+                        "linked_game":"quixort_ms",
                         "name":"Quixort",
                         "description":"",
                         "authors":"",
@@ -6013,7 +6013,7 @@
                 "components":[
                     {
                         "id":"teeko2_patch_ms",
-                        "linked_game":"teeko2",
+                        "linked_game":"teeko2_ms",
                         "name":"Tee K.O. 2",
                         "description":"",
                         "authors":"",
@@ -6028,7 +6028,7 @@
                     },
 		    {
                         "id":"timejinx_patch_ms",
-                        "linked_game":"timejinx",
+                        "linked_game":"timejinx_ms",
                         "name":"Timejinx",
                         "description":"",
                         "authors":"",
@@ -6043,7 +6043,7 @@
                     },
 		    {
                         "id":"fixytext_patch_ms",
-                        "linked_game":"fixytext",
+                        "linked_game":"fixytext_ms",
                         "name":"FixyText",
                         "description":"",
                         "authors":"",
@@ -6058,7 +6058,7 @@
                     },
 		    {
                         "id":"dodoremi_patch_ms",
-                        "linked_game":"dodoremi",
+                        "linked_game":"dodoremi_ms",
                         "name":"Dodo Re Mi",
                         "description":"",
                         "authors":"",
@@ -6073,7 +6073,7 @@
                     },
 		    {
                         "id":"hypnotorious_patch_ms",
-                        "linked_game":"hypnotorious",
+                        "linked_game":"hypnotorious_ms",
                         "name":"Hypnotorious",
                         "description":"",
                         "authors":"",
@@ -6651,7 +6651,7 @@
                     "components":[
                         {
                             "id":"quiplash3_starter_patch_ms",
-                            "linked_game":"quiplash3_starter",
+                            "linked_game":"quiplash3_starter_ms",
                             "name":"Quiplash 3",
                             "description":"",
                             "authors":"",
@@ -6666,7 +6666,7 @@
                         },
                 {
                             "id":"teeko_starter_patch_ms",
-                            "linked_game":"teeko_starter",
+                            "linked_game":"teeko_starter_ms",
                             "name":"Tee K.O.",
                             "description":"",
                             "authors":"",
@@ -6681,7 +6681,7 @@
                         },
                 {
                             "id":"trivia_murder_party_2_starter_patch_ms",
-                            "linked_game":"trivia_murder_party_2_starter",
+                            "linked_game":"trivia_murder_party_2_starter_ms",
                             "name":"Trivia Murder Party 2",
                             "description":"",
                             "authors":"",
