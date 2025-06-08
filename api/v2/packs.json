@@ -3248,7 +3248,7 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nLa Familia es un Infierno y Talking Points cuentan con doblaje latino.",
                     "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES-EGS-MS-SWITCH.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES-EGS-SWITCH.zip",
                     "configuration": {
 						"version_origin":"repo_file",
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/ArchivosEGSySwitch/config.jet",
@@ -3464,7 +3464,7 @@
             "name":"Cursed Points",
             "small_description":"¡Mod traducido al español!",
             "description":"",
-            "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip",
+            "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-EGS-SWITCH.zip",
             "configuration": {
                 "version_origin":"repo_file",
                 "version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosEGSySwitch/config.jet",
@@ -3827,10 +3827,10 @@
                     "name":"Traducción al Español Latino",
                     "small_description":"Pack 100% traducido.\nLa Familia es un Infierno y Talking Points cuentan con doblaje latino.",
                     "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES-EGS-MS-SWITCH.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES-MS.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/ArchivosEGSySwitch/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/ArchivosMS/config.jet",
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows"],
@@ -3919,10 +3919,10 @@
                     "name":"Cursed Points",
                     "small_description":"¡Mod traducido al español!",
                     "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/download/8.2b-ES/CursedPointsES-CapyV2-ES-MS.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosEGSySwitch/config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/CursedPoints/ArchivosMS/config.jet",
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows"],
@@ -4833,7 +4833,7 @@
                 "name":"Cambio de dominios a Jackbox.lol",
                 "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
-		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES-EGS-MS-SWITCH.zip",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES-EGS-SWITCH.zip",
                 "configuration": {
 						"version_origin":"repo_file",
 						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/main/Main/jbg.config.jet",
@@ -5227,10 +5227,10 @@
                 "name":"Cambio de dominios a Jackbox.lol",
                 "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
-		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES-EGS-MS-SWITCH.zip",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/releases/latest/download/JPP9-ES-MS.zip",
                 "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/main/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-9-Spanish/main/ArchivoMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows"],
@@ -6002,10 +6002,10 @@
                 "name":"Cambio de dominios a Jackbox.lol",
                 "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                 "description":"",
-		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/releases/latest/download/JPP10-ES.zip",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/releases/latest/download/JPP10-ES-MS.zip",
                 "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/ArchivoMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows"],
@@ -6640,10 +6640,10 @@
                     "name":"Cambio de dominios a Jackbox.lol",
                     "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
                     "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES-MS.zip",
                     "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/ArchivoMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows"],
