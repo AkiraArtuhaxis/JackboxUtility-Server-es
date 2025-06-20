@@ -1,0 +1,38 @@
+{
+  "menuComponent" : {
+    "type":"column",
+    "children":[
+      {
+        "type":"text",
+        "text":"Usuarios de Epic Games Store:"
+      },
+      {
+        "type":"text",
+        "text":"Para que se instalen los parches correctos, es necesario"
+      },
+      {
+        "type":"text",
+        "text":"ingresar al menos una vez a la sección \"Ajustes\"."
+      },
+      {
+        "type":"text",
+        "text":""
+      },
+      {
+        "type":"text",
+        "text":"Usuarios de Microsoft Store:"
+      },
+            {
+        "type":"text",
+        "text":"Estas versiones deben añadirse manualmente desde la sección \"Ajustes\"."
+      },
+      {
+        "type":"text",
+        "text":"Se debe seleccionar la carpeta \"Content\" dentro de la carpeta de cada juego."
+      }
+    ]
+  },
+  "gamesComponent" : [],
+  "patchesComponent" : []
+}
+ 
