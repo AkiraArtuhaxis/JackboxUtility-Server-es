@@ -7727,7 +7727,7 @@
     {
         "id":"quip2int",
         "name":"Quiplash 2 InterLASHional",
-        "description":"Year of release: 2020",
+        "description":"Año de lanzamiento: 2020",
         "launchers_id":{
             "steam":"1111940",
             "epic": "e912e6d9595b4ff3a7257bcdc82b6671"
@@ -7878,7 +7878,7 @@
     {
         "id":"df2",
         "name":"Drawful 2",
-        "description":"Year of release: 2016",
+        "description":"Año de lanzamiento: 2016",
         "launchers_id":{
             "steam":"442070",
             "epic":"Daisy"
