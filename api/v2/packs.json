@@ -8150,7 +8150,7 @@
                 {
                     "id":"uyw_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Juego 100% traducido.\nCuenta con un doblaje latino completo.",
+                    "small_description":"Juego parcialmente traducido. El contenido de los enunciados y de la sección \"Sub Titu Lados\" se encuentra traducido.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES-MAC.zip",
                     "configuration": {
@@ -8167,7 +8167,7 @@
                             "name":"Usa Tus Palabras",
                             "description":"",
                             "authors":"Traducción\n* Fukken Hanzel (traducción principal)\n* Radioactive Man (traducción de videos de \"Sub Titu Lados\")\n* Akira896 (edición de videos)\nDoblaje\n* Mariano Cescatti (anfitrión)\n* Akira896 (transcripción del guion, recorte y ecualización de audios y supervisión del doblaje)\n* Fukken Hanzel (incorporación del doblaje al juego)",
-                            "small_description":"Juego parcialmente traducido. El contenido de los enunciados y de la sección \"Sub Titu Lados\" se encuentra traducido.",
+                            "small_description":"Juego parcialmente traducido.",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
