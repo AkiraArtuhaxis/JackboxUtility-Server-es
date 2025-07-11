@@ -629,7 +629,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
