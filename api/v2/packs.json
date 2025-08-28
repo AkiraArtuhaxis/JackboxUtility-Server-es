@@ -94,7 +94,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -170,7 +170,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic","native"],
+                    "supported_launchers": ["epic"],
                     "components":[
                         {
                             "id":"drawful_patch",
