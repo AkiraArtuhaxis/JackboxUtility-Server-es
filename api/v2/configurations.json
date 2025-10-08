@@ -1,5 +1,9 @@
 {
   "SETTINGS":{
     "AUDIO_ENABLE_BY_DEFAULT":true
-  }
+  },
+  "DOWNLOAD": {
+    "SHOW_THANK_YOU": true,
+    "THANK_YOU_URL": "https://www.paypal.com/donate/?hosted_button_id=3ER5926XZCSBW"
+    }
 }
