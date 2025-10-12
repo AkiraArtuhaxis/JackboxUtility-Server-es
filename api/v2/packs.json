@@ -3460,7 +3460,7 @@
             
         },
         {
-            "id":"cursedpoints_es",
+            "id":"cursedpoints_es_egs",
             "name":"Cursed Points",
             "small_description":"¡Mod traducido al español!",
             "description":"",
@@ -3492,7 +3492,7 @@
         
     },
     {
-        "id":"cursedpoints_es",
+        "id":"cursedpoints_es_mac_egs",
         "name":"Cursed Points",
         "small_description":"¡Mod traducido al español!",
         "description":"",
