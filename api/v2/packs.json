@@ -71,7 +71,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -94,7 +94,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -170,7 +170,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                         {
                             "id":"drawful_patch",
