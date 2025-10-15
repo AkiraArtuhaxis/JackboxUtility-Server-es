@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","fbxl_es","quip_es","quip2int_es","df2_es","uyw_es","wtd_es","rttg_es"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip2int_es","df2_es","uyw_es","wtd_es","rttg_es"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","fbxl_es","quip_es_spain","quip2int_es_spain","df2_es_spain","uyw_es","wtd_es_spain","rttg_es"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip2int_es_spain","df2_es_spain","uyw_es","wtd_es_spain","rttg_es"]
 	}
     ],
     "packs":[
@@ -94,7 +94,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -170,7 +170,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                         {
                             "id":"drawful_patch",
@@ -514,7 +514,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -537,7 +537,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -629,7 +629,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"fibbage2_patch",
@@ -1092,7 +1092,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -1115,7 +1115,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -1207,7 +1207,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"quiplash2_patch",
@@ -1580,7 +1580,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -1603,7 +1603,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -1695,7 +1695,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"fibbage3_patch",
@@ -2067,7 +2067,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -2090,7 +2090,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2182,7 +2182,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"ydkj_fullstream_patch",
@@ -2648,7 +2648,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -2671,7 +2671,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -2763,7 +2763,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"trivia_murder_party_2_patch",
@@ -3140,7 +3140,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -3163,7 +3163,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -3255,7 +3255,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                 {
                             "id":"quiplash3_patch",
@@ -3439,7 +3439,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                 {
                         "id":"cursedpoints_patch",
@@ -3471,7 +3471,7 @@
                 "version_property":"buildVersion"
             },
             "supported_platforms": ["windows","linux"],
-            "supported_launchers": ["epic"],
+            "supported_launchers": ["epic","native"],
             "components":[
         {
                 "id":"cursedpoints_patch",
@@ -4236,7 +4236,7 @@
             "launcher_version_file" : {
                 "steam": "jbg.config.jet",
                 "epic_games": "config.jet",
-                "native": "jbg.config.jet"
+                "native": "config.jet"
                 }
         },
         "resource_location":{
@@ -4259,7 +4259,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native"],
+                    "supported_launchers": ["steam"],
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -4351,7 +4351,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["epic"],
+                    "supported_launchers": ["epic","native"],
                     "components":[
                         {
                             "id":"drawful_animate_patch",
@@ -4748,7 +4748,7 @@
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows","linux","mac"],
-                "supported_launchers": ["steam","native"],
+                "supported_launchers": ["steam"],
                 "components":[
                     {
                         "id":"fibbage4_patch",
@@ -4840,7 +4840,7 @@
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows","linux","mac"],
-                "supported_launchers": ["epic"],
+                "supported_launchers": ["epic","native"],
                 "components":[
                     {
                         "id":"fibbage4_patch",
@@ -6888,7 +6888,70 @@
             "steam": "https://store.steampowered.com/app/2652000/The_Jackbox_Naughty_Pack/",
             "epic": "https://store.epicgames.com/p/jackbox-naughty-pack-0bffd7"
         },
-        "patchs": [],
+        "patchs":[
+            {
+                "id":"jnp_es",
+                "name":"Cambio de dominios a Jackbox.lol",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "description":"",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/releases/latest/download/JNP-ES.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                "supported_platforms": ["windows","linux","mac"],
+                "supported_launchers": ["steam","native","epic"],
+                "components":[
+                    {
+                        "id":"fakinitanl_patch",
+                        "linked_game":"fakinitanl",
+                        "name":"Fakin' It All Night Long",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"dirtydrawful_patch",
+                        "linked_game":"dirtydrawful",
+                        "name":"Dirty Drawful",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"letmefinish_patch",
+                        "linked_game":"letmefinish",
+                        "name":"Let Me Finish",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    }
+                ]
+                
+            }
+        ],
         "games": [
             {
                 "id": "fakinitanl",
@@ -7070,7 +7133,70 @@
         "store_links": {
             "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-naughty-pack/9N1CXS3C4RLS/0010"
         },
-        "patchs": [],
+        "patchs":[
+            {
+                "id":"jnp_es_ms",
+                "name":"Cambio de dominios a Jackbox.lol",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "description":"",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/releases/latest/download/JNP-ES-MS.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                "supported_platforms": ["windows"],
+                "supported_launchers": ["native"],
+                "components":[
+                    {
+                        "id":"fakinitanl_patch_ms",
+                        "linked_game":"fakinitanl_ms",
+                        "name":"Fakin' It All Night Long",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"dirtydrawful_patch_ms",
+                        "linked_game":"dirtydrawful_ms",
+                        "name":"Dirty Drawful",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    },
+		    {
+                        "id":"letmefinish_patch_ms",
+                        "linked_game":"letmefinish",
+                        "name":"Let Me Finish",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    }
+                ]
+                
+            }
+        ],
         "games": [
             {
                 "id": "fakinitanl_ms",
@@ -7254,7 +7380,40 @@
             "steam": "https://store.steampowered.com/app/2948640/The_Jackbox_Survey_Scramble/",
             "epic": "https://store.epicgames.com/de/p/the-jackbox-survey-scramble-8cfeb4"
         },
-        "patchs": [],
+        "patchs":[
+            {
+                "id":"jss_es",
+                "name":"Cambio de dominios a Jackbox.lol",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "description":"",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/releases/latest/download/JSS-ES.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                "supported_platforms": ["windows","linux","mac"],
+                "supported_launchers": ["steam","native","epic"],
+                "components":[
+		    {
+                        "id":"surveyscramble_patch",
+                        "linked_game":"surveyscramble",
+                        "name":"The Jackbox Survey Scramble",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    }
+                ]
+                
+            }
+        ],
         "games": [
             {
                 "id": "surveyscramble",
@@ -7340,7 +7499,40 @@
         "store_links": {
             "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-survey-scramble/9N0GR077VG2S/0010"
         },
-        "patchs": [],
+        "patchs":[
+            {
+                "id":"jss_es_ms",
+                "name":"Cambio de dominios a Jackbox.lol",
+                "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                "description":"",
+		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/releases/latest/download/JSS-ES-MS.zip",
+                "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                "supported_platforms": ["windows"],
+                "supported_launchers": ["native"],
+                "components":[
+		    {
+                        "id":"surveyscramble_patch_ms",
+                        "linked_game":"surveyscramble_ms",
+                        "name":"The Jackbox Survey Scramble",
+                        "description":"",
+                        "authors":"",
+                        "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                        "patch_type":{
+                            "game_text":false,
+                            "game_assets":false,
+                            "game_subtitles":false,
+                            "website":true,
+                            "audios":false
+                        }
+                    }
+                ]
+                
+            }
+        ],
         "games": [
             {
                 "id": "surveyscramble_ms",
