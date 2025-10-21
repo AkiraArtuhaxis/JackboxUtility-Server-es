@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip2int_es","df2_es","uyw_es","wtd_es","rttg_es"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip_es_mac","quip2int_es","df2_es","df2_es_egs","df2_es_mac_egs","uyw_es","uyw_es_mac","wtd_es","wtd_es_mac","rttg_es","rttg_es_mac"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip2int_es_spain","df2_es_spain","uyw_es","wtd_es_spain","rttg_es"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip_es_mac_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","df2_es_mac_egs_spain","uyw_es","uyw_es_mac","wtd_es_spain","wtd_es_mac_spain","rttg_es","rttg_es_mac"]
 	}
     ],
     "packs":[
@@ -7764,7 +7764,7 @@
                     
                 },
                 {
-                    "id":"quip_es",
+                    "id":"quip_es_mac",
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.\nIncluye la traducción del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
@@ -7828,7 +7828,7 @@
                     
                 },
                 {
-                    "id":"quip_es_spain",
+                    "id":"quip_es_mac_spain",
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nCuenta con un doblaje parcial (solo los enunciados).\nIncluye la traducción latina del DLC Quip Pack 1 (debes tenerlo comprado e instalado).",
                     "description":"",
@@ -8109,7 +8109,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native","epic"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"drawful_2_patch",
@@ -8130,7 +8130,39 @@
                     
                 },
                 {
-                    "id":"df2_es",
+                    "id":"df2_es_egs",
+                    "name":"Adaptación al Español Latino",
+                    "small_description":"Juego adaptado al español latino.\nCuenta con un doblaje latino completo.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-LAT.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_platforms": ["windows","linux"],
+                    "supported_launchers": ["epic"],
+                    "components":[
+                {
+                            "id":"drawful_2_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"Adaptación\n* Akira896\nDoblaje\n* Camila Iriart (anfitriona)\n* Akira896 y Fixed Fun (adaptación del guion)\n* Akira896 (recorte y ecualización de audios, supervisión y voz adicional)",
+                            "small_description":"¡Juego adaptado y doblado al latino!",
+                            "patch_type":{
+                                "game_text":true,
+                                "game_assets":true,
+                                "game_subtitles":true,
+                                "website":true,
+                                "audios":true
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"df2_es_mac_egs",
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego traducido al español latino.\nCuenta con un doblaje latino completo.",
                     "description":"",
@@ -8173,7 +8205,7 @@
 						"version_property":"buildVersion"
 					},
                     "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native","epic"],
+                    "supported_launchers": ["steam","native"],
                     "components":[
                 {
                             "id":"drawful_2_spain_patch",
@@ -8194,7 +8226,39 @@
                     
                 },
                 {
-                    "id":"df2_es_spain",
+                    "id":"df2_es_egs_spain",
+                    "name":"Cambio de dominio a Jackbox.lol",
+                    "small_description":"Juego localizado oficialmente en castellano.\nEste parche cambia el dominio a Jackbox.lol y realiza algunas correcciones menores.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/download/DF2-ES-SPAIN.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main[Spain]/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_platforms": ["windows","linux"],
+                    "supported_launchers": ["epic"],
+                    "components":[
+                {
+                            "id":"drawful_2_spain_patch",
+                            "linked_game":"drawful_2",
+                            "name":"Drawful 2",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                },
+                {
+                    "id":"df2_es_mac_egs_spain",
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nEste parche es una adaptación para EGS en Mac de la traducción castellana oficial de Jackbox Games de la versión de Steam.",
                     "description":"",
@@ -8340,7 +8404,7 @@
                     
                 },
                 {
-                    "id":"uyw_es",
+                    "id":"uyw_es_mac",
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego parcialmente traducido. El contenido de los enunciados y de la sección \"Sub Titu Lados\" se encuentra traducido.",
                     "description":"",
@@ -8476,7 +8540,7 @@
                     
                 },
                 {
-                    "id":"wtd_es",
+                    "id":"wtd_es_mac",
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.",
                     "description":"",
@@ -8540,7 +8604,7 @@
                     
                 },
                 {
-                    "id":"wtd_es_spain",
+                    "id":"wtd_es_mac_spain",
                     "name":"Traducción al Español Castellano",
                     "small_description":"Juego traducido al español castellano.\nLos subtítulos de los últimos videos agregados al juego se encuentran en latino.",
                     "description":"",
@@ -8676,7 +8740,7 @@
                     
                 },
                 {
-                    "id":"rttg_es",
+                    "id":"rttg_es_mac",
                     "name":"Traducción al Español Latino",
                     "small_description":"Juego 100% traducido.",
                     "description":"",
