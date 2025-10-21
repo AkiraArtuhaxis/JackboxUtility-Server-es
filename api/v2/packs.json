@@ -7180,7 +7180,7 @@
                     },
 		    {
                         "id":"letmefinish_patch_ms",
-                        "linked_game":"letmefinish",
+                        "linked_game":"letmefinish_ms",
                         "name":"Let Me Finish",
                         "description":"",
                         "authors":"",
