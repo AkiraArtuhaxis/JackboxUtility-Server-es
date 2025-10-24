@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip_es_mac","quip2int_es","df2_es","df2_es_egs","df2_es_mac_egs","uyw_es","uyw_es_mac","wtd_es","wtd_es_mac","rttg_es","rttg_es_mac"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip_es_mac","quip2int_es","df2_es","df2_es_egs","df2_es_mac_egs","uyw_es","uyw_es_mac","wtd_es","wtd_es_mac","rttg_es","rttg_es_mac"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip_es_mac_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","df2_es_mac_egs_spain","uyw_es","uyw_es_mac","wtd_es_spain","wtd_es_mac_spain","rttg_es","rttg_es_mac"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip_es_mac_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","df2_es_mac_egs_spain","uyw_es","uyw_es_mac","wtd_es_spain","wtd_es_mac_spain","rttg_es","rttg_es_mac"]
 	}
     ],
     "packs":[
@@ -6343,6 +6343,647 @@
         "icon": "jpp10.ico",
         "background": "backgrounds/jpp10.jpg"
     },
+    {
+            "id": "jpp11",
+            "name": "The Jackbox Party Pack 11",
+            "description": "Año de lanzamiento: 2025",
+            "launchers_id": {
+                "steam": "3364070"
+            },
+            "executables": {
+                "windows": "The Jackbox Party Pack 11.exe",
+                "mac": "The Jackbox Party Pack 11.app/Contents/MacOS/The Jackbox Party Pack 11",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp11/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "jbg.config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 11.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "steam": "https://store.steampowered.com/app/3364070/The_Jackbox_Party_Pack_11/",
+                "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-11-837a05"
+            },
+            "patchs": [
+                {
+                    "id": "jpp11_es",
+                    "name": "Traducción al Español Latino",
+                    "small_description": "Hear Say se encuentra traducido textualmente.\nLos demás juegos se encuentran en inglés.",
+                    "description": "",
+                    "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/main/Main/jbg.config.jet",
+                        "version_property": "buildVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native",
+                        "epic"
+                    ],
+                    "components": [
+                        {
+                            "id": "hearsay_patch",
+                            "linked_game": "hearsay",
+                            "name": "Hear Say",
+                            "description": ".",
+                            "authors": "Traducción\n* Akira896",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": false,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "games": [
+                {
+                    "id": "doominate",
+                    "internal_name": "YouRuinedIt",
+                    "name": "Doominate",
+                    "background": "game_backgrounds/Doominate.webp",
+                    "path": "games/YouRuinedIt",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar por sus respuestas favoritas.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Arruina lo lindo",
+                        "small_description": "Arruina lo lindo",
+                        "description": "Toma una situación perfectamente encantadora y destrúyela en este juego de broma cara a cara en el que se siente tan bien ser tan malo.",
+                        "images": [
+                            "game_images/Doominate/doominate_1.webp",
+                            "game_images/Doominate/doominate_2.webp",
+                            "game_images/Doominate/doominate_3.webp"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11/doominate.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "hearsay",
+                    "internal_name": "MicGame",
+                    "name": "Hear Say",
+                    "background": "game_backgrounds/HearSay.webp",
+                    "path": "games/MicGame",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar y participar en los minijuegos durante los interludios.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego donde los jugadores graban sonidos, en caso de jugar con extraños se recomienda jugar con la opción \"Moderación\" activada.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla (incluyendo los sonidos grabados). También pueden echar jugadores de la partida.",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "¡Tu voz es la estrella!",
+                        "small_description": "¡Tu voz es la estrella!",
+                        "description": "Graba efectos de sonido y diálogos directamente desde tu teléfono en un juego inspirado en el foley, donde la risa es la banda sonora. ¡Luego, observa cómo tus voces cobran vida en una serie de cortos!",
+                        "images": [
+                            "game_images/HearSay/hearsay_1.webp",
+                            "game_images/HearSay/hearsay_2.webp",
+                            "game_images/HearSay/hearsay_3.webp"
+                        ],
+                        "tags": [
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11/hearsay.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "cookiehaus",
+                    "internal_name": "CookiesGame",
+                    "name": "Cookie Haus",
+                    "background": "game_backgrounds/CookieHaus.webp",
+                    "path": "games/CookiesGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar por sus galletas favoritas.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida.",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Dibujos deliciosos",
+                        "small_description": "Dibujos deliciosos",
+                        "description": "Disfruta del juego de dibujo más acogedor y divertido hasta la fecha: diseña galletas para una clientela inusual. ¡No juegues con el estómago vacío!",
+                        "images": [
+                            "game_images/CookieHaus/cookiehaus_1.webp",
+                            "game_images/CookieHaus/cookiehaus_2.webp",
+                            "game_images/CookieHaus/cookiehaus_3.webp"
+                        ],
+                        "tags": [
+                            "drawing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11/cookiehaus.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "suspectives",
+                    "internal_name": "DirtyDetectives",
+                    "name": "Suspectives",
+                    "background": "game_backgrounds/Suspectives.webp",
+                    "path": "games/DirtyDetectives",
+                    "game_info": {
+                        "players": {
+                            "min": 4,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "El público también puede votar.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "¿Serás culpable?",
+                        "small_description": "¿Serás culpable?",
+                        "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
+                        "images": [
+                            "game_images/Suspectives/suspectives_1.webp",
+                            "game_images/Suspectives/suspectives_2.webp",
+                            "game_images/Suspectives/suspectives_3.webp"
+                        ],
+                        "tags": [
+                            "deduction"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11/suspectives.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "legendsoftrivia",
+                    "internal_name": "TriviaRPG",
+                    "name": "Legends of Trivia",
+                    "background": "game_backgrounds/LegendsofTrivia.webp",
+                    "path": "games/TriviaRPG",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 6
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede curar a los jugadores o a los oponentes tirando dados.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                        "subtitles": true,
+                        "length": "20 - 30 minutos",
+                        "type": "TEAM",
+                        "translation": "ENGLISH",
+                        "tagline": "¡La aventura te espera!",
+                        "small_description": "¡La aventura te espera!",
+                        "description": "¡Forma tu equipo y pon a prueba tus conocimientos de trivia en un mundo fantástico lleno de peligros! ¡Trabajo en equipo! ¡Monstruos! ¿Te atreves a participar en uno de los juegos de trivia más desafiantes hasta la fecha?",
+                        "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
+                            "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
+                            "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
+                        ],
+                        "tags": [
+                            "knowledge",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11/legendsoftrivia.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp11.ico",
+            "background": "backgrounds/jpp11.jpg"
+        },
+        {
+            "id": "jpp11_ms",
+            "name": "The Jackbox Party Pack 11 [Microsoft Store]",
+            "description": "Año de lanzamiento: 2025",
+            "launchers_id": {
+                "steam": "TJPP11"
+            },
+            "executables": {
+                "windows": "TJPP11.exe",
+                "mac": "The Jackbox Party Pack 11.app/Contents/MacOS/The Jackbox Party Pack 11",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp11_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "jbg.config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 11.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-11/9PJWRQRJTHNT/0010/9ZKR873PWTX3"
+            },
+            "patchs": [
+                {
+                    "id": "jpp11_es_ms",
+                    "name": "Traducción al Español Latino",
+                    "small_description": "Hear Say se encuentra traducido textualmente.\nLos demás juegos se encuentran en inglés.",
+                    "description": "",
+                    "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES-MS.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/main/ArchivoMS/jbg.config.jet",
+                        "version_property": "buildVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native",
+                        "epic"
+                    ],
+                    "components": [
+                        {
+                            "id": "hearsay_patch_ms",
+                            "linked_game": "hearsay_ms",
+                            "name": "Hear Say",
+                            "description": ".",
+                            "authors": "Traducción\n* Akira896",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": false,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "games": [
+                {
+                    "id": "doominate_ms",
+                    "internal_name": "YouRuinedIt",
+                    "name": "Doominate",
+                    "background": "game_backgrounds/Doominate.webp",
+                    "path": "games/YouRuinedIt",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar por sus respuestas favoritas.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Arruina lo lindo",
+                        "small_description": "Arruina lo lindo",
+                        "description": "Toma una situación perfectamente encantadora y destrúyela en este juego de broma cara a cara en el que se siente tan bien ser tan malo.",
+                        "images": [
+                            "game_images/Doominate/doominate_1.webp",
+                            "game_images/Doominate/doominate_2.webp",
+                            "game_images/Doominate/doominate_3.webp"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11_ms/doominate.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "hearsay_ms",
+                    "internal_name": "MicGame",
+                    "name": "Hear Say",
+                    "background": "game_backgrounds/HearSay.webp",
+                    "path": "games/MicGame",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar y participar en los minijuegos durante los interludios.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego donde los jugadores graban sonidos, en caso de jugar con extraños se recomienda jugar con la opción \"Moderación\" activada.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla (incluyendo los sonidos grabados). También pueden echar jugadores de la partida.",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "¡Tu voz es la estrella!",
+                        "small_description": "¡Tu voz es la estrella!",
+                        "description": "Graba efectos de sonido y diálogos directamente desde tu teléfono en un juego inspirado en el foley, donde la risa es la banda sonora. ¡Luego, observa cómo tus voces cobran vida en una serie de cortos!",
+                        "images": [
+                            "game_images/HearSay/hearsay_1.webp",
+                            "game_images/HearSay/hearsay_2.webp",
+                            "game_images/HearSay/hearsay_3.webp"
+                        ],
+                        "tags": [
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11_ms/hearsay.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "cookiehaus_ms",
+                    "internal_name": "CookiesGame",
+                    "name": "Cookie Haus",
+                    "background": "game_backgrounds/CookieHaus.webp",
+                    "path": "games/CookiesGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede votar por sus galletas favoritas.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida.",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Dibujos deliciosos",
+                        "small_description": "Dibujos deliciosos",
+                        "description": "Disfruta del juego de dibujo más acogedor y divertido hasta la fecha: diseña galletas para una clientela inusual. ¡No juegues con el estómago vacío!",
+                        "images": [
+                            "game_images/CookieHaus/cookiehaus_1.webp",
+                            "game_images/CookieHaus/cookiehaus_2.webp",
+                            "game_images/CookieHaus/cookiehaus_3.webp"
+                        ],
+                        "tags": [
+                            "drawing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11_ms/cookiehaus.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "suspectives_ms",
+                    "internal_name": "DirtyDetectives",
+                    "name": "Suspectives",
+                    "background": "game_backgrounds/Suspectives.webp",
+                    "path": "games/DirtyDetectives",
+                    "game_info": {
+                        "players": {
+                            "min": 4,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "El público también puede votar.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
+                        "moderation": "FULL_MODERATION",
+                        "subtitles": true,
+                        "length": "15 - 20 minutos",
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "¿Serás culpable?",
+                        "small_description": "¿Serás culpable?",
+                        "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
+                        "images": [
+                            "game_images/Suspectives/suspectives_1.webp",
+                            "game_images/Suspectives/suspectives_2.webp",
+                            "game_images/Suspectives/suspectives_3.webp"
+                        ],
+                        "tags": [
+                            "deduction"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11_ms/suspectives.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "legendsoftrivia_ms",
+                    "internal_name": "TriviaRPG",
+                    "name": "Legends of Trivia",
+                    "background": "game_backgrounds/LegendsofTrivia.webp",
+                    "path": "games/TriviaRPG",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 6
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "El público puede curar a los jugadores o a los oponentes tirando dados.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                        "subtitles": true,
+                        "length": "20 - 30 minutos",
+                        "type": "TEAM",
+                        "translation": "ENGLISH",
+                        "tagline": "¡La aventura te espera!",
+                        "small_description": "¡La aventura te espera!",
+                        "description": "¡Forma tu equipo y pon a prueba tus conocimientos de trivia en un mundo fantástico lleno de peligros! ¡Trabajo en equipo! ¡Monstruos! ¿Te atreves a participar en uno de los juegos de trivia más desafiantes hasta la fecha?",
+                        "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
+                            "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
+                            "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
+                        ],
+                        "tags": [
+                            "knowledge",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp11_ms/legendsoftrivia.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders":{
+                        "steam":false,
+                        "epic_games":true,
+                        "native":true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp11.ico",
+            "background": "backgrounds/jpp11.jpg"
+        },
     {
         "id":"jpstarter",
         "name":"The Jackbox Party Starter",
