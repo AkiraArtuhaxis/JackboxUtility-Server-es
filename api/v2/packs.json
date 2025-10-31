@@ -6751,8 +6751,8 @@
                             }
                         },
                         {
-                            "id": "cookiehaus_patch",
-                            "linked_game": "cookiehaus",
+                            "id": "cookiehaus_patch_ms",
+                            "linked_game": "cookiehaus_ms",
                             "name": "Cookie Haus",
                             "description": "",
                             "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
