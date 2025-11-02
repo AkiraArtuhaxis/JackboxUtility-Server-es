@@ -6381,7 +6381,7 @@
                 {
                     "id": "jpp11_es",
                     "name": "Traducción al Español Latino",
-                    "small_description": "Hear Say y Cookie Haus están traducidos textualmente.\nLos demás juegos se encuentran en inglés.",
+                    "small_description": "Hear Say, Cookie Haus y Suspectives se encuentran traducidos.\nDoominate y Legends of Trivia están en inglés.",
                     "description": "",
                     "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES.zip",
                     "configuration": {
@@ -6427,6 +6427,21 @@
                                 "game_assets": false,
                                 "game_subtitles": true,
                                 "website": false,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "suspectives_patch",
+                            "linked_game": "suspectives",
+                            "name": "Suspectives",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción principal)\n* Lafufu (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": false,
+                                "game_subtitles": true,
+                                "website": true,
                                 "audios": false
                             }
                         }
@@ -6603,7 +6618,7 @@
                         "subtitles": true,
                         "length": "15 - 20 minutos",
                         "type": "VERSUS",
-                        "translation": "ENGLISH",
+                        "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "¿Serás culpable?",
                         "small_description": "¿Serás culpable?",
                         "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
@@ -6716,7 +6731,7 @@
                 {
                     "id": "jpp11_es_ms",
                     "name": "Traducción al Español Latino",
-                    "small_description": "Hear Say y Cookie Haus están traducidos textualmente.\nLos demás juegos se encuentran en inglés.",
+                    "small_description": "Hear Say, Cookie Haus y Suspectives se encuentran traducidos.\nDoominate y Legends of Trivia están en inglés.",
                     "description": "",
                     "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES-MS.zip",
                     "configuration": {
@@ -6762,6 +6777,21 @@
                                 "game_assets": false,
                                 "game_subtitles": true,
                                 "website": false,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "suspectives_patch_ms",
+                            "linked_game": "suspectives_ms",
+                            "name": "Suspectives",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción principal)\n* Lafufu (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": false,
+                                "game_subtitles": true,
+                                "website": true,
                                 "audios": false
                             }
                         }
@@ -6938,7 +6968,7 @@
                         "subtitles": true,
                         "length": "15 - 20 minutos",
                         "type": "VERSUS",
-                        "translation": "ENGLISH",
+                        "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "¿Serás culpable?",
                         "small_description": "¿Serás culpable?",
                         "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
