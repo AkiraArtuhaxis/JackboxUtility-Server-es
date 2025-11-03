@@ -6580,7 +6580,8 @@
                             "game_images/CookieHaus/cookiehaus_3.webp"
                         ],
                         "tags": [
-                            "drawing"
+                            "drawing",
+                            "writing"
                         ]
                     },
                     "loader": {
@@ -6612,9 +6613,10 @@
                         "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
                         "audience_description": "El público también puede votar.",
-                        "stream_friendly": "PLAYABLE",
-                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego de deducción social, se recomienda que los jugadores puedan al menos escucharse entre ellos.",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
                         "subtitles": true,
                         "length": "15 - 20 minutos",
                         "type": "VERSUS",
@@ -6628,7 +6630,8 @@
                             "game_images/Suspectives/suspectives_3.webp"
                         ],
                         "tags": [
-                            "deduction"
+                            "deduction",
+                            "talking"
                         ]
                     },
                     "loader": {
@@ -6661,6 +6664,7 @@
                         "audience": true,
                         "audience_description": "El público puede curar a los jugadores o a los oponentes tirando dados.",
                         "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego cooperativo, se recomienda que los jugadores puedan al menos escucharse entre ellos para discutir las preguntas. Aún así, el juego funciona perfectamente si los jugadores no se escuchan entre ellos.",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
                         "subtitles": true,
@@ -6930,7 +6934,8 @@
                             "game_images/CookieHaus/cookiehaus_3.webp"
                         ],
                         "tags": [
-                            "drawing"
+                            "drawing",
+                            "writing"
                         ]
                     },
                     "loader": {
@@ -6962,9 +6967,10 @@
                         "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
                         "audience_description": "El público también puede votar.",
-                        "stream_friendly": "PLAYABLE",
-                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego de deducción social, se recomienda que los jugadores puedan al menos escucharse entre ellos.",
                         "moderation": "FULL_MODERATION",
+                        "moderation_description": "Este juego no requiere moderación. Sin embargo, con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán echar jugadores de la partida si es necesario.",
                         "subtitles": true,
                         "length": "15 - 20 minutos",
                         "type": "VERSUS",
@@ -6978,7 +6984,8 @@
                             "game_images/Suspectives/suspectives_3.webp"
                         ],
                         "tags": [
-                            "deduction"
+                            "deduction",
+                            "talking"
                         ]
                     },
                     "loader": {
@@ -7011,6 +7018,7 @@
                         "audience": true,
                         "audience_description": "El público puede curar a los jugadores o a los oponentes tirando dados.",
                         "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Al ser un juego cooperativo, se recomienda que los jugadores puedan al menos escucharse entre ellos para discutir las preguntas. Aún así, el juego funciona perfectamente si los jugadores no se escuchan entre ellos.",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. También pueden echar jugadores de la partida. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
                         "subtitles": true,
