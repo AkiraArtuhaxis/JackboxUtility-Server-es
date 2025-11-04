@@ -7852,7 +7852,7 @@
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/releases/latest/download/JNP-ES-MS.zip",
                 "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/main/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Naughty-Pack-Spanish/main/ArchivoMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows"],
@@ -8099,7 +8099,7 @@
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/releases/latest/download/JSS-ES.zip",
                 "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/main/Main/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Survey-Scramble-Spanish/main/ArchivoMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows","linux","mac"],
