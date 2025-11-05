@@ -2,6 +2,13 @@
     "news":[
         {
             "id":"2023-02-22 19:02:14",
+            "title":"¡Pack 11 traducido!",
+            "smallDescription":"¡The Jackbox Party Pack 11 ya se encuentra traducido de manera no oficial!",
+            "content":"# ¡Ahora en español!\n\nLos juegos Doominate, Hear Say, Cookie Haus y Suspectives ya se encuentran 100% traducidos textualmente.\n\n¡A disfrutar!",
+            "image":"news_images/Pack11Promo.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
             "title":"Jackbox Utility",
             "smallDescription":"¡Te damos la bienvenida a la Jackbox Utility!",
             "content":"# ¡Esto es Jackbox Utility!\n\nEn esta aplicación, puedes parchear juegos y luego ejecutarlos, omitiendo las introducciones y las secciones de menú.\n\nUsando toda clase de filtros y categorías, buscar el juego que deseas jugar nunca ha sido más fácil.\n\n¡Hora de entrar en acción más rápido!",
