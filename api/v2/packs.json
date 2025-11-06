@@ -6493,6 +6493,7 @@
                         "small_description": "Arruina lo lindo",
                         "description": "Toma una situación perfectamente encantadora y destrúyela en este juego de broma cara a cara en el que se siente tan bien ser tan malo.",
                         "images": [
+                            "game_images/Doominate/doominate.mp4",
                             "game_images/Doominate/doominate_1.webp",
                             "game_images/Doominate/doominate_2.webp",
                             "game_images/Doominate/doominate_3.webp"
@@ -6542,6 +6543,7 @@
                         "small_description": "¡Tu voz es la estrella!",
                         "description": "Graba efectos de sonido y diálogos directamente desde tu teléfono en un juego inspirado en el foley, donde la risa es la banda sonora. ¡Luego, observa cómo tus voces cobran vida en una serie de cortos!",
                         "images": [
+                            "game_images/HearSay/hearsay.mp4",
                             "game_images/HearSay/hearsay_1.webp",
                             "game_images/HearSay/hearsay_2.webp",
                             "game_images/HearSay/hearsay_3.webp"
@@ -6590,6 +6592,7 @@
                         "small_description": "Dibujos deliciosos",
                         "description": "Disfruta del juego de dibujo más acogedor y divertido hasta la fecha: diseña galletas para una clientela inusual. ¡No juegues con el estómago vacío!",
                         "images": [
+                            "game_images/CookieHaus/cookiehaus.mp4",
                             "game_images/CookieHaus/cookiehaus_1.webp",
                             "game_images/CookieHaus/cookiehaus_2.webp",
                             "game_images/CookieHaus/cookiehaus_3.webp"
@@ -6640,6 +6643,7 @@
                         "small_description": "¿Serás culpable?",
                         "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
                         "images": [
+                            "game_images/Suspectives/suspectives.mp4",
                             "game_images/Suspectives/suspectives_1.webp",
                             "game_images/Suspectives/suspectives_2.webp",
                             "game_images/Suspectives/suspectives_3.webp"
@@ -6690,6 +6694,7 @@
                         "small_description": "¡La aventura te espera!",
                         "description": "¡Forma tu equipo y pon a prueba tus conocimientos de trivia en un mundo fantástico lleno de peligros! ¡Trabajo en equipo! ¡Monstruos! ¿Te atreves a participar en uno de los juegos de trivia más desafiantes hasta la fecha?",
                         "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia.mp4",
                             "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
@@ -6862,6 +6867,7 @@
                         "small_description": "Arruina lo lindo",
                         "description": "Toma una situación perfectamente encantadora y destrúyela en este juego de broma cara a cara en el que se siente tan bien ser tan malo.",
                         "images": [
+                            "game_images/Doominate/doominate.mp4",
                             "game_images/Doominate/doominate_1.webp",
                             "game_images/Doominate/doominate_2.webp",
                             "game_images/Doominate/doominate_3.webp"
@@ -6911,6 +6917,7 @@
                         "small_description": "¡Tu voz es la estrella!",
                         "description": "Graba efectos de sonido y diálogos directamente desde tu teléfono en un juego inspirado en el foley, donde la risa es la banda sonora. ¡Luego, observa cómo tus voces cobran vida en una serie de cortos!",
                         "images": [
+                            "game_images/HearSay/hearsay.mp4",
                             "game_images/HearSay/hearsay_1.webp",
                             "game_images/HearSay/hearsay_2.webp",
                             "game_images/HearSay/hearsay_3.webp"
@@ -6959,6 +6966,7 @@
                         "small_description": "Dibujos deliciosos",
                         "description": "Disfruta del juego de dibujo más acogedor y divertido hasta la fecha: diseña galletas para una clientela inusual. ¡No juegues con el estómago vacío!",
                         "images": [
+                            "game_images/CookieHaus/cookiehaus.mp4",
                             "game_images/CookieHaus/cookiehaus_1.webp",
                             "game_images/CookieHaus/cookiehaus_2.webp",
                             "game_images/CookieHaus/cookiehaus_3.webp"
@@ -7009,6 +7017,7 @@
                         "small_description": "¿Serás culpable?",
                         "description": "Ha ocurrido un crimen, un jugador lo cometió en secreto, ¡y la evidencia proviene de tus propias respuestas a la encuesta! Estudia las pistas, defiende tu inocencia (aunque mientas) y lleva a tus amigos a juicio.",
                         "images": [
+                            "game_images/Suspectives/suspectives.mp4",
                             "game_images/Suspectives/suspectives_1.webp",
                             "game_images/Suspectives/suspectives_2.webp",
                             "game_images/Suspectives/suspectives_3.webp"
@@ -7059,6 +7068,7 @@
                         "small_description": "¡La aventura te espera!",
                         "description": "¡Forma tu equipo y pon a prueba tus conocimientos de trivia en un mundo fantástico lleno de peligros! ¡Trabajo en equipo! ¡Monstruos! ¿Te atreves a participar en uno de los juegos de trivia más desafiantes hasta la fecha?",
                         "images": [
+                            "game_images/LegendsofTrivia/legendsoftrivia.mp4",
                             "game_images/LegendsofTrivia/legendsoftrivia_1.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_2.webp",
                             "game_images/LegendsofTrivia/legendsoftrivia_3.webp"
