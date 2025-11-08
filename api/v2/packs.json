@@ -6005,7 +6005,7 @@
 		        "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/releases/latest/download/JPP10-ES-MS.zip",
                 "configuration": {
 						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/ArchivoMS/jbg.config.jet",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-10-Spanish/main/ArchivosMS/jbg.config.jet",
 						"version_property":"buildVersion"
 					},
                 "supported_platforms": ["windows"],
