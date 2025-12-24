@@ -12,7 +12,11 @@
       },
       {
         "type":"text",
-        "text":"Se debe seleccionar la carpeta \"Content\" dentro de la carpeta de cada juego."
+        "text":"Se debe seleccionar la carpeta \"Content\" dentro de la carpeta de cada juego. Ejemplo:"
+      },
+      {
+        "type":"text",
+        "text":"C:/XboxGames/The Jackbox Party Pack 7/Content"
       }
     ]
   },
