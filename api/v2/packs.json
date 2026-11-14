@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip_es_mac","quip2int_es","df2_es","df2_es_egs","df2_es_mac_egs","uyw_es","uyw_es_mac","wtd_es","wtd_es_mac","rttg_es","rttg_es_mac"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpp12_es","jpp12_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es","quip_es_mac","quip2int_es","df2_es","df2_es_egs","df2_es_mac_egs","fixl_es","uyw_es","uyw_es_mac","wtd_es","wtd_es_mac","rttg_es","rttg_es_mac"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip_es_mac_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","df2_es_mac_egs_spain","uyw_es","uyw_es_mac","wtd_es_spain","wtd_es_mac_spain","rttg_es","rttg_es_mac"]
+	    "patchs":["jpp1_es","jpp1_es_egs","jpp2_es","jpp2_es_egs","jpp2_es_mac_egs","jpp3_es","jpp3_es_egs","jpp4_es","jpp4_es_egs","jpp5_es","jpp5_es_egs","jpp5_es_mac_egs","jpp6_es","jpp6_es_egs","jpp7_es","jpp7_es_egs","jpp7_es_mac_egs","jpp7_es_ms","jpp8_es","jpp8_es_egs","jpp9_es","jpp9_es_egs","jpp9_es_ms","jpp10_es","jpp10_es_ms","jpp11_es","jpp11_es_ms","jpp12_es","jpp12_es_ms","jpstarter_es","jpstarter_es_ms","jnp_es","jnp_es_ms","jss_es","jss_es_ms","fbxl_es","quip_es_spain","quip_es_mac_spain","quip2int_es_spain","df2_es_spain","df2_es_egs_spain","df2_es_mac_egs_spain","fixl_es","uyw_es","uyw_es_mac","wtd_es_spain","wtd_es_mac_spain","rttg_es","rttg_es_mac"]
 	}
     ],
     "packs":[
@@ -528,7 +528,7 @@
                 {
                     "id":"jpp2_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.\nEarwax cuenta con doblaje latino.",
+                    "small_description":"Pack 100% traducido.\nEarwax y Subastardos cuentan con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
                     "configuration": {
@@ -620,7 +620,7 @@
                 {
                     "id":"jpp2_es_egs",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.\nEarwax cuenta con doblaje latino.",
+                    "small_description":"Pack 100% traducido.\nEarwax y Subastardos cuentan con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES-EGS-SWITCH.zip",
                     "configuration": {
@@ -712,7 +712,7 @@
                 {
                     "id":"jpp2_es_mac_egs",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.\nEarwax cuenta con doblaje latino.",
+                    "small_description":"Pack 100% traducido.\nEarwax y Subastardos cuentan con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES-MAC-EGS.zip",
                     "configuration": {
@@ -7377,7 +7377,77 @@
                 "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-12-ecd7c0",
                 "jackbox_games_store":"https://www.jackboxgames.com/es/games/packs/the-jackbox-party-pack-12"
             },
-            "patchs": [],
+            "patchs": [
+                {
+                    "id": "jpp12_es",
+                    "name": "Traducción al Español Latino",
+                    "small_description": "Este Pack posee 3 de 5 juegos traducidos.\nDebate and Switch y Idol Factions no están traducidos.\nLos demás juegos se encuentran traducidos.",
+                    "description": "",
+                    "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/releases/latest/download/JPP12-ES.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/main/Main/ArchivoMS/jbg.config.jet",
+                        "version_property": "buildVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native",
+                        "epic"
+                    ],
+                    "components": [
+                        {
+                            "id": "weforgotacard_patch",
+                            "linked_game": "weforgotacard",
+                            "name": "We Forgot a Card",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "megapals_patch",
+                            "linked_game": "megapals",
+                            "name": "Megapals",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": false,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "hyperface",
+                            "linked_game": "hyperface_patch",
+                            "name": "Hyperface",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
             "games": [
                 {
                     "id": "weforgotacard",
@@ -7659,7 +7729,77 @@
             "store_links": {
                 "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-12/9nsl3hh3h023"
             },
-            "patchs": [],
+            "patchs": [
+                {
+                    "id": "jpp12_es_ms",
+                    "name": "Traducción al Español Latino",
+                    "small_description": "Este Pack posee 3 de 5 juegos traducidos.\nDebate and Switch y Idol Factions no están traducidos.\nLos demás juegos se encuentran traducidos.",
+                    "description": "",
+                    "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/releases/latest/download/JPP12-ES-MS.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/main/Main/jbg.config.jet",
+                        "version_property": "buildVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native",
+                        "epic"
+                    ],
+                    "components": [
+                        {
+                            "id": "weforgotacard_patch_ms",
+                            "linked_game": "weforgotacard_ms",
+                            "name": "We Forgot a Card",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "megapals_patch_ms",
+                            "linked_game": "megapals_ms",
+                            "name": "Megapals",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": false,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "hyperface_ms",
+                            "linked_game": "hyperface_patch_ms",
+                            "name": "Hyperface",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)\n* Fixed Fun (imágenes)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
             "games": [
                 {
                     "id": "weforgotacard_ms",
@@ -9731,6 +9871,7 @@
             },
             "executables": {
                 "windows": "Fakin It XL.exe",
+                "mac":"Fakin It XL.app/Contents/MacOS/Fakin It XL",
                 "linux": "Launcher.sh"
             },
             "loader": {
@@ -9747,7 +9888,47 @@
                 "epic":"https://store.epicgames.com/p/fakin-it-xl-568932",
                 "jackbox_games_store":"https://www.jackboxgames.com/games/fakin-it-xl"
             },
-            "patchs": [],
+            "patchs": [
+                {
+                    "id": "fixl_es",
+                    "name": "Traducción al Español Latino",
+                    "small_description": "Juego 100% traducido.",
+                    "description": "",
+                    "patch_path": "https://github.com/AkiraArtuhaxis/Fakin-It-XL-Spanish/releases/latest/download/FIXL-ES.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/Fakin-It-XL-Spanish/main/Main/ArchivoMS/jbg.config.jet",
+                        "version_property": "buildVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native",
+                        "epic"
+                    ],
+                    "components": [
+                        {
+                            "id": "fakinitxl_patch",
+                            "linked_game": "fakinitxl",
+                            "name": "Fakin' It! XL",
+                            "description": "",
+                            "authors": "Artuhaxis (traducción)",
+                            "small_description": "¡Juego traducido al español!",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
             "games": [
                 {
                     "id": "fakinitxl",
