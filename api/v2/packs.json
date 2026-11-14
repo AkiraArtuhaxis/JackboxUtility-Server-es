@@ -7386,7 +7386,7 @@
                     "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/releases/latest/download/JPP12-ES.zip",
                     "configuration": {
                         "version_origin": "repo_file",
-                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/main/Main/ArchivoMS/jbg.config.jet",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-12-Spanish/main/Main/jbg.config.jet",
                         "version_property": "buildVersion"
                     },
                     "supported_platforms": [
