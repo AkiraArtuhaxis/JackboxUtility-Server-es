@@ -9897,7 +9897,7 @@
                     "patch_path": "https://github.com/AkiraArtuhaxis/Fakin-It-XL-Spanish/releases/latest/download/FIXL-ES.zip",
                     "configuration": {
                         "version_origin": "repo_file",
-                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/Fakin-It-XL-Spanish/main/Main/ArchivoMS/jbg.config.jet",
+                        "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/Fakin-It-XL-Spanish/main/ArchivoMS/jbg.config.jet",
                         "version_property": "buildVersion"
                     },
                     "supported_platforms": [
