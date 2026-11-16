@@ -4,7 +4,9 @@ Este repositorio contiene la información del servidor de Jackbox en español pa
 Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 ## info.json 
+
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/info.png?raw=true)
+
 Este archivo contiene la información general del servidor. En principio, ninguno de estos contenidos cambia seguido.
 
 - `name`: El nombre del servidor ("Jackbox en español")
@@ -20,14 +22,30 @@ Este archivo contiene la información general del servidor. En principio, ningun
 
 ## api/welcome.json
 
-Muestra carteles de bienvenida, con una fecha asociada. Utilizado principalmente para el anuncio de novedades.
-- `news`: Contiene todas las novedades encontradas en el servidor.
-  - `id`: Fecha y hora de la novedad. Utilizadas para definir si se debe mostrar a un usuario dicha novedad o no.
-    - En nuestro caso, dejamos tres novedades fijas: Un enlace a Discord, una bienvenida a la Utility, y una que muestra la única novedad del momento.
-    - En principio, esta última es la única que se cambia seguido.
-  - `title`: TBD
-  - `smallDescription`: TBD
-  - `content`: TBD
-  - `image`: TBD
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/welcome.png?raw=true)
+
+Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestro caso, dejamos tres banners, dos de ellos fijos: Un enlace a Discord, una bienvenida a la Utility, y una que muestra la única novedad del momento. Esta última es la única que se cambia seguido.
+- `news`: Contiene todos los paneles presentados en el carrusel del servidor.
+  - `id`: Fecha y hora de la novedad. Utilizadas para definir si se debe mostrar a un usuario dicha novedad o no. Podría usarse para dejar preparadas novedades con anticipación.
+  - `title`: Ttítulo que aparece en dichos banners
+  - `smallDescription`: textito grande que aparece abajo del título
+  - `content`: lo que está abajo de eso
+  - `image`: imagencita que se usa
+
+## api/messages.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/messages.png?raw=true)
+
+sirve para mostrar mensajes en la pantalla principal.
+Se puede usar para poner tipo countdowns a una release de algo por ejemplo
+O para que cierto texto aparezca solo en cierta fecha
+
+## api/configurations.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/configurations.png?raw=true)
+
+para ciertas configuraciones específicas por servidor
+Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defecto) y para mostrar un link de donación cuando se terminan de instalar los parches.
+
 
 - **packs.json**: Contiene los datos de los parches ofrecidos.
