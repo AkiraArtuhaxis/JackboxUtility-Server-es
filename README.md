@@ -20,7 +20,7 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
     - Agregar el nuevo juego o juegos en `components`, completando con la información [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es#packs---components).
     - En `games`, poner `translation` en `COMMUNITY_TRANSLATED`.
   - En `patchsCategories`:
-    - Agregar el id de `components` a `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
+    - Si es la primera traducción, agregar el id de `components` a `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
 
 ### Añadir un Pack nuevo a la Utility
 
