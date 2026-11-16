@@ -6,10 +6,21 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 ## Resumen rápido:
 
 ### Actualizar un parche de un juego ya agregado a la Utility
+- En el repositorio de la traducción:
+  - Subir el release a GitHub.
 
-TBD
+### Añadir un juego nuevo para un Pack ya agregado en la Utility.
 
-### Añadir un juego nuevo a la Utility
+- En el repositorio de la traducción:
+  - Subir el release a GitHub.
+- En `packs.json`
+  - En `patchs`:
+    - Si es la primera traducción, cambiar `name` a "Traducción a Español Latino".
+    - Actualizar la `small_description`.
+    - Agregar el nuevo juego o juegos en `components`, completando con la información [aquí](faltaellink).
+    - En `games`, poner `translation` en `COMMUNITY_TRANSLATED`.
+
+### Añadir un Pack nuevo a la Utility
 
 1. Agregar el nuevo pack en `packs.json`, completando con información encontrada [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/tree/main#packs).
 2. Poner el `id` de los parches agregados en el paso 1 en `patchsCategories` -> `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
