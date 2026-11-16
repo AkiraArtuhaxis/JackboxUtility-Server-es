@@ -60,6 +60,12 @@ De momento, se utiliza para dar instrucciones específicas para los parches de M
 
 Contiene los datos de los parches ofrecidos.
 
+- `tags`: Manera en que pueden categorizar tus juegos en la Utility.
+  - `id` (no pueden ser iguales entre sí)
+  - `name`: nombre que se muestra
+  - `icon`: Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
+  - `description`: descripción que aparece al buscar por etiqueta.
+
 ### api/welcome.json
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/welcome.png?raw=true)
@@ -71,6 +77,29 @@ Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestr
   - `smallDescription`: textito grande que aparece abajo del título
   - `content`: lo que está abajo de eso
   - `image`: imagencita que se usa
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/patchCategories.png?raw=true)
+
+- `patchCategories`: La sección de "Todos los parches" de "Instalar parches". Normalmente hay una sola, pero tenemos dos para ofrecer una para jugadores de España (que no instalar el doblaje latino de Drawful 2 ni la adaptación latina de Quiplash 2, y sí instala la traducción castellana de WTD y su doblaje del Quiplash original).
+  - `id`
+  - `name`
+  - `smallDescription`
+  - `patchs`
+ 
+- `packs`: Cada entrada representa a un Pack que va a estar en la Utility.
+  - `id`: No se puede repetir
+  - `name`: nombre
+  - `description`: La descripción que aparece en "Buscar por Pack".
+  - `launchers_id`: Los ids que se usan para que los juegos puedan ser detectados automáticamente por la Utility cada vez que se inicia o con el botón de "Ajustes".
+  - `executables`: El nombre del ejecutable del juego para cada plataforma.
+  - `loader`: donde va el loader por default que se restaura cuando se cierra la Utility
+  - `configuration`: lo que se usa para ver qué archivito se va a usar para detectar la versión del parche que tenés
+  - `version_origin` ni idea qué otra cosa puede tener que no sea game_file
+  - `version_file`: Se usaba antes, ahora no.
+  - `version_property`: La línea que tiene que leer la Utility del archivo para chequear la versión.
+  - `launcher_version_file`: El tipo de archivo que tiene que detectar, por plataforma.
+  - `steam` y `epic_games` se explican solos. `native` se utiliza para los juegos agregados manualmente.
+    - Post-Megapicker, todas las versiones de Steam hasta ese momento se actualizaron, cambiando el nombre de "config.jet" a "jbg.config.jet"; pero en Epic todo sigue como antes.
 
 ## assets
 
@@ -97,7 +126,8 @@ Esta carpeta contiene los banners de cada juego.
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/game_images.png?raw=true)
 
-Esta carpeta contiene las imágenes que aparecen tipo carrusel cuando te muestra la info de un juego.
+Esta carpeta contiene las imágenes y videos que aparecen tipo carrusel cuando te muestra la info de un juego. 
+Los videos solo son compatibles en la versión 1.3.7 de Utility por ahora, por lo que están ocultos por defecto. A la hora de subir videos, se recomienda utilizar el comando `ffmpeg -i nombredelvideo.mp4 nombredelvideodiferente.mp4` para comprimirlos.
 
 ### assets/Loaders
 
