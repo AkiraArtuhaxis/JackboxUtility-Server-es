@@ -19,11 +19,12 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
     - Actualizar la `small_description`.
     - Agregar el nuevo juego o juegos en `components`, completando con la información [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es#packs---components).
     - En `games`, poner `translation` en `COMMUNITY_TRANSLATED`.
+  - En `patchsCategories`:
+    - Agregar el id de `components` a `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
 
 ### Añadir un Pack nuevo a la Utility
 
 1. Agregar el nuevo pack en `packs.json`, completando con información encontrada [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/tree/main#packs).
-2. Poner el `id` de los parches agregados en el paso 1 en `patchsCategories` -> `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
 
 ## info.json 
 
@@ -138,7 +139,12 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
   - `description`: La descripción del juego, que aparece debajo del título al apretar el botón de info.
   - `authors`: los créditos que se muestran al apretar el botón de info.
   - `small_description`: la descripción que aparece en la sección de parches de ese Pack.
-  - `patch_type`: Detalla qué cambios se realizan en el parche (`game_text`, `game_assets`, `game_subtitles`, `website`, `audios`)
+  - `patch_type`: Detalla qué cambios se realizan en el parche.
+    - `game_text`: El contenido de texto del juego se traduce.
+    - `game_assets`: Los assets visuales del juego se traducen.
+    - `game_subtitles`: Los subtítulos se traducen.
+    - `website`: Se traduce el controlador (en nuestro caso con jackbox.lol).
+    - `audios`: El juego cuenta con un doblaje.
 
 ##### packs -> games
 
