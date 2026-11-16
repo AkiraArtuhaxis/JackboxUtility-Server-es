@@ -9,6 +9,7 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 Este archivo contiene la información general del servidor. En principio, ninguno de estos contenidos cambia seguido.
 
+- `id`: Identificador del servidor, debe ser único ("jackbox-es")
 - `name`: El nombre del servidor ("Jackbox en español")
 - `description`: La descripción del servidor ("¡El servidor de la comunidad de Jackbox en español!")
 - `image`: La imagen que se muestra como ícono del servidor ([esta](https://raw.githubusercontent.com/AkiraArtuhaxis/JackboxUtility-Server-es/main/assets/news_images/logo.png))
@@ -39,9 +40,9 @@ Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defe
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/messages.png?raw=true)
 
-sirve para mostrar mensajes en la pantalla principal.
-Se puede usar para poner tipo countdowns a una release de algo por ejemplo
-O para que cierto texto aparezca solo en cierta fecha
+Se utiliza para mostrar mensajes en la pantalla principal. Se podría usar para poner tipo countdowns a una release de algo, por ejemplo, o para que cierto texto aparezca solo en cierta fecha. 
+
+De momento, se utiliza para dar instrucciones específicas para los parches de Microsoft Store.
 
 ## api/packs.json
 
