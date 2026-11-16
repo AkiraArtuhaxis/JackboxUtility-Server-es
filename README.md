@@ -32,15 +32,15 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 Este archivo contiene la información general del servidor. En principio, ninguno de estos contenidos cambia seguido.
 
-- `id`: Identificador del servidor, debe ser único ("jackbox-es")
-- `name`: El nombre del servidor ("Jackbox en español")
-- `description`: La descripción del servidor ("¡El servidor de la comunidad de Jackbox en español!")
+- `id`: Identificador del servidor, debe ser único ("jackbox-es").
+- `name`: El nombre del servidor ("Jackbox en español").
+- `description`: La descripción del servidor ("¡El servidor de la comunidad de Jackbox en español!").
 - `image`: La imagen que se muestra como ícono del servidor. Se utiliza una encontrada en la carpeta `assets/news_images`.
 - `urls`: Enlaza a la api y assets que hay en este repositorio.
-- `controller`: El controlador utilizado por el servidor, que se muestra en la aplicación (jackbox.lol)
-- `languages`: El lenguaje que utiliza la aplicación al utilizar el servidor ("es" = español)
+- `controller`: El controlador utilizado por el servidor, que se muestra en la aplicación (jackbox.lol).
+- `languages`: El lenguaje que utiliza la aplicación al utilizar el servidor ("es" = español).
 - `links`: Incluye los enlaces que se muestran debajo del servidor en ajustes. Cada enlace presenta los siguientes atributos:
-  - `icon`: ícono que se muestra a la izquierda. Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
+  - `icon`: Ícono que se muestra a la izquierda. Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
   - `url`: Enlace al que lleva al clickear. Las imágenes utilizadas se colocan en la carpeta `assets/news_images`.
   - `text`: Texto que se muestra al lado del ícono.
 
@@ -80,9 +80,9 @@ Contiene los datos de los parches ofrecidos.
 
 Los `tags` son la manera en que pueden categorizar tus juegos en la Utility.
 - `id` (no pueden ser iguales entre sí)
-- `name`: nombre que se muestra
+- `name`: Nombre que se muestra.
 - `icon`: Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
-- `description`: descripción que aparece al buscar por etiqueta.
+- `description`: Descripción que aparece al buscar por etiqueta.
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/patchCategories.png?raw=true)
 
@@ -99,33 +99,33 @@ Los `tags` son la manera en que pueden categorizar tus juegos en la Utility.
 
 Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
 
-  - `id`: No se puede repetir
-  - `name`: nombre
+  - `id`: No se puede repetir.
+  - `name`: El nombre que se muestra.
   - `description`: La descripción que aparece en "Buscar por Pack".
   - `launchers_id`: Los ids que se usan para que los juegos puedan ser detectados automáticamente por la Utility cada vez que se inicia o con el botón de "Ajustes".
   - `executables`: El nombre del ejecutable del juego para cada plataforma.
-  - `loader`: donde va el loader por default que se restaura cuando se cierra la Utility
-  - `configuration`: lo que se usa para ver qué archivito se va a usar para detectar la versión del parche que tenés
+  - `loader`: Donde va el loader por default que se restaura cuando se cierra la Utility.
+  - `configuration`: Lo que se usa para ver qué archivito se va a usar para detectar la versión del parche que tenés.
     - `version_origin`: `game_file` para indicar que proviene del juego.
     - `version_file`: Es el archivo que se usa para detectar el número de versión.
     - `version_property`: La línea que tiene que leer la Utility del archivo para chequear la versión.
     - `launcher_version_file`: El tipo de archivo que tiene que detectar, por plataforma.
     - `steam` y `epic_games` se explican solos. `native` se utiliza para los juegos agregados manualmente.
       - Post-Megapicker, todas las versiones de Steam hasta ese momento se actualizaron, cambiando el nombre de "config.jet" a "jbg.config.jet"; pero en Epic todo sigue como antes.
-  - `resource_location`: Contiene el directorio que tiene que leer la aplicación para instalar los parches en Mac
-    - Caso especial de Quiplash 1: Se deja en blanco
+  - `resource_location`: Contiene el directorio que tiene que leer la aplicación para instalar los parches en Mac.
+    - Caso especial de Quiplash 1: Se deja en blanco.
   - `store_links`: Enlaces de tienda que aparecen cuando no tenés el juego agregado a la app. Se aceptan tiendas `steam`, `epic`, `jackbox_games_store`. Usamos el último para las versiones de Microsoft Store.
   - `patchs`: Contiene los parches del Pack. Hay diferentes tipos de parches del mismo juego para otras plataformas o tiendas, según las necesidades de cada una. Estos se ocultan si la plataforma no es soportada o el tipo de tienda es diferente.
     - `id`: No pueden ser iguales.
     - `name`: El nombre del parche.
     - `small_description`: La descripción que aparece en "Todos los parches" y en la sección de parches de cada Pack en particular.
-    - `description`: No se usa
+    - `description`: No se usa.
     - `patch_path`: El link del parche.
     - `version_origin`: De dónde saca el número de versión del parche (`repo_file` = del repositorio linkeado).
     - `version_file` De qué link lee el número de versión.
     - `version_property`: De qué variable del archivo saca el número de versión (ej: `buildVersion`).
-    - `supported_platforms`: Las plataformas que soporta el parche
-    - `supported_launchers`: El tipo de tienda que soporta
+    - `supported_platforms`: Las plataformas que soporta el parche.
+    - `supported_launchers`: El tipo de tienda que soporta.
     - `components`: Está cada juego del Pack incluido en el parche. Se explica en detalle en la siguiente subsección.
     - `games`: La información de cada juego que se usa en el launcher. Se explica en detalle en la siguiente subsección.
     - `icon`: Ícono de juego.
@@ -134,12 +134,12 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
 ##### packs -> components
 
 - `components`: Está cada juego del Pack incluido en el parche.
-  - `id`: no pueden ser iguales.
-  - `linked_game`: es de dónde busca los assets que se muestran. Osea, el banner y qué juego se muestra cuando apretás dicho banner en la sección de parches de ese juego.
+  - `id`: No pueden ser iguales.
+  - `linked_game`: Es de dónde busca los assets que se muestran. Osea, el banner y qué juego se muestra cuando apretás dicho banner en la sección de parches de ese juego.
   - `name`: El nombre del juego/parche del juego.
   - `description`: La descripción del juego, que aparece debajo del título al apretar el botón de info.
-  - `authors`: los créditos que se muestran al apretar el botón de info.
-  - `small_description`: la descripción que aparece en la sección de parches de ese Pack.
+  - `authors`: Los créditos que se muestran al apretar el botón de info.
+  - `small_description`: La descripción que aparece en la sección de parches de ese Pack.
   - `patch_type`: Detalla qué cambios se realizan en el parche.
     - `game_text`: El contenido de texto del juego se traduce.
     - `game_assets`: Los assets visuales del juego se traducen.
@@ -150,30 +150,30 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
 ##### packs -> games
 
 - `games`: La información de cada juego que se usa en el launcher
-  - `id`: no pueden ser iguales.
-  - `name`: el nombre que se muestra
-  - `internal_name` es el nombre que se usa internamente en el juego para poder ejecutarse directamente con comandos (lo que usa Steam) (opcional)
-  - `background` el banner que se usa
-  - `path` dónde se encuentra el juego, también para ejecutarse con comandos (opcional)
-  - `game_info` es el tipo de jugadores y el playtime que tiene ese juego
-  - `family-friendly` si es family-friendly o no (valores: `NOT_FAMILTY_FRIENDLY` | `OPTIONAL` | `FAMILY-FRIENDLY`)
-  - `Audience`: si tiene público o no
-  - `Stream-friendly`: si es apto para streams o no (valores: `NOT_PLAYABLE` | `MIDLY PLAYABLE` | `PLAYABLE`).
-  - `stream_friendly_description`: Usada para describir los posibles problemas de jugar en partidas transmitidas (opcional).
-  - `moderation`: Si tiene moderación o no (valores: `FULL_MODERATION` | `CENSORING` | `NO_MODERATION`)
-  - `moderation_description`: Usada para describir los posibles problemas de jugar con moderación (opcional).
-  - `Subtitles` Si tiene subtítulos o no.
-  - `Type`: El tipo de juego que es (valores: `VERSUS` | `COOP` | `TEAM`)
-  - `translation`: El tipo de traducción que tiene (valores: "NATIVELY_TRANSLATED", "COMMUNITY_TRANSLATED" o "ENGLISH")
-  - `tagline`: Es lo que aparece junto al banner cuando hacés hover en el launcher
-  - `small_description`: La pequeña descripción que aparece en la info de cada juego (yo pongo lo mismo que la tagline)
-  - `description`: La descripción grande del juego.
+  - `id`: No pueden ser iguales.
+  - `name`: El nombre que se muestra.
+  - `internal_name`: Es el nombre que se usa internamente en el juego para poder ejecutarse directamente con comandos (lo que usa Steam) (opcional).
+  - `background`: El banner que se usa.
+  - `path`: Dónde se encuentra el juego, también para ejecutarse con comandos (opcional).
+  - `game_info`: Es el tipo de jugadores y el playtime que tiene ese juego.
+  - `family-friendly`: Si es family-friendly o no (valores: `NOT_FAMILTY_FRIENDLY` | `OPTIONAL` | `FAMILY-FRIENDLY`).
+  - `audience`: Si tiene público o no.
   - `audience_description`: Explica la función del público en el juego (opcional).
+  - `stream-friendly`: Si es apto para streams o no (valores: `NOT_PLAYABLE` | `MIDLY PLAYABLE` | `PLAYABLE`).
+  - `stream_friendly_description`: Usada para describir los posibles problemas de jugar en partidas transmitidas (opcional).
+  - `moderation`: Si tiene moderación o no (valores: `FULL_MODERATION` | `CENSORING` | `NO_MODERATION`).
+  - `moderation_description`: Usada para describir los posibles problemas de jugar con moderación (opcional).
+  - `subtitles`: Si tiene subtítulos o no.
+  - `type`: El tipo de juego que es (valores: `VERSUS` | `COOP` | `TEAM`).
+  - `translation`: El tipo de traducción que tiene (valores: `NATIVELY_TRANSLATED`, `COMMUNITY_TRANSLATED` o `ENGLISH`).
+  - `tagline`: Es lo que aparece junto al banner cuando hacés hover en el launcher.
+  - `small_description`: La pequeña descripción que aparece en la info de cada juego (en este servidor se pone lo mismo que la tagline).
+  - `description`: La descripción grande del juego.
   - `images`: Imágenes que pueden aparecer en el carrusel de imágenes. Puede haber videos (solo se muestran en la versión 1.3.7).
-  - `tags`: Etiquetas que tiene el juego en base a lo que hay en [esta](esta) sección.
-  - `loader`: Loader que usa el juego
-    - `path`
-    - `version` se usa por si alguna vez hay que actualizar un loader
+  - `tags`: Etiquetas que tiene el juego en base a lo que hay en [esta](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es#tags) sección.
+  - `loader`: Loader que usa el juego.
+    - `path`: Dónde se encuenta el loader.
+    - `version`: Se usa por si alguna vez hay que actualizar un loader.
   - `launch_with_loaders`: Define si los loaders se usan dependiendo del tipo de versión (valores: `false` = usa el sistema de comandos por defecto -lo que usa Steam- | `true` = el caso de Epic y las versiones añadidas manualmente)
   - `patchs`: variable depreciada.
 
@@ -184,10 +184,10 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
 Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestro caso, dejamos tres banners, dos de ellos fijos: Un enlace a Discord, una bienvenida a la Utility, y una que muestra la única novedad del momento. Esta última es la única que se cambia seguido.
 - `news`: Contiene todos los paneles presentados en el carrusel del servidor.
   - `id`: Fecha y hora de la novedad. Utilizadas para definir si se debe mostrar a un usuario dicha novedad o no. Podría usarse para dejar preparadas novedades con anticipación.
-  - `title`: Título que aparece en dichos banners
-  - `smallDescription`: textito grande que aparece abajo del título
-  - `content`: lo que está abajo de eso
-  - `image`: imagencita que se usa
+  - `title`: Título que aparece en dichos banners.
+  - `smallDescription`: Texto grande que aparece abajo del título.
+  - `content`: Lo que está abajo de eso.
+  - `image`: Imagen que se usa.
 
 ## assets
 
