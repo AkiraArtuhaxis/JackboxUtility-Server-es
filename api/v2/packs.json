@@ -7083,266 +7083,7 @@
             "icon": "jpp11.ico",
             "background": "backgrounds/jpp11.jpg"
         },
-    {
-        "id":"jpstarter",
-        "name":"The Jackbox Party Starter",
-        "description":"Año de lanzamiento: 2022",
-        "launchers_id":{
-            "steam":"1755580",
-            "epic":"dc6b83bf4b94436db882f770ed8d5257"
-        },
-        "executables":{
-            "windows":"The Jackbox Party Starter.exe",
-            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Starter",
-            "linux":"Launcher.sh"
-        },
-        "loader":{
-            "path":"loaders/tjpstarter/default.zip",
-            "version":"1.0.2"
-        },
-        "configuration":{
-	        "version_origin":"game_file",
-            "version_file":"jbg.config.jet",
-            "version_property":"buildVersion",
-            "launcher_version_file" : {
-                "steam": "jbg.config.jet",
-                "epic_games": "jbg.config.jet",
-                "native": "jbg.config.jet"
-                }
-        },
-        "resource_location":{
-            "mac":"The Jackbox Party Starter.app/Contents/Resources/macos"
-        },
-        "store_links":{
-            "steam":"https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
-            "epic":"https://store.epicgames.com/p/jackbox-party-starter"
-        },
-            "patchs":[
-                {
-                    "id":"jpstarter_es",
-                    "name":"Cambio de dominios a Jackbox.lol",
-                    "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
-                    "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
-                    "configuration": {
-						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/Main/jbg.config.jet",
-						"version_property":"buildVersion"
-					},
-                    "supported_platforms": ["windows","linux","mac"],
-                    "supported_launchers": ["steam","native","epic"],
-                    "components":[
-                        {
-                            "id":"quiplash3_starter_patch",
-                            "linked_game":"quiplash3_starter",
-                            "name":"Quiplash 3",
-                            "description":"",
-                            "authors":"",
-                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
-                            "patch_type":{
-                                "game_text":false,
-                                "game_assets":false,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },
-                {
-                            "id":"teeko_starter_patch",
-                            "linked_game":"teeko_starter",
-                            "name":"Tee K.O.",
-                            "description":"",
-                            "authors":"",
-                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
-                            "patch_type":{
-                                "game_text":false,
-                                "game_assets":false,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },
-                {
-                            "id":"trivia_murder_party_2_starter_patch",
-                            "linked_game":"trivia_murder_party_2_starter",
-                            "name":"Trivia Murder Party 2",
-                            "description":"",
-                            "authors":"",
-                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
-                            "patch_type":{
-                                "game_text":false,
-                                "game_assets":false,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        }
-                    ]
-                    
-                }
-            ],
-        "games":[
-            {
-                "id":"quiplash3_starter",
-                "name":"Quiplash 3",
-                "internal_name":"Quiplash3",
-                "background":"game_backgrounds/Quiplash3Starter.webp",
-                "path":"games/Quiplash3",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "playtime":{
-                        "min":15,
-                        "max":20
-                    },
-                    "family_friendly":"OPTIONAL",
-                    "audience":true,
-                    "audience_description":"El público puede votar por sus respuestas favoritas.",
-                    "stream_friendly":"PLAYABLE",
-                    "moderation":"FULL_MODERATION",
-                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
-                    "subtitles":true,
-                    "type":"VERSUS",
-                    "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Sé el más divertido",
-                    "small_description":"Sé el más divertido",
-                    "description":"¡La tricuela para el juego de fiesta de decir cualquier cosa! Responde los enunciados y haz reir a tus amigos... con suerte.",
-                    "images":[
-			            "game_images/Quiplash3/quiplash3starter.mp4",
-                        "game_images/Quiplash3/quiplash3_1.webp",
-                        "game_images/Quiplash3/quiplash3_2.webp",
-                        "game_images/Quiplash3/quiplash3_3.webp",
-                        "game_images/Quiplash3/quiplash3_4.webp"
-                    ],
-                    "tags":[
-                        "writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpstarter/quiplash3.zip",
-                    "version":"1.0.2"
-                },
-                "launch_with_loaders":{
-                    "steam":false,
-                    "epic_games":true,
-                    "native":true
-                },
-                "patchs":[
-                ]
-            },
-            {
-                "id":"teeko_starter",
-                "name":"Tee K.O.",
-                "internal_name":"AwShirt",
-                "background":"game_backgrounds/TeeKOStarter.webp",
-                "path":"games/AwShirt",
-                "game_info":{
-                    "players":{
-                        "min":3,
-                        "max":8
-                    },
-                    "playtime":{
-                        "min":20,
-                        "max":25
-                    },
-                    "family_friendly":"FAMILY_FRIENDLY",
-                    "audience":true,
-                    "audience_description":"El público puede votar por sus camisetas favoritas. Además, pueden enviar sugerencias de escritura y dibujo que se muestran en pantalla con la opción \"Sugerencias del público\" activada.",
-                    "stream_friendly":"PLAYABLE",
-                    "moderation":"FULL_MODERATION",
-                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\" y desactivar la opción \"Sugerencias del público\" para que solo los jugadores puedan enviar texto.",
-                    "subtitles":true,
-                    "type":"VERSUS",
-                    "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Batalla de camisetas",
-                    "small_description":"Batalla de camisetas",
-                    "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
-                    "images":[
-			            "game_images/TeeKO/teekostarter.mp4",
-                        "game_images/TeeKO/teeko_1.webp",
-                        "game_images/TeeKO/teeko_2.webp",
-                        "game_images/TeeKO/teeko_3.webp",
-                        "game_images/TeeKO/teeko_4.webp"
-                    ],
-                    "tags":[
-                    	"drawing",
-                    	"writing"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpstarter/teeko.zip",
-                    "version":"1.0.2"
-                },
-                "launch_with_loaders":{
-                    "steam":false,
-                    "epic_games":true,
-                    "native":true
-                },
-                "patchs":[
-                ]
-            },
-            {
-                "id":"trivia_murder_party_2_starter",
-                "name":"Trivia Murder Party 2",
-                "internal_name":"triviadeath2",
-                "background":"game_backgrounds/TriviaMurderParty2Starter.webp",
-                "path":"games/triviadeath2",
-                "game_info":{
-                    "players":{
-                        "min":1,
-                        "max":8
-                    },
-                    "playtime":{
-                        "min":15,
-                        "max":20
-                    },
-                    "family_friendly":"NOT_FAMILY_FRIENDLY",
-                    "audience":true,
-                    "audience_description":"El público controla a un jugador, respondiendo preguntas y votando en las apuestas de los minijuegos. En la ronda final, intenta escapar junto a los demás jugadores.",
-                    "stream_friendly":"PLAYABLE",
-                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmisión posea sonido para escuchar el dictado.",
-                    "moderation":"FULL_MODERATION",
-                    "moderation_description":"Si es necesario, se recomienda activar la opción \"Modo sin escritura/dibujo en pantalla\" para que los jugadores no puedan enviar texto o dibujos.",
-                    "subtitles":true,
-                    "type":"VERSUS",
-                    "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"¿Sobrevivirás a esta trivia?",
-                    "small_description":"¿Sobrevivirás a esta trivia?",
-                    "description":"Un asesino serial está armando un juego absurdo de trivia desde su Hotel Asesino de la familia con la que vivía. ¿Podrás sobrevivir?",
-                    "images":[
-						"game_images/TriviaMurderParty2/triviamurderparty2starter.mp4",
-                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
-                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
-                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
-                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
-                    ],
-                    "tags":[
-                        "knowledge"
-                    ]
-
-                },
-                "loader":{
-                    "path":"loaders/tjpstarter/triviamurderparty2.zip",
-                    "version":"1.0.2"
-                },
-                "launch_with_loaders":{
-                    "steam":false,
-                    "epic_games":true,
-                    "native":true
-                },
-                "patchs":[
-                    
-                ]
-            }
-        ],
-        "icon":"jpstarter.ico",
-        "background":"backgrounds/jpstarter.jpg"
-    },
-    {
+        {
             "id": "jpp12",
             "name": "The Jackbox Party Pack 12",
             "description": "Año de lanzamiento: 2026",
@@ -8049,6 +7790,265 @@
             "icon": "jpp12.ico",
             "background": "backgrounds/jpp12.jpg"
         },
+    {
+        "id":"jpstarter",
+        "name":"The Jackbox Party Starter",
+        "description":"Año de lanzamiento: 2022",
+        "launchers_id":{
+            "steam":"1755580",
+            "epic":"dc6b83bf4b94436db882f770ed8d5257"
+        },
+        "executables":{
+            "windows":"The Jackbox Party Starter.exe",
+            "mac":"The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Starter",
+            "linux":"Launcher.sh"
+        },
+        "loader":{
+            "path":"loaders/tjpstarter/default.zip",
+            "version":"1.0.2"
+        },
+        "configuration":{
+	        "version_origin":"game_file",
+            "version_file":"jbg.config.jet",
+            "version_property":"buildVersion",
+            "launcher_version_file" : {
+                "steam": "jbg.config.jet",
+                "epic_games": "jbg.config.jet",
+                "native": "jbg.config.jet"
+                }
+        },
+        "resource_location":{
+            "mac":"The Jackbox Party Starter.app/Contents/Resources/macos"
+        },
+        "store_links":{
+            "steam":"https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
+            "epic":"https://store.epicgames.com/p/jackbox-party-starter"
+        },
+            "patchs":[
+                {
+                    "id":"jpstarter_es",
+                    "name":"Cambio de dominios a Jackbox.lol",
+                    "small_description":"Pack localizado oficialmente en latino y castellano.\nEste parche cambia los dominios a Jackbox.lol y realiza algunas correcciones menores.",
+                    "description":"",
+                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/releases/latest/download/JPS-ES.zip",
+                    "configuration": {
+						"version_origin":"repo_file",
+						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Starter-Spanish/main/Main/jbg.config.jet",
+						"version_property":"buildVersion"
+					},
+                    "supported_platforms": ["windows","linux","mac"],
+                    "supported_launchers": ["steam","native","epic"],
+                    "components":[
+                        {
+                            "id":"quiplash3_starter_patch",
+                            "linked_game":"quiplash3_starter",
+                            "name":"Quiplash 3",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"teeko_starter_patch",
+                            "linked_game":"teeko_starter",
+                            "name":"Tee K.O.",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        },
+                {
+                            "id":"trivia_murder_party_2_starter_patch",
+                            "linked_game":"trivia_murder_party_2_starter",
+                            "name":"Trivia Murder Party 2",
+                            "description":"",
+                            "authors":"",
+                            "small_description":"¡Dominio cambiado a Jackbox.lol!",
+                            "patch_type":{
+                                "game_text":false,
+                                "game_assets":false,
+                                "game_subtitles":false,
+                                "website":true,
+                                "audios":false
+                            }
+                        }
+                    ]
+                    
+                }
+            ],
+        "games":[
+            {
+                "id":"quiplash3_starter",
+                "name":"Quiplash 3",
+                "internal_name":"Quiplash3",
+                "background":"game_backgrounds/Quiplash3Starter.webp",
+                "path":"games/Quiplash3",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"El público puede votar por sus respuestas favoritas.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\".",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sé el más divertido",
+                    "small_description":"Sé el más divertido",
+                    "description":"¡La tricuela para el juego de fiesta de decir cualquier cosa! Responde los enunciados y haz reir a tus amigos... con suerte.",
+                    "images":[
+			            "game_images/Quiplash3/quiplash3starter.mp4",
+                        "game_images/Quiplash3/quiplash3_1.webp",
+                        "game_images/Quiplash3/quiplash3_2.webp",
+                        "game_images/Quiplash3/quiplash3_3.webp",
+                        "game_images/Quiplash3/quiplash3_4.webp"
+                    ],
+                    "tags":[
+                        "writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/quiplash3.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"teeko_starter",
+                "name":"Tee K.O.",
+                "internal_name":"AwShirt",
+                "background":"game_backgrounds/TeeKOStarter.webp",
+                "path":"games/AwShirt",
+                "game_info":{
+                    "players":{
+                        "min":3,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":20,
+                        "max":25
+                    },
+                    "family_friendly":"FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"El público puede votar por sus camisetas favoritas. Además, pueden enviar sugerencias de escritura y dibujo que se muestran en pantalla con la opción \"Sugerencias del público\" activada.",
+                    "stream_friendly":"PLAYABLE",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Con la opción \"Moderación\" activada, los moderadores que ingresen a mod.jackbox.lol podrán decidir qué se mostrará en pantalla. Si es necesario, se recomienda activar la opción \"Filtro de lenguaje vulgar\" y desactivar la opción \"Sugerencias del público\" para que solo los jugadores puedan enviar texto.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Batalla de camisetas",
+                    "small_description":"Batalla de camisetas",
+                    "description":"Dibujen imágenes, escriban eslóganes, y luego intercámbienlos para crear sus propias camisetas guerreras personalizadas. Solo la mejor camiseta saldrá del torneo viva.",
+                    "images":[
+			            "game_images/TeeKO/teekostarter.mp4",
+                        "game_images/TeeKO/teeko_1.webp",
+                        "game_images/TeeKO/teeko_2.webp",
+                        "game_images/TeeKO/teeko_3.webp",
+                        "game_images/TeeKO/teeko_4.webp"
+                    ],
+                    "tags":[
+                    	"drawing",
+                    	"writing"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/teeko.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                ]
+            },
+            {
+                "id":"trivia_murder_party_2_starter",
+                "name":"Trivia Murder Party 2",
+                "internal_name":"triviadeath2",
+                "background":"game_backgrounds/TriviaMurderParty2Starter.webp",
+                "path":"games/triviadeath2",
+                "game_info":{
+                    "players":{
+                        "min":1,
+                        "max":8
+                    },
+                    "playtime":{
+                        "min":15,
+                        "max":20
+                    },
+                    "family_friendly":"NOT_FAMILY_FRIENDLY",
+                    "audience":true,
+                    "audience_description":"El público controla a un jugador, respondiendo preguntas y votando en las apuestas de los minijuegos. En la ronda final, intenta escapar junto a los demás jugadores.",
+                    "stream_friendly":"PLAYABLE",
+                    "stream_friendly_description":"Este juego funciona perfectamente en streams. Sin embargo, en el minijuego \"Contraseña\", se recomienda que los jugadores puedan escucharse entre ellos para compartir sus pistas. Además, en el minijuego \"Dictado\" se requiere que la transmisión posea sonido para escuchar el dictado.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"Si es necesario, se recomienda activar la opción \"Modo sin escritura/dibujo en pantalla\" para que los jugadores no puedan enviar texto o dibujos.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"¿Sobrevivirás a esta trivia?",
+                    "small_description":"¿Sobrevivirás a esta trivia?",
+                    "description":"Un asesino serial está armando un juego absurdo de trivia desde su Hotel Asesino de la familia con la que vivía. ¿Podrás sobrevivir?",
+                    "images":[
+						"game_images/TriviaMurderParty2/triviamurderparty2starter.mp4",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                        "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                    ],
+                    "tags":[
+                        "knowledge"
+                    ]
+
+                },
+                "loader":{
+                    "path":"loaders/tjpstarter/triviamurderparty2.zip",
+                    "version":"1.0.2"
+                },
+                "launch_with_loaders":{
+                    "steam":false,
+                    "epic_games":true,
+                    "native":true
+                },
+                "patchs":[
+                    
+                ]
+            }
+        ],
+        "icon":"jpstarter.ico",
+        "background":"backgrounds/jpstarter.jpg"
+    },
     {
         "id":"jpstarter_ms",
         "name":"The Jackbox Party Starter [Microsoft Store]",
