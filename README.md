@@ -5,10 +5,16 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 ## Resumen rápido:
 
-### Actualizar un parche existente
+### Actualizar un parche de un juego ya agregado a la Utility
+
 TBD
 
-### Añadir el parche de un juego nuevo
+### Añadir un juego o parche nuevo
+
+1. Agregar el nuevo pack en `packs.json`, completando con información encontrada [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/edit/main/README.md#packs).
+2. Poner el `id` de los parches agregados en el paso 1 en `patchsCategories` -> `patchs` -> `spanish_patchs` (para Latinoamérica) y/o `spanish_spain_patchs` (para España).
+
+Añadir un juego nuevo a la utility
 TBD
 
 ## info.json 
@@ -66,27 +72,20 @@ Contiene los datos de los parches ofrecidos.
   - `icon`: Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
   - `description`: descripción que aparece al buscar por etiqueta.
 
-### api/welcome.json
-
-![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/welcome.png?raw=true)
-
-Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestro caso, dejamos tres banners, dos de ellos fijos: Un enlace a Discord, una bienvenida a la Utility, y una que muestra la única novedad del momento. Esta última es la única que se cambia seguido.
-- `news`: Contiene todos los paneles presentados en el carrusel del servidor.
-  - `id`: Fecha y hora de la novedad. Utilizadas para definir si se debe mostrar a un usuario dicha novedad o no. Podría usarse para dejar preparadas novedades con anticipación.
-  - `title`: Ttítulo que aparece en dichos banners
-  - `smallDescription`: textito grande que aparece abajo del título
-  - `content`: lo que está abajo de eso
-  - `image`: imagencita que se usa
-
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/patchCategories.png?raw=true)
 
-- `patchCategories`: La sección de "Todos los parches" de "Instalar parches". Normalmente hay una sola, pero tenemos dos para ofrecer una para jugadores de España (que no instalar el doblaje latino de Drawful 2 ni la adaptación latina de Quiplash 2, y sí instala la traducción castellana de WTD y su doblaje del Quiplash original).
+#### patchCategories
+
+La sección de "Todos los parches" de "Instalar parches". Normalmente hay una sola, pero tenemos dos para ofrecer una para jugadores de España (que no instalar el doblaje latino de Drawful 2 ni la adaptación latina de Quiplash 2, y sí instala la traducción castellana de WTD y su doblaje del Quiplash original).
   - `id`
   - `name`
   - `smallDescription`
   - `patchs`
- 
-- `packs`: Cada entrada representa a un Pack que va a estar en la Utility.
+
+#### packs
+
+Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
+
   - `id`: No se puede repetir
   - `name`: nombre
   - `description`: La descripción que aparece en "Buscar por Pack".
@@ -100,6 +99,18 @@ Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestr
   - `launcher_version_file`: El tipo de archivo que tiene que detectar, por plataforma.
   - `steam` y `epic_games` se explican solos. `native` se utiliza para los juegos agregados manualmente.
     - Post-Megapicker, todas las versiones de Steam hasta ese momento se actualizaron, cambiando el nombre de "config.jet" a "jbg.config.jet"; pero en Epic todo sigue como antes.
+
+### api/welcome.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/welcome.png?raw=true)
+
+Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestro caso, dejamos tres banners, dos de ellos fijos: Un enlace a Discord, una bienvenida a la Utility, y una que muestra la única novedad del momento. Esta última es la única que se cambia seguido.
+- `news`: Contiene todos los paneles presentados en el carrusel del servidor.
+  - `id`: Fecha y hora de la novedad. Utilizadas para definir si se debe mostrar a un usuario dicha novedad o no. Podría usarse para dejar preparadas novedades con anticipación.
+  - `title`: Título que aparece en dichos banners
+  - `smallDescription`: textito grande que aparece abajo del título
+  - `content`: lo que está abajo de eso
+  - `image`: imagencita que se usa
 
 ## assets
 
