@@ -24,7 +24,7 @@ Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 ### Añadir un Pack nuevo a la Utility
 
-1. Agregar el nuevo pack en `packs.json`, completando con información encontrada [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/tree/main#packs).
+Agregar el nuevo pack en `packs.json`, completando con la información encontrada [aquí](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/tree/main#packs).
 
 ## info.json 
 
@@ -175,7 +175,7 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
     - `path`: Dónde se encuenta el loader.
     - `version`: Se usa por si alguna vez hay que actualizar un loader.
   - `launch_with_loaders`: Define si los loaders se usan dependiendo del tipo de versión (valores: `false` = usa el sistema de comandos por defecto -lo que usa Steam- | `true` = el caso de Epic y las versiones añadidas manualmente)
-  - `patchs`: variable depreciada.
+  - `patchs`: Variable depreciada.
 
 ### api/welcome.json
 
