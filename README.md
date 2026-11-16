@@ -4,7 +4,7 @@ Este repositorio contiene la información del servidor de Jackbox en español pa
 Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
 ## info.json 
-
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/info.png?raw=true)
 Este archivo contiene la información general del servidor. En principio, ninguno de estos contenidos cambia seguido.
 
 - `name`: El nombre del servidor ("Jackbox en español")
