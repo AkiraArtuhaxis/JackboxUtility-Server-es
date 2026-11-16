@@ -16,9 +16,36 @@ Este archivo contiene la información general del servidor. En principio, ningun
 - `controller`: El controlador utilizado por el servidor, que se muestra en la aplicación (jackbox.lol)
 - `languages`: El lenguaje que utiliza la aplicación al utilizar el servidor ("es" = español)
 - `links`: Incluye los enlaces que se muestran debajo del servidor en ajustes. Cada enlace presenta los siguientes atributos:
-  - `icon`: ícono que se muestra a la izquierda.
+  - `icon`: ícono que se muestra a la izquierda. Los íconos vienen de [este](https://fontawesome.com/search) sitio.
   - `url`: Enlace al que lleva al clickear.
   - `text`: Texto que se muestra al lado del ícono.
+ 
+## api/blurHashes.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/blurHashes.png?raw=true)
+
+Se usa para mostrar el blurhash (efecto blurreado) de las imágenes antes que carguen. Este archivo se actualiza cuando se agregan imágenes al servidor; se hace a través de Actions. Para actualizarlo, ejecutas la acción y pusheas el archivo generado.
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/blurHashes_Actions.png?raw=true)
+
+## api/configurations.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/configurations.png?raw=true)
+
+para ciertas configuraciones específicas por servidor
+Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defecto) y para mostrar un link de donación cuando se terminan de instalar los parches.
+
+## api/messages.json
+
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/messages.png?raw=true)
+
+sirve para mostrar mensajes en la pantalla principal.
+Se puede usar para poner tipo countdowns a una release de algo por ejemplo
+O para que cierto texto aparezca solo en cierta fecha
+
+## api/packs.json
+
+Contiene los datos de los parches ofrecidos.
 
 ## api/welcome.json
 
@@ -31,21 +58,3 @@ Se utiliza para el carrusel de banners en el inicio de la aplicación. En nuestr
   - `smallDescription`: textito grande que aparece abajo del título
   - `content`: lo que está abajo de eso
   - `image`: imagencita que se usa
-
-## api/messages.json
-
-![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/messages.png?raw=true)
-
-sirve para mostrar mensajes en la pantalla principal.
-Se puede usar para poner tipo countdowns a una release de algo por ejemplo
-O para que cierto texto aparezca solo en cierta fecha
-
-## api/configurations.json
-
-![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/configurations.png?raw=true)
-
-para ciertas configuraciones específicas por servidor
-Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defecto) y para mostrar un link de donación cuando se terminan de instalar los parches.
-
-
-- **packs.json**: Contiene los datos de los parches ofrecidos.
