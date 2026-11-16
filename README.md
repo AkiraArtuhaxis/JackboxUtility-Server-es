@@ -17,7 +17,7 @@ Este archivo contiene la información general del servidor. En principio, ningun
 - `controller`: El controlador utilizado por el servidor, que se muestra en la aplicación (jackbox.lol)
 - `languages`: El lenguaje que utiliza la aplicación al utilizar el servidor ("es" = español)
 - `links`: Incluye los enlaces que se muestran debajo del servidor en ajustes. Cada enlace presenta los siguientes atributos:
-  - `icon`: ícono que se muestra a la izquierda. Los íconos vienen de [este](https://fontawesome.com/search) sitio.
+  - `icon`: ícono que se muestra a la izquierda. Los íconos vienen de [este](https://bdlukaa.github.io/fluent_ui/) sitio.
   - `url`: Enlace al que lleva al clickear.
   - `text`: Texto que se muestra al lado del ícono.
  
@@ -27,7 +27,7 @@ Este archivo contiene la información general del servidor. En principio, ningun
 
 Se usa para mostrar el blurhash (efecto blurreado) de las imágenes antes que carguen. Este archivo se actualiza cuando se agregan imágenes al servidor; se hace a través de Actions. Para actualizarlo, ejecutas la acción y pusheas el archivo generado.
 
-![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/blurHashes_Actions.png?raw=true)
+![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/blurHashes_action.png?raw=true)
 
 ## api/configurations.json
 
