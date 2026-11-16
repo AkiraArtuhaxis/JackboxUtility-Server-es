@@ -3,6 +3,14 @@
 Este repositorio contiene la información del servidor de Jackbox en español para Jackbox Utility, que ofrece la fácil instalación de todos sus parches.
 Se listan los archivos relevantes para su mantenimiento, y sus contenidos.
 
+## Resumen rápido:
+
+### Actualizar un parche existente
+TBD
+
+### Añadir el parche de un juego nuevo
+TBD
+
 ## info.json 
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/info.png?raw=true)
@@ -101,18 +109,20 @@ Cada loader es un zip que incluye ciertos archivos que se reemplazan en el juego
   2. En los juegos por separado viejos, colocan un usm vacío
 
 En los loaders de los packs, varía caso por caso lo que se cambia, pero en general los pasos son los siguientes:
-- En `jackboxgames.loader.LoaderGame`:
+- En JPEXS, usando "Edit Actionscript" en `jackboxgames.loader.LoaderGame`:
   1. Cambiar `PICKER_NAME` por el nombre de la carpeta del juego
   2. Cambiar `PICKER_SWF` por el nombre del swf en la carpeta del juego
   3. En la función `_startListeningForPressStart()`, hay que agregar `onExitToPicker();` antes de `this._listenToInput = true`
-  4. En el comienzo de la función, en la subfunción `_loadPauseMenu`, borrar las dos líneas que tiene y agregar estas:
+     - El paso 3 se omite en loaders de Microsoft Store.
+  5. En el comienzo de la función, en la subfunción `_loadPauseMenu`, borrar las dos líneas que tiene y agregar estas:
 
     `_currentView.disableSkip();`
   
     `restart();`
 
-En `jackboxgames.loader.ui.startView`:
+En JPEXS, usando "Edit Actionscript" en `jackboxgames.loader.ui.startView`:
   - En la función `_doAppearSequence`, cambiar `_startBehaviors.setShown(true,c.generateDoneFn());` a `_startBehaviors.setShown(false,c.generateDoneFn());`
+    - Los cambios en `jackboxgames.loader.ui.startView` se omiten en loaders de Microsoft Store.
 
 #### Casos especiales de Loaders:
 
