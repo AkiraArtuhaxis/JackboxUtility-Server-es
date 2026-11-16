@@ -60,14 +60,15 @@ Se usa para mostrar el blurhash (efecto blurreado) de las imágenes antes que ca
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/configurations.png?raw=true)
 
-para ciertas configuraciones específicas por servidor
-Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defecto) y para mostrar un link de donación cuando se terminan de instalar los parches.
+`configurations` se usa para ciertas configuraciones específicas por servidor. Lo usamos para habilitar los efectos de sonido por defecto (no lo está por defecto) y para mostrar un link de donación cuando se terminan de instalar los parches.
 
 ### api/messages.json
 
 ![](https://github.com/AkiraArtuhaxis/JackboxUtility-Server-es/blob/main/readmeAssets/messages.png?raw=true)
 
 Se utiliza para mostrar mensajes en la pantalla principal. Se podría usar para poner tipo countdowns a una release de algo, por ejemplo, o para que cierto texto aparezca solo en cierta fecha. 
+
+Tipos de variables permitidas: `text` | `countdown`
 
 De momento, se utiliza para dar instrucciones específicas para los parches de Microsoft Store.
 
@@ -87,12 +88,12 @@ Los `tags` son la manera en que pueden categorizar tus juegos en la Utility.
 
 #### patchCategories
 
-`patchCategories` es la sección de "Todos los parches" de "Instalar parches". Normalmente hay una sola, pero tenemos dos para ofrecer una para jugadores de España (que no instalar el doblaje latino de Drawful 2 ni la adaptación latina de Quiplash 2, y sí instala la traducción castellana de WTD y su doblaje del Quiplash original).
+`patchCategories` es la sección de "Todos los parches" de "Instalar parches". Normalmente hay una sola, pero tenemos dos para ofrecer una para jugadores de España (que no instala el doblaje latino de Drawful 2 ni la adaptación latina de Quiplash 2, y sí instala la traducción castellana de WTD y su doblaje del Quiplash original).
 
-  - `id`: no tienen que ser iguales
-  - `name`: el nombre que se muestra
-  - `smallDescription`: la descripción que está abajo del nombre dado
-  - `patchs`: los parches que están incluidos en esa categoría
+  - `id`: No tienen que ser iguales.
+  - `name`: El nombre que se muestra.
+  - `smallDescription`: La descripción que está abajo del nombre dado.
+  - `patchs`: Los ids de los parches que están incluidos en esa categoría.
 
 #### packs
 
@@ -105,30 +106,30 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
   - `executables`: El nombre del ejecutable del juego para cada plataforma.
   - `loader`: donde va el loader por default que se restaura cuando se cierra la Utility
   - `configuration`: lo que se usa para ver qué archivito se va a usar para detectar la versión del parche que tenés
-  - `version_origin` Contiene el nombre del archivo que muestra la versión de juego
-  - `version_file`: Se usaba antes, ahora no.
-  - `version_property`: La línea que tiene que leer la Utility del archivo para chequear la versión.
-  - `launcher_version_file`: El tipo de archivo que tiene que detectar, por plataforma.
-  - `steam` y `epic_games` se explican solos. `native` se utiliza para los juegos agregados manualmente.
-    - Post-Megapicker, todas las versiones de Steam hasta ese momento se actualizaron, cambiando el nombre de "config.jet" a "jbg.config.jet"; pero en Epic todo sigue como antes.
+    - `version_origin`: `game_file` para indicar que proviene del juego.
+    - `version_file`: Es el archivo que se usa para detectar el número de versión.
+    - `version_property`: La línea que tiene que leer la Utility del archivo para chequear la versión.
+    - `launcher_version_file`: El tipo de archivo que tiene que detectar, por plataforma.
+    - `steam` y `epic_games` se explican solos. `native` se utiliza para los juegos agregados manualmente.
+      - Post-Megapicker, todas las versiones de Steam hasta ese momento se actualizaron, cambiando el nombre de "config.jet" a "jbg.config.jet"; pero en Epic todo sigue como antes.
   - `resource_location`: Contiene el directorio que tiene que leer la aplicación para instalar los parches en Mac
     - Caso especial de Quiplash 1: Se deja en blanco
   - `store_links`: Enlaces de tienda que aparecen cuando no tenés el juego agregado a la app. Se aceptan tiendas `steam`, `epic`, `jackbox_games_store`. Usamos el último para las versiones de Microsoft Store.
   - `patchs`: Contiene los parches del Pack. Hay diferentes tipos de parches del mismo juego para otras plataformas o tiendas, según las necesidades de cada una. Estos se ocultan si la plataforma no es soportada o el tipo de tienda es diferente.
-    - `id`: no pueden ser iguales.
-    - `name`: el nombre del parche.
-    - `small_description`: la descripción que aparece en "Todos los parches" y en la sección de parches de cada Pack en particular.
+    - `id`: No pueden ser iguales.
+    - `name`: El nombre del parche.
+    - `small_description`: La descripción que aparece en "Todos los parches" y en la sección de parches de cada Pack en particular.
     - `description`: No se usa
-    - `patch_path`: el link del parche.
+    - `patch_path`: El link del parche.
     - `version_origin`: De dónde saca el número de versión del parche (`repo_file` = del repositorio linkeado).
     - `version_file` De qué link lee el número de versión.
-    - `version_property`: de qué variable del archivo saca el número de versión (ej: `buildVersion`).
+    - `version_property`: De qué variable del archivo saca el número de versión (ej: `buildVersion`).
     - `supported_platforms`: Las plataformas que soporta el parche
     - `supported_launchers`: El tipo de tienda que soporta
     - `components`: Está cada juego del Pack incluido en el parche. Se explica en detalle en la siguiente subsección.
     - `games`: La información de cada juego que se usa en el launcher. Se explica en detalle en la siguiente subsección.
-    - `icon`: ícono de juego.
-    - `background`: fondo de juego.
+    - `icon`: Ícono de juego.
+    - `background`: Fondo de juego.
    
 ##### packs -> components
 
@@ -144,7 +145,7 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
     - `game_assets`: Los assets visuales del juego se traducen.
     - `game_subtitles`: Los subtítulos se traducen.
     - `website`: Se traduce el controlador (en nuestro caso con jackbox.lol).
-    - `audios`: El juego cuenta con un doblaje.
+    - `audios`: El juego cuenta con un doblaje. Se usa para mostrar que un juego está doblado en el launcher.
 
 ##### packs -> games
 
@@ -159,21 +160,21 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
   - `Audience`: si tiene público o no
   - `Stream-friendly`: si es apto para streams o no (valores: `NOT_PLAYABLE` | `MIDLY PLAYABLE` | `PLAYABLE`).
   - `stream_friendly_description`: Usada para describir los posibles problemas de jugar en partidas transmitidas (opcional).
-  - `moderation`: si tiene moderación o no (valores: `FULL_MODERATION` | `CENSORING` | `NO_MODERATION`)
-  - `moderation_description`: es lo mismo a lo otro que dije. Es opcional (aunque yo lo pongo siempre en este caso)
-  - `Subtitles` si tiene subtítulos o no.
-  - `Type` es el tipo de juego que es (valores: `VERSUS` | `COOP` | `TEAM`)
-  - `translation` el tipo de traducción que tiene (valores: "NATIVELY_TRANSLATED", "COMMUNITY_TRANSLATED" o "ENGLISH")
-  - `tagline` es lo que aparece junto al banner cuando hacés hover en el launcher
-  - `small_description` la pequeña descripción que aparece en la info de cada juego (yo pongo lo mismo que la tagline)
-  - `description` la descripción grande del juego
-  - `audience_description`, que de vuelta es opcional. Yo lo uso para explicar qué exactamente hace el público en el juego.
-  - `images` son las imágenes que pueden aparecer en el carrusel de imágenes Donde como dije puede haber videos que solo se muestran en la versión 1.3.7 pero si no están o si estás en una versión más reciente no aparecen
-  - `tags` son las tags que tiene el juego en base a lo primero que expliqué de este archivo
-  - `loader` es el loader que usa el juego
+  - `moderation`: Si tiene moderación o no (valores: `FULL_MODERATION` | `CENSORING` | `NO_MODERATION`)
+  - `moderation_description`: Usada para describir los posibles problemas de jugar con moderación (opcional).
+  - `Subtitles` Si tiene subtítulos o no.
+  - `Type`: El tipo de juego que es (valores: `VERSUS` | `COOP` | `TEAM`)
+  - `translation`: El tipo de traducción que tiene (valores: "NATIVELY_TRANSLATED", "COMMUNITY_TRANSLATED" o "ENGLISH")
+  - `tagline`: Es lo que aparece junto al banner cuando hacés hover en el launcher
+  - `small_description`: La pequeña descripción que aparece en la info de cada juego (yo pongo lo mismo que la tagline)
+  - `description`: La descripción grande del juego.
+  - `audience_description`: Explica la función del público en el juego (opcional).
+  - `images`: Imágenes que pueden aparecer en el carrusel de imágenes. Puede haber videos (solo se muestran en la versión 1.3.7).
+  - `tags`: Etiquetas que tiene el juego en base a lo que hay en [esta](esta) sección.
+  - `loader`: Loader que usa el juego
     - `path`
     - `version` se usa por si alguna vez hay que actualizar un loader
-  - `launch_with_loaders` es si los loaders se usan dependiendo del tipo de versión (Si está en "false" se usa el sistema de comandos por defecto, que es lo que usa Steam. Si está en "true", que es el caso de Epic y las versiones añadidas manualmente, se usan.)
+  - `launch_with_loaders`: Define si los loaders se usan dependiendo del tipo de versión (valores: `false` = usa el sistema de comandos por defecto -lo que usa Steam- | `true` = el caso de Epic y las versiones añadidas manualmente)
   - `patchs`: variable depreciada.
 
 ### api/welcome.json
