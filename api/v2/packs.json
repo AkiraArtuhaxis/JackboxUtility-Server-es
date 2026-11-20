@@ -4250,7 +4250,7 @@
                 {
                     "id":"jpp8_es",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.",
+                    "small_description":"Pack 100% traducido. Bajo Trabajo cuenta con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
                     "configuration": {
@@ -4296,14 +4296,14 @@
                             "linked_game":"jobjob",
                             "name":"Bajo Trabajo",
                             "description":"",
-                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)",
+                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)\nDoblaje\n* Valentina Dogovich (voz de M. Burbujas y cantante)\nAkira896 (supervisión del doblaje, voces adicionales, transcripción de diálogos, guion, mezcla y letra de canción\n* Artuhaxis (voz del fax, recorte y ecualización de audios, guion y letra de canción)\n* Fixed Fun (letra de canción)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
                                 "game_subtitles":true,
                                 "website":true,
-                                "audios":false
+                                "audios":true
                             }
                         },
                         {
@@ -4342,7 +4342,7 @@
                 {
                     "id":"jpp8_es_egs",
                     "name":"Traducción al Español Latino",
-                    "small_description":"Pack 100% traducido.",
+                    "small_description":"Pack 100% traducido. Bajo Trabajo cuenta con doblaje latino.",
                     "description":"",
                     "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES-EGS.zip",
                     "configuration": {
@@ -4388,14 +4388,14 @@
                             "linked_game":"jobjob",
                             "name":"Bajo Trabajo",
                             "description":"",
-                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)",
+                            "authors":"* Artuhaxis (traducción principal)\n* Pepe Pepo (traducción asistente)\n* Akira896 (SWFs)\n* Fixed Fun (imágenes adicionales y logo)\nDoblaje\n* Valentina Dogovich (voz de M. Burbujas y cantante)\nAkira896 (supervisión del doblaje, voces adicionales, transcripción de diálogos, guion, mezcla y letra de canción\n* Artuhaxis (voz del fax, recorte y ecualización de audios, guion y letra de canción)\n* Fixed Fun (letra de canción)",
                             "small_description":"¡Juego traducido al español!",
                             "patch_type":{
                                 "game_text":true,
                                 "game_assets":true,
                                 "game_subtitles":true,
                                 "website":true,
-                                "audios":false
+                                "audios":true
                             }
                         },
                         {
@@ -6356,7 +6356,7 @@
                 {
                     "id": "jpp11_es",
                     "name": "Traducción al Español Latino",
-                    "small_description": "Este Pack posee 4 de 5 juegos traducidos.\nLegends of Trivia no está traducido.\nLos demás juegos están 100% traducidos.",
+                    "small_description": "Este Pack posee 4 de 5 juegos traducidos.\nLegends of Trivia no está traducido.\nLos demás juegos están 100% traducidos.\nDoominate cuenta don doblaje latino.",
                     "description": "",
                     "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES.zip",
                     "configuration": {
@@ -6380,14 +6380,14 @@
                             "linked_game": "doominate",
                             "name": "Doominate",
                             "description": "",
-                            "authors": "Hanzel Translations (traducción principal)\n* Akira896 y Artuhaxis (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "authors": "Hanzel Translations (traducción principal)\n* Akira896 y Artuhaxis (traducción asistente)\n* Fixed Fun (imágenes)\nDoblaje\n* Juan Alfredo Menéndez (Lalo Parca)\n* Akira896 (supervisión del doblaje)\n* Artuhaxis (recorte y ecualización de audios, revisión del guion)",
                             "small_description": "¡Juego traducido al español!",
                             "patch_type": {
                                 "game_text": true,
                                 "game_assets": true,
                                 "game_subtitles": true,
                                 "website": true,
-                                "audios": false
+                                "audios": true
                             }
                         },
                         {
@@ -6720,7 +6720,7 @@
                 {
                     "id": "jpp11_es_ms",
                     "name": "Traducción al Español Latino",
-                    "small_description": "Este Pack posee 4 de 5 juegos traducidos.\nLegends of Trivia no está traducido.\nLos demás juegos están 100% traducidos.",
+                    "small_description": "Este Pack posee 4 de 5 juegos traducidos.\nLegends of Trivia no está traducido.\nLos demás juegos están 100% traducidos.\nDoominate cuenta don doblaje latino.",
                     "description": "",
                     "patch_path": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-11-Spanish/releases/latest/download/JPP11-ES-MS.zip",
                     "configuration": {
@@ -6744,14 +6744,14 @@
                             "linked_game": "doominate_ms",
                             "name": "Doominate",
                             "description": "",
-                            "authors": "Hanzel Translations (traducción principal)\n* Akira896 y Artuhaxis (traducción asistente)\n* Fixed Fun (imágenes)",
+                            "authors": "Hanzel Translations (traducción principal)\n* Akira896 y Artuhaxis (traducción asistente)\n* Fixed Fun (imágenes)\nDoblaje\n* Juan Alfredo Menéndez (Lalo Parca)\n* Akira896 (supervisión del doblaje)\n* Artuhaxis (recorte y ecualización de audios, revisión del guion)",
                             "small_description": "¡Juego traducido al español!",
                             "patch_type": {
                                 "game_text": true,
                                 "game_assets": true,
                                 "game_subtitles": true,
                                 "website": true,
-                                "audios": false
+                                "audios": true
                             }
                         },
                         {
