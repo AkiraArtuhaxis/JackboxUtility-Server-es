@@ -105,7 +105,7 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
   - `launchers_id`: Los ids que se usan para que los juegos puedan ser detectados automáticamente por la Utility cada vez que se inicia o con el botón de "Ajustes".
   - `executables`: El nombre del ejecutable del juego para cada plataforma.
   - `loader`: Donde va el loader por default que se restaura cuando se cierra la Utility.
-  - `configuration`: Lo que se usa para ver qué archivito se va a usar para detectar la versión del parche que tenés.
+  - `configuration`: Lo que se usa para ver qué archivo se va a usar para detectar la versión del parche que tenés.
     - `version_origin`: `game_file` para indicar que proviene del juego.
     - `version_file`: Es el archivo que se usa para detectar el número de versión.
     - `version_property`: La línea que tiene que leer la Utility del archivo para chequear la versión.
@@ -121,9 +121,14 @@ Cada entrada de `packs` representa a un Pack que va a estar en la Utility.
     - `small_description`: La descripción que aparece en "Todos los parches" y en la sección de parches de cada Pack en particular.
     - `description`: No se usa.
     - `patch_path`: El link del parche.
-    - `version_origin`: De dónde saca el número de versión del parche (`repo_file` = del repositorio linkeado).
-    - `version_file` De qué link lee el número de versión.
-    - `version_property`: De qué variable del archivo saca el número de versión (ej: `buildVersion`).
+    - `configuration`: Lo que se usa para ver qué archivo se va a usar para detectar la versión del parche que tenés.
+      - `version_origin`: De dónde saca el número de versión del parche (`repo_file` = del repositorio linkeado).
+      - `version_file`: De qué link lee el número de versión.
+      - `version_property`: De qué variable del archivo saca el número de versión (ej: `buildVersion`).
+    - `install_controller`: Variable específica para modificar el exe de Trivia Murder Party 3.
+      - `id`: No se puede repetir.
+      - `controller_url`: El link del controlador que se mostrará en el juego.
+      - `online_service_url`: El link del servidor que usará el juego para las preguntas.
     - `supported_platforms`: Las plataformas que soporta el parche.
     - `supported_launchers`: El tipo de tienda que soporta.
     - `components`: Está cada juego del Pack incluido en el parche. Se explica en detalle en la siguiente subsección.
